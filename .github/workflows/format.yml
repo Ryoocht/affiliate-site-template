@@ -1,0 +1,36 @@
+name: "Format check"
+run-name: Linting and Typechecking
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+permissions:
+  contents: read
+  pull-requests: read
+concurrency:
+  group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
+  cancel-in-progress: true
+jobs:
+  Format-Check:
+    runs-on: ${{ fromJSON('["ubuntu-latest", "self-hosted"]')[github.repository == 'github/docs-internal'] }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '>=18.0.0'
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Linting check
+        run: npm run lint
+
+      - name: Type check
+        run: npm run typecheck
+      
