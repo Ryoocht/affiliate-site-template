@@ -3,7 +3,9 @@
 ### modules
 
 - `@nuxt/eslint`
-- `@nuxtjs/tailwindcss`
+- `@nuxt/test-utils/module`
+- `@nuxt/fonts`
+- `@nuxt/ui`
 - `tailwind-merge`
 - `typescript`
 - `vue-tsc`

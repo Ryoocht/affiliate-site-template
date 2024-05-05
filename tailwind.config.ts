@@ -16,7 +16,12 @@ export default <Partial<Config>>{
     `/error.{js,ts,vue}`,
     `/app.config.{js,ts}`,
   ],
+  darkMode: 'class',
   theme: {
+    fontFamily: {
+      playfair: ['Playfair Display', 'sans-serif'],
+      mont: ['Montserrat', 'sans-serif'],
+    },
     extend: {
       colors: {
         primary: colors.green,
