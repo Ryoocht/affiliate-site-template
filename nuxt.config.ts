@@ -4,6 +4,8 @@ export default defineNuxtConfig({
     '@nuxt/test-utils/module',
     '@nuxt/fonts',
     '@nuxt/ui',
+    '@vueuse/nuxt',
+    "@nuxt/image"
   ],
   components: [
     {
@@ -12,17 +14,16 @@ export default defineNuxtConfig({
     },
   ],
   devtools: { enabled: true },
-  eslint: {
-    config: {
-      stylistic: true,
-    },
-  },
   typescript: {
-    typeCheck: false,
+    typeCheck: true,
   },
   colorMode: {
     preference: 'system',
     fallback: 'light',
     classSuffix: '',
+  },
+  ui: {
+    global: true,
+    icons: ['material-symbols'],
   },
 })

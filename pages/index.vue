@@ -1,15 +1,13 @@
 <script setup lang="ts">
-definePageMeta({
-  layout: 'default',
-  keepalive: true,
-  scrollToTop: true,
-})
+  definePageMeta({
+    layout: 'default',
+    keepalive: true,
+    scrollToTop: true,
+  })
 </script>
 
 <template>
-  <div>
-    <p>This is home pageƒ</p>
+  <div class="relative">
+    <p>This is home page</p>
   </div>
 </template>
-
-<style scoped></style>

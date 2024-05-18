@@ -1,11 +1,8 @@
-import stylistic from '@stylistic/eslint-plugin'
 import withNuxt from './.nuxt/eslint.config.mjs'
 
-export default withNuxt(
-  stylistic.configs.customize({
-    indent: 2,
-    quotes: 'single',
-    semi: false,
-    arrowParens: 'avoid',
-  }),
-)
+export default withNuxt({
+  files: ['**/*.ts', '**/*.js', '**/*.vue', '**/*.mjs'],
+  rules: {
+    '@typescript-eslint/triple-slash-reference': 'error',
+  },
+})

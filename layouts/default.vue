@@ -1,11 +1,14 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
-    <div>Navbar</div>
-    <UProgress />
+  <div
+    class="relative h-dvh w-screen bg-background-light dark:bg-background-dark"
+  >
+    <DefaultNavbar />
+    <div
+      class="absolute left-0 top-0 z-0 h-[500px] w-full bg-linear-gradient-light dark:bg-linear-gradient-dark"
+    />
     <slot />
+    <DefaultFooter />
   </div>
 </template>
-
-<style scoped></style>
