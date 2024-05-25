@@ -14,14 +14,15 @@
   },
   "dependencies": {
     "@iconify-json/material-symbols": "^1.1.80",
+    "@nuxt/content": "^2.12.1",
     "@nuxt/eslint": "^0.3.8",
     "@nuxt/fonts": "^0.7.0",
     "@nuxt/image": "^1.7.0",
     "@nuxt/ui": "^2.16.0",
     "@nuxtjs/tailwindcss": "^6.12.0",
-    "@tailwindcss/line-clamp": "^0.4.4",
     "@vueuse/nuxt": "^10.9.0",
     "nuxt": "^3.11.2",
+    "nuxt-svgo": "^4.0.1",
     "tailwind-merge": "^2.3.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"

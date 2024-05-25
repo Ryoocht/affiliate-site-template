@@ -1,7 +1,5 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>blogs PageProgressBar</div>
+  <div class="relative">about us page</div>
 </template>
-
-<style scoped></style>

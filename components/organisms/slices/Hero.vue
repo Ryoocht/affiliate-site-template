@@ -1,19 +1,23 @@
 <script setup lang="ts">
+  import HeroDots from '~/assets/svgs/hero-dots.svg'
+
   type LayoutVariation = 'center' | 'right' | 'left'
 
   withDefaults(
     defineProps<{
-      title: string
-      excerpt: string
-      option?: string
-      src: string
-      variation: LayoutVariation
+      slug: string
+      title?: string
+      excerpt?: string
+      readTime?: number
+      src?: string
+      variation?: LayoutVariation
       isLoading: boolean
     }>(),
     {
+      slug: '',
       title: '',
       excerpt: '',
-      option: '',
+      readTime: 0,
       src: '',
       variation: 'center',
       isLoading: true,
@@ -22,23 +26,46 @@
 </script>
 
 <template>
-  <section v-if="!isLoading" class="grid h-fit grid-cols-2 justify-center">
-    <article class="flex max-h-72 flex-col p-3">
-      <time class="font-mont text-xs font-semibold uppercase text-theme-500">
-        {{ option }}
-      </time>
-      <header>
-        <h1
-          class="my-3 line-clamp-4 font-playfair text-3xl font-bold uppercase leading-9 text-theme-950"
+  <NuxtLink v-if="!isLoading" :to="`/blog/${slug}`">
+    <section
+      class="grid h-fit cursor-pointer grid-cols-1 justify-center gap-x-5 px-5 py-3 sm:px-10 md:grid-cols-2 md:p-3 lg:gap-x-0"
+    >
+      <article class="flex max-h-72 flex-col p-3">
+        <p
+          class="font-mont text-xs font-semibold uppercase text-light-theme-400 dark:text-dark-theme-400"
         >
-          {{ title }}
-        </h1>
-        <p class="line-clamp-4 text-sm text-theme-700">{{ excerpt }}</p>
-      </header>
-    </article>
-    <figure class="relative flex items-center justify-center">
-      <NuxtImg v-if="src" :src height="160" width="300" class="rounded-md" />
-    </figure>
-  </section>
-  <div v-else>skeleton</div>
+          {{ readTime }} MIN READ
+        </p>
+        <header>
+          <h1
+            class="my-3 line-clamp-4 font-playfair text-3xl font-bold uppercase leading-9 text-light-theme-950 dark:text-dark-theme-50"
+          >
+            {{ title }}
+          </h1>
+          <h2
+            class="line-clamp-4 text-sm text-light-theme-950 dark:text-dark-theme-200/90"
+          >
+            {{ excerpt }}
+          </h2>
+        </header>
+      </article>
+      <div class="relative flex items-center justify-center">
+        <figure
+          class="group z-10 aspect-video w-11/12 overflow-hidden rounded-md md:w-fit"
+        >
+          <NuxtImg
+            :src
+            width="400"
+            height="225"
+            :placeholder="[400, 225]"
+            class="w-full rounded-md transition-all duration-300 group-hover:scale-105"
+          />
+        </figure>
+        <HeroDots
+          class="absolute bottom-3 right-0 z-0 hidden size-20 lg:-bottom-8 lg:right-3 lg:block xl:right-16"
+        />
+      </div>
+    </section>
+  </NuxtLink>
+  <HeroSkeleton v-else />
 </template>

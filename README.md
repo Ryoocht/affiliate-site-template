@@ -32,17 +32,17 @@ npm run preview
 
 #### modules
 
+- `@nuxt/content`
 - `@nuxt/eslint`
 - `@nuxt/test-utils/module`
 - `@nuxt/fonts`
 - `@nuxt/ui`
 - `@vueuse/nuxt`
 - `@nuxt/image`
+- `nuxt-svgo`
 - `tailwind-merge`
 
 #### tailwind plugins
-
-- `@tailwindcss/line-clamp`
 
 #### icons (iconify-json)
 
@@ -57,3 +57,16 @@ npm run preview
   - Typechecking
 - Tests
   - Unit tests (vitest)
+
+---
+
+### Content Hierarchy Guidelines
+
+- Title: H1
+- Excerpt: H2
+- Content Header: H3
+- Date: Time
+  - Convert the timestamp to datetime and display the formatted date
+  ```html
+  <time datetime="2024-03-04 00:00">MONDAY, MARCH 4, 2024</time>
+  ```

@@ -9,14 +9,14 @@
 <template>
   <div class="flex h-8 items-center">
     <BaseIconButton
-      :color="isDark ? 'gray' : 'white'"
+      :color="isDark ? 'gray' : 'primary'"
       variant="ghost"
       label="menu"
       @click="openDropdown"
     >
       <UIcon
         name="i-material-symbols-menu-rounded"
-        class="size-5 cursor-pointer text-theme-800 dark:text-theme-50"
+        class="size-6 cursor-pointer text-light-theme-950 dark:text-dark-theme-50"
       />
     </BaseIconButton>
   </div>

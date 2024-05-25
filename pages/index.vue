@@ -1,10 +1,4 @@
-<script setup lang="ts">
-  definePageMeta({
-    layout: 'default',
-    keepalive: true,
-    scrollToTop: true,
-  })
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="relative">

@@ -1,15 +1,15 @@
 <script setup lang="ts">
-  import type { ButtonVariant } from '#ui/types'
+  import type { ButtonColor, ButtonVariant } from '#ui/types'
 
   withDefaults(
     defineProps<{
-      color: string
+      color: ButtonColor
       variant: ButtonVariant
       label?: string
     }>(),
     {
       color: 'white',
-      variant: 'solid',
+      variant: 'ghost',
       label: '',
     },
   )
@@ -30,7 +30,7 @@
       <slot />
     </UButton>
     <template #fallback>
-      <div class="h-8 w-10" />
+      <div class="h-9 w-11" />
     </template>
   </ClientOnly>
 </template>

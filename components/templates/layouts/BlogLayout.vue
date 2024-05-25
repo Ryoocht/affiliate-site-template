@@ -8,15 +8,24 @@
 
 <template>
   <div
-    class="xl:grid-cols-blog-lg grid-cols-blog relative grid w-full justify-center"
+    class="relative grid w-full grid-cols-1 justify-center lg:grid-cols-blog xl:grid-cols-blog-lg"
   >
-    <aside v-if="$slots.asideLeft" class="hidden bg-green-100 xl:block">
+    <aside
+      v-if="$slots.asideLeft"
+      class="hidden h-full xl:col-span-1 xl:grid xl:justify-items-end"
+    >
       <slot name="asideLeft" />
     </aside>
-    <main v-if="$slots.main" class="bg-red-100">
+    <main
+      v-if="$slots.main"
+      class="mx-auto w-full max-w-main-content px-5 md:px-2 lg:mx-0 lg:px-0"
+    >
       <slot name="main" />
     </main>
-    <aside v-if="$slots.asideRight" class="hidden bg-blue-100 xl:block">
+    <aside
+      v-if="$slots.asideRight"
+      class="hidden h-full xl:col-span-1 xl:grid xl:justify-items-start"
+    >
       <slot name="asideRight" />
     </aside>
   </div>
