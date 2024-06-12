@@ -1,0 +1,559 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.2.3",
+  "deps": {
+    "lerna": "^8.1.3"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "affiliate-client-template": [
+        {
+          "file": "client/.env.dist",
+          "hash": "3357850633141027328"
+        },
+        {
+          "file": "client/.gitignore",
+          "hash": "14284889916011953806"
+        },
+        {
+          "file": "client/README.md",
+          "hash": "5786522207499882929"
+        },
+        {
+          "file": "client/app.config.ts",
+          "hash": "15487090695118421163"
+        },
+        {
+          "file": "client/app.vue",
+          "hash": "12218115797790366793"
+        },
+        {
+          "file": "client/assets/css/tailwind.css",
+          "hash": "17289226966890613617"
+        },
+        {
+          "file": "client/assets/fake/ads.ts",
+          "hash": "16804124408766340193"
+        },
+        {
+          "file": "client/assets/fake/blog.ts",
+          "hash": "17816641921826799529"
+        },
+        {
+          "file": "client/assets/fake/menu.ts",
+          "hash": "14297331834520318574"
+        },
+        {
+          "file": "client/assets/svgs/hero-dots.svg",
+          "hash": "3031563891453180332"
+        },
+        {
+          "file": "client/components/atoms/badges/CategoryBadge.vue",
+          "hash": "16934660370522782264"
+        },
+        {
+          "file": "client/components/atoms/blocks/BlogTitleBlock.vue",
+          "hash": "18356619127019776584"
+        },
+        {
+          "file": "client/components/atoms/blocks/ListTitleBlock.vue",
+          "hash": "2825591004592089646"
+        },
+        {
+          "file": "client/components/atoms/blocks/LogoBlock.vue",
+          "hash": "1599827958787571558"
+        },
+        {
+          "file": "client/components/atoms/buttons/AdUnitButton.vue",
+          "hash": "3141655997017929430"
+        },
+        {
+          "file": "client/components/atoms/buttons/BaseIconButton.vue",
+          "hash": "2147906727936648075"
+        },
+        {
+          "file": "client/components/atoms/buttons/ModeSwitch.vue",
+          "hash": "14460355606863710017"
+        },
+        {
+          "file": "client/components/atoms/inputs/SearchInputField.vue",
+          "hash": "15242446160111574756"
+        },
+        {
+          "file": "client/components/atoms/media/ResponsiveImage.vue",
+          "hash": "17504833997925791604"
+        },
+        {
+          "file": "client/components/atoms/progress/PageProgressBar.client.vue",
+          "hash": "17069398525354973693"
+        },
+        {
+          "file": "client/components/atoms/renderers/HtmlRenderer.vue",
+          "hash": "3349377181219070290"
+        },
+        {
+          "file": "client/components/atoms/renderers/MarkdownRenderer.vue",
+          "hash": "5165982491077199919"
+        },
+        {
+          "file": "client/components/molecules/ads/AsideLeadCaptureForm.vue",
+          "hash": "10055903154689934845"
+        },
+        {
+          "file": "client/components/molecules/ads/CustomAdUnit.vue",
+          "hash": "10892696162374498728"
+        },
+        {
+          "file": "client/components/molecules/ads/ImgAdUnit.vue",
+          "hash": "3224674672783852595"
+        },
+        {
+          "file": "client/components/molecules/ads/LeadCaptureForm.vue",
+          "hash": "9972520250094041365"
+        },
+        {
+          "file": "client/components/molecules/ads/ad-types.ts",
+          "hash": "11064312968386408442"
+        },
+        {
+          "file": "client/components/molecules/cards/BlogCard.vue",
+          "hash": "10371211845440528985"
+        },
+        {
+          "file": "client/components/molecules/links/BreadcrumbLink.vue",
+          "hash": "6516973176537878032"
+        },
+        {
+          "file": "client/components/molecules/links/TableOfContents.vue",
+          "hash": "9266501638300655928"
+        },
+        {
+          "file": "client/components/molecules/menu/DropdownMenu.vue",
+          "hash": "12659213370163322625"
+        },
+        {
+          "file": "client/components/molecules/menu/FlatMenu.vue",
+          "hash": "9602797926776735340"
+        },
+        {
+          "file": "client/components/organisms/footer/DefaultFooter.vue",
+          "hash": "9725434994675125832"
+        },
+        {
+          "file": "client/components/organisms/navbar/DefaultNavbar.vue",
+          "hash": "1765671821166343093"
+        },
+        {
+          "file": "client/components/organisms/skeletons/BlogPostSkeleton.vue",
+          "hash": "15377260998236383182"
+        },
+        {
+          "file": "client/components/organisms/skeletons/CategorizedBlogListSkeleton.vue",
+          "hash": "15451002445655039452"
+        },
+        {
+          "file": "client/components/organisms/skeletons/HeroSkeleton.vue",
+          "hash": "2361683421449630929"
+        },
+        {
+          "file": "client/components/organisms/slices/AsideVerticalCarousel.vue",
+          "hash": "8834817693907832453"
+        },
+        {
+          "file": "client/components/organisms/slices/BlogPost.vue",
+          "hash": "4871597024037183567"
+        },
+        {
+          "file": "client/components/organisms/slices/CategorizedBlogList.vue",
+          "hash": "8125310387030020872"
+        },
+        {
+          "file": "client/components/organisms/slices/Hero.vue",
+          "hash": "9681036313194855789"
+        },
+        {
+          "file": "client/components/templates/layouts/BlogLayout.vue",
+          "hash": "7905947868605377228"
+        },
+        {
+          "file": "client/components/templates/layouts/BlogListLayout.vue",
+          "hash": "16260714150711230825"
+        },
+        {
+          "file": "client/components/templates/layouts/ReviewListLayout.vue",
+          "hash": "15248073304160860469"
+        },
+        {
+          "file": "client/composables/useBreadcrumb.ts",
+          "hash": "11536324787844238319"
+        },
+        {
+          "file": "client/composables/useColorScheme.ts",
+          "hash": "17393712100366039254"
+        },
+        {
+          "file": "client/composables/useTableOfContents.ts",
+          "hash": "7705257221626657870"
+        },
+        {
+          "file": "client/composables/useTailwindMerged.ts",
+          "hash": "8039374160454884038"
+        },
+        {
+          "file": "client/composables/useTheme.ts",
+          "hash": "18303771212279471641"
+        },
+        {
+          "file": "client/content/main.md",
+          "hash": "8998505368565595828"
+        },
+        {
+          "file": "client/eslint.config.mjs",
+          "hash": "2432376090328845664"
+        },
+        {
+          "file": "client/layouts/WithPageProgress.vue",
+          "hash": "12373454632618930745"
+        },
+        {
+          "file": "client/layouts/default.vue",
+          "hash": "13364729555019854854"
+        },
+        {
+          "file": "client/nuxt.config.ts",
+          "hash": "11855328867201637550"
+        },
+        {
+          "file": "client/package.json",
+          "hash": "14281431246625118530"
+        },
+        {
+          "file": "client/pages/about.vue",
+          "hash": "9110941989136803696"
+        },
+        {
+          "file": "client/pages/blog/[slug].vue",
+          "hash": "2049519343617064855"
+        },
+        {
+          "file": "client/pages/blog/index.vue",
+          "hash": "1772686162338917942"
+        },
+        {
+          "file": "client/pages/index.vue",
+          "hash": "10387005605118676092"
+        },
+        {
+          "file": "client/pages/review/[category]/[slug].vue",
+          "hash": "16664693270337219433"
+        },
+        {
+          "file": "client/pages/review/[category]/index.vue",
+          "hash": "16830175504438551384"
+        },
+        {
+          "file": "client/pages/review/index.vue",
+          "hash": "16237136507284228669"
+        },
+        {
+          "file": "client/public/ads/ads-1.png",
+          "hash": "14531256325711289630"
+        },
+        {
+          "file": "client/public/ads/ads-2.jpg",
+          "hash": "15098917831489477285"
+        },
+        {
+          "file": "client/public/ads/ads-3.svg",
+          "hash": "13784896227544829081"
+        },
+        {
+          "file": "client/public/favicons/android-chrome-192x192.png",
+          "hash": "8316170825538491551"
+        },
+        {
+          "file": "client/public/favicons/android-chrome-384x384.png",
+          "hash": "14466204045598547871"
+        },
+        {
+          "file": "client/public/favicons/apple-touch-icon.png",
+          "hash": "1196814903663851546"
+        },
+        {
+          "file": "client/public/favicons/browserconfig.xml",
+          "hash": "7933625409014487147"
+        },
+        {
+          "file": "client/public/favicons/favicon-16x16.png",
+          "hash": "1019167573302984142"
+        },
+        {
+          "file": "client/public/favicons/favicon-32x32.png",
+          "hash": "11272840339488794353"
+        },
+        {
+          "file": "client/public/favicons/favicon.ico",
+          "hash": "15843637050982458733"
+        },
+        {
+          "file": "client/public/favicons/mstile-150x150.png",
+          "hash": "13260403786010802762"
+        },
+        {
+          "file": "client/public/favicons/safari-pinned-tab.svg",
+          "hash": "4252451555055202394"
+        },
+        {
+          "file": "client/public/favicons/site.webmanifest",
+          "hash": "14437936795743629954"
+        },
+        {
+          "file": "client/public/logos/affiliate-logo.svg",
+          "hash": "16529311420512271295"
+        },
+        {
+          "file": "client/public/placeholder/placeholder-1.jpg",
+          "hash": "8685712865740287438"
+        },
+        {
+          "file": "client/public/placeholder/placeholder-11.jpg",
+          "hash": "8078875361132377941"
+        },
+        {
+          "file": "client/public/placeholder/placeholder-12.jpg",
+          "hash": "6158360402349684063"
+        },
+        {
+          "file": "client/public/placeholder/placeholder-13.jpg",
+          "hash": "5414380507739198176"
+        },
+        {
+          "file": "client/public/placeholder/placeholder-14.jpg",
+          "hash": "8720461198739898678"
+        },
+        {
+          "file": "client/public/placeholder/placeholder-2.jpg",
+          "hash": "12612035274057959742"
+        },
+        {
+          "file": "client/public/placeholder/placeholder-3.jpg",
+          "hash": "4449454362172322624"
+        },
+        {
+          "file": "client/public/placeholder/placeholder-4.jpg",
+          "hash": "3667469981974935853"
+        },
+        {
+          "file": "client/public/placeholder/placeholder-5.jpg",
+          "hash": "15212709329417290315"
+        },
+        {
+          "file": "client/public/placeholder/placeholder-6.jpg",
+          "hash": "5203057077479778370"
+        },
+        {
+          "file": "client/public/placeholder/placeholder-7.jpg",
+          "hash": "8470521840889087412"
+        },
+        {
+          "file": "client/public/placeholder/placeholder-8.jpg",
+          "hash": "11759980441190656905"
+        },
+        {
+          "file": "client/public/placeholder/placeholder-9.jpg",
+          "hash": "14192293692490861426"
+        },
+        {
+          "file": "client/server/tsconfig.json",
+          "hash": "9971712086955286516"
+        },
+        {
+          "file": "client/tailwind.config.ts",
+          "hash": "1288619956111240450"
+        },
+        {
+          "file": "client/tsconfig.json",
+          "hash": "14216968253049099693"
+        },
+        {
+          "file": "client/types/temp-types.ts",
+          "hash": "13837680438876218712"
+        },
+        {
+          "file": "client/vitest.config.ts",
+          "hash": "16631363833474071228"
+        }
+      ],
+      "affiliate-cms-template": [
+        {
+          "file": "studio/.env.dist",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "studio/.eslintignore",
+          "hash": "7159616558109344543"
+        },
+        {
+          "file": "studio/.eslintrc",
+          "hash": "13207469260004314541"
+        },
+        {
+          "file": "studio/.gitignore",
+          "hash": "598677433631874419"
+        },
+        {
+          "file": "studio/.prettierrc",
+          "hash": "17661401825457607264"
+        },
+        {
+          "file": "studio/README.md",
+          "hash": "981348831256320013"
+        },
+        {
+          "file": "studio/package.json",
+          "hash": "220385753126441652"
+        },
+        {
+          "file": "studio/runtime/app.js",
+          "hash": "1000895708831207290"
+        },
+        {
+          "file": "studio/runtime/index.html",
+          "hash": "15401341090690192378"
+        },
+        {
+          "file": "studio/sanity.cli.ts",
+          "hash": "7279959415746499495"
+        },
+        {
+          "file": "studio/sanity.config.ts",
+          "hash": "2023737564917149983"
+        },
+        {
+          "file": "studio/schemaTypes/components/BlogPost.ts",
+          "hash": "15838686230610450804"
+        },
+        {
+          "file": "studio/schemaTypes/components/index.ts",
+          "hash": "5417075574315391629"
+        },
+        {
+          "file": "studio/schemaTypes/cta.ts",
+          "hash": "17609432604870759414"
+        },
+        {
+          "file": "studio/schemaTypes/ctaBlock.ts",
+          "hash": "4653057278100170655"
+        },
+        {
+          "file": "studio/schemaTypes/documents/Page.ts",
+          "hash": "6077415606303127041"
+        },
+        {
+          "file": "studio/schemaTypes/documents/categories/BlogCategory.ts",
+          "hash": "641167762814986200"
+        },
+        {
+          "file": "studio/schemaTypes/documents/categories/ReviewCategory.ts",
+          "hash": "11559623968191880225"
+        },
+        {
+          "file": "studio/schemaTypes/documents/index.ts",
+          "hash": "7705263178029296448"
+        },
+        {
+          "file": "studio/schemaTypes/heroBlock.ts",
+          "hash": "6909266381381208236"
+        },
+        {
+          "file": "studio/schemaTypes/imageCarousel.ts",
+          "hash": "3880991846034606784"
+        },
+        {
+          "file": "studio/schemaTypes/index.ts",
+          "hash": "13109164561590372665"
+        },
+        {
+          "file": "studio/schemaTypes/objects/blocks/AffiliateAdBlock.ts",
+          "hash": "1611952542315273906"
+        },
+        {
+          "file": "studio/schemaTypes/objects/blocks/SectionBlock.ts",
+          "hash": "10170799964498643300"
+        },
+        {
+          "file": "studio/schemaTypes/objects/fields/Category.ts",
+          "hash": "11375927819616677803"
+        },
+        {
+          "file": "studio/schemaTypes/objects/fields/ResponsiveAsset.ts",
+          "hash": "7738000908697378116"
+        },
+        {
+          "file": "studio/schemaTypes/objects/index.ts",
+          "hash": "2775611128445842755"
+        },
+        {
+          "file": "studio/schemaTypes/olgPage.ts",
+          "hash": "14434806334654715508"
+        },
+        {
+          "file": "studio/schemaTypes/textBlock.ts",
+          "hash": "5911150356269719282"
+        },
+        {
+          "file": "studio/static/.gitkeep",
+          "hash": "5458914229412634645"
+        },
+        {
+          "file": "studio/structure/index.ts",
+          "hash": "2025855578582333653"
+        },
+        {
+          "file": "studio/tsconfig.json",
+          "hash": "13445128604194394570"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "12971644775671353813"
+      },
+      {
+        "file": ".github/workflows/format.yml",
+        "hash": "197849344991409882"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "18434043245778394766"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "14487094203603435403"
+      },
+      {
+        "file": "README.md",
+        "hash": "9462746106056446778"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "10307142885639291195"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17653976192751232416"
+      },
+      {
+        "file": "package.json",
+        "hash": "5865331758344859888"
+      }
+    ]
+  }
+}

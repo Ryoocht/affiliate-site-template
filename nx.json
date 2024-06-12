@@ -1,0 +1,54 @@
+{
+  "targetDefaults": {
+    "build": {
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "{projectRoot}/dist"
+      ]
+    },
+    "dev": {
+      "dependsOn": []
+    },
+    "generate": {
+      "cache": true,
+      "dependsOn": [
+        "^generate"
+      ],
+      "outputs": [
+        "{projectRoot}/dist"
+      ]
+    },
+    "preview": {
+      "dependsOn": []
+    },
+    "postinstall": {
+      "dependsOn": [
+        "^postinstall"
+      ]
+    },
+    "lint": {
+      "dependsOn": []
+    },
+    "lint:fix": {
+      "dependsOn": []
+    },
+    "typecheck": {
+      "dependsOn": []
+    },
+    "start": {
+      "dependsOn": []
+    },
+    "deploy": {
+      "dependsOn": []
+    },
+    "deploy-graphql": {
+      "dependsOn": []
+    },
+    "format": {
+      "dependsOn": []
+    }
+  }
+}

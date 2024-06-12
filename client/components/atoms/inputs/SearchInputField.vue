@@ -28,7 +28,7 @@
     >
       <UIcon
         name="i-material-symbols-search"
-        class="size-6 flex-shrink-0 text-light-theme-950 dark:text-dark-theme-50"
+        class="text-light-theme-950 dark:text-dark-theme-50 size-6 flex-shrink-0"
       />
     </BaseIconButton>
 

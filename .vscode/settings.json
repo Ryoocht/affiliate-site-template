@@ -1,6 +1,5 @@
 {
   "eslint.experimental.useFlatConfig": true,
-  "eslint.experimental.useFlatConfig": true,
   "editor.formatOnSave": true,
   "eslint.format.enable": true,
   "files.autoSave": "afterDelay",
@@ -19,7 +18,7 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  "tailwindCSS.experimental.configFile": "tailwind.config.ts",
+  "tailwindCSS.experimental.configFile": "./client/tailwind.config.ts",
   "tailwindCSS.experimental.classRegex": [
     ["ui:\\s*{([^)]*)\\s*}", "[\"'`]([^\"'`]*).*?[\"'`]"],
     ["/\\*\\s?ui\\s?\\*/\\s*{([^;]*)}", ":\\s*[\"'`]([^\"'`]*).*?[\"'`]"]

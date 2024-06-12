@@ -1,4 +1,4 @@
-name: "Format check"
+name: Format check
 run-name: Linting and Typechecking
 on: 
   workflow_dispatch:
@@ -24,12 +24,14 @@ jobs:
         with:
           node-version: '>=18.0.0'
           cache: npm
-
+        
       - name: Install
         run: npm ci
 
       - name: Linting check
-        run: npm run lint
+        run: |
+          npm run lint
+          npm run lint:fix
 
       - name: Type check
         run: npm run typecheck

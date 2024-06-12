@@ -1,0 +1,291 @@
+{
+  "nodes": {
+    "affiliate-client-template": {
+      "name": "affiliate-client-template",
+      "type": "lib",
+      "data": {
+        "root": "client",
+        "targets": {
+          "build": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "nuxt build",
+              "runCommand": "npm run build"
+            },
+            "cache": true,
+            "dependsOn": [
+              "^build"
+            ],
+            "outputs": [
+              "{projectRoot}/dist"
+            ],
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "nuxt dev",
+              "runCommand": "npm run dev"
+            },
+            "dependsOn": [],
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "generate": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "nuxt generate",
+              "runCommand": "npm run generate"
+            },
+            "cache": true,
+            "dependsOn": [
+              "^generate"
+            ],
+            "outputs": [
+              "{projectRoot}/dist"
+            ],
+            "options": {
+              "script": "generate"
+            },
+            "configurations": {}
+          },
+          "preview": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "nuxt preview",
+              "runCommand": "npm run preview"
+            },
+            "dependsOn": [],
+            "options": {
+              "script": "preview"
+            },
+            "configurations": {}
+          },
+          "postinstall": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "nuxt prepare",
+              "runCommand": "npm run postinstall"
+            },
+            "dependsOn": [
+              "^postinstall"
+            ],
+            "options": {
+              "script": "postinstall"
+            },
+            "configurations": {}
+          },
+          "lint": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "eslint .",
+              "runCommand": "npm run lint"
+            },
+            "dependsOn": [],
+            "options": {
+              "script": "lint"
+            },
+            "configurations": {}
+          },
+          "lint:fix": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "eslint . --fix",
+              "runCommand": "npm run lint:fix"
+            },
+            "dependsOn": [],
+            "options": {
+              "script": "lint:fix"
+            },
+            "configurations": {}
+          },
+          "typecheck": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "vue-tsc --noEmit",
+              "runCommand": "npm run typecheck"
+            },
+            "dependsOn": [],
+            "options": {
+              "script": "typecheck"
+            },
+            "configurations": {}
+          }
+        },
+        "sourceRoot": "client",
+        "name": "affiliate-client-template",
+        "projectType": "library",
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "build",
+              "dev",
+              "generate",
+              "preview",
+              "postinstall",
+              "lint",
+              "lint:fix",
+              "typecheck"
+            ]
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
+    "affiliate-cms-template": {
+      "name": "affiliate-cms-template",
+      "type": "lib",
+      "data": {
+        "root": "studio",
+        "targets": {
+          "build": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "sanity build",
+              "runCommand": "npm run build"
+            },
+            "cache": true,
+            "dependsOn": [
+              "^build"
+            ],
+            "outputs": [
+              "{projectRoot}/dist"
+            ],
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "sanity dev",
+              "runCommand": "npm run dev"
+            },
+            "dependsOn": [],
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "lint": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "eslint . --ext .ts,.js",
+              "runCommand": "npm run lint"
+            },
+            "dependsOn": [],
+            "options": {
+              "script": "lint"
+            },
+            "configurations": {}
+          },
+          "lint:fix": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "eslint . --ext .ts,.js --fix",
+              "runCommand": "npm run lint:fix"
+            },
+            "dependsOn": [],
+            "options": {
+              "script": "lint:fix"
+            },
+            "configurations": {}
+          },
+          "typecheck": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "tsc --noEmit",
+              "runCommand": "npm run typecheck"
+            },
+            "dependsOn": [],
+            "options": {
+              "script": "typecheck"
+            },
+            "configurations": {}
+          },
+          "start": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "sanity start",
+              "runCommand": "npm run start"
+            },
+            "dependsOn": [],
+            "options": {
+              "script": "start"
+            },
+            "configurations": {}
+          },
+          "deploy": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "sanity deploy",
+              "runCommand": "npm run deploy"
+            },
+            "dependsOn": [],
+            "options": {
+              "script": "deploy"
+            },
+            "configurations": {}
+          },
+          "deploy-graphql": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "sanity graphql deploy",
+              "runCommand": "npm run deploy-graphql"
+            },
+            "dependsOn": [],
+            "options": {
+              "script": "deploy-graphql"
+            },
+            "configurations": {}
+          },
+          "format": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "prettier --write .",
+              "runCommand": "npm run format"
+            },
+            "dependsOn": [],
+            "options": {
+              "script": "format"
+            },
+            "configurations": {}
+          }
+        },
+        "sourceRoot": "studio",
+        "name": "affiliate-cms-template",
+        "projectType": "library",
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "dev",
+              "start",
+              "build",
+              "deploy",
+              "deploy-graphql",
+              "lint",
+              "lint:fix",
+              "typecheck",
+              "format"
+            ]
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    }
+  },
+  "externalNodes": {},
+  "dependencies": {
+    "affiliate-client-template": [],
+    "affiliate-cms-template": []
+  },
+  "version": "6.0"
+}

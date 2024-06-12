@@ -1,72 +1,28 @@
-## Affiliate site template
+# Affiliate Site Template
 
-### Template Starter
+This monorepo contains a Nuxt 3 frontend and a Sanity studio project.\
+The frontend code is in the `client` folder and the Sanity studio code is in the `studio` folder.\
+This setup allows for separate deployments and centralized management of both projects.
 
-- Make sure to install the dependencies:
+## Setup
+### Prerequisites
 
+- Node.js (>= 14.x)
+- npm (>= 7.x)
+- Lerna (>= 4.x)
+
+### Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+```
+
+2. **Install dependencies:**
 ```bash
 npm install
+lerna bootstrap
 ```
 
-- Start the development server on `http://localhost:3000`:
-
-```bash
-npm run dev
-```
-
-- Build the application for production:
-
-```bash
-npm run build
-```
-
-- Locally preview production build:
-
-```bash
-npm run preview
-```
-
----
-
-### Configurations
-
-#### modules
-
-- `@nuxt/content`
-- `@nuxt/eslint`
-- `@nuxt/test-utils/module`
-- `@nuxt/fonts`
-- `@nuxt/ui`
-- `@vueuse/nuxt`
-- `@nuxt/image`
-- `nuxt-svgo`
-- `tailwind-merge`
-
-#### tailwind plugins
-
-#### icons (iconify-json)
-
-- material-symbols
-
----
-
-### CI/CD
-
-- Format
-  - Linting
-  - Typechecking
-- Tests
-  - Unit tests (vitest)
-
----
-
-### Content Hierarchy Guidelines
-
-- Title: H1
-- Excerpt: H2
-- Content Header: H3
-- Date: Time
-  - Convert the timestamp to datetime and display the formatted date
-  ```html
-  <time datetime="2024-03-04 00:00">MONDAY, MARCH 4, 2024</time>
-  ```

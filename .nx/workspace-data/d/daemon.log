@@ -1,0 +1,31 @@
+[NX Daemon Server] - 2024-06-13T10:29:47.745Z - Started listening on: /var/folders/b4/bbfnssnx49v0_65hm8jydgyc0000gn/T/28d5f0ebf72806704264/d.sock
+[NX Daemon Server] - 2024-06-13T10:29:47.748Z - [WATCHER]: Subscribed to changes within: /Users/ryo/Documents/personal-projects/affiliate-site-template (native)
+[NX Daemon Server] - 2024-06-13T10:29:47.748Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-13T10:29:47.749Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-13T10:29:47.750Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-13T10:29:47.761Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-13T10:29:47.761Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-13T10:29:47.761Z - Handled GLOB. Handling time: 10. Response time: 0.
+[NX Daemon Server] - 2024-06-13T10:29:47.768Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-06-13T10:29:47.768Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-06-13T10:29:47.768Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-13T10:29:47.791Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-13T10:29:49.918Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-13T10:29:50.052Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-13T10:29:50.163Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-13T10:47:47.812Z - Started listening on: /var/folders/b4/bbfnssnx49v0_65hm8jydgyc0000gn/T/28d5f0ebf72806704264/d.sock
+[NX Daemon Server] - 2024-06-13T10:47:47.815Z - [WATCHER]: Subscribed to changes within: /Users/ryo/Documents/personal-projects/affiliate-site-template (native)
+[NX Daemon Server] - 2024-06-13T10:47:47.816Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-13T10:47:47.817Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-13T10:47:47.817Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-13T10:47:47.831Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-13T10:47:47.832Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-13T10:47:47.832Z - Handled GLOB. Handling time: 13. Response time: 1.
+[NX Daemon Server] - 2024-06-13T10:47:47.840Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-06-13T10:47:47.841Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-06-13T10:47:47.841Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-06-13T10:47:47.854Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-13T10:47:49.902Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-13T10:47:50.027Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-13T10:47:50.141Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-13T10:47:51.698Z - [WATCHER]: Processing file changes in outputs
