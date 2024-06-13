@@ -1,6 +1,6 @@
 <template>
   <div class="grid h-fit grid-cols-1 justify-center md:grid-cols-2">
-    <div class="flex h-56 flex-col justify-between p-5">
+    <div class="flex h-60 flex-col justify-between p-5">
       <USkeleton class="h-5 w-1/2" />
       <div class="flex flex-col gap-y-1">
         <USkeleton class="h-24 w-full" />

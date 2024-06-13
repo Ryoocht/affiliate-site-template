@@ -10,7 +10,8 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "typecheck": "vue-tsc --noEmit"
+    "typecheck": "vue-tsc --noEmit",
+    "typegen": "sanity typegen generate --config-path ./types/sanity/sanity-typegen.json && rm -f ../client/types/sanity/schema.json"
   },
   "dependencies": {
     "@iconify-json/material-symbols": "^1.1.80",
@@ -19,7 +20,10 @@
     "@nuxt/fonts": "^0.7.0",
     "@nuxt/image": "^1.7.0",
     "@nuxt/ui": "^2.16.0",
+    "@nuxtjs/sanity": "^1.11.3",
     "@nuxtjs/tailwindcss": "^6.12.0",
+    "@portabletext/vue": "^1.0.11",
+    "@sanity/image-url": "^1.0.2",
     "@vueuse/nuxt": "^10.9.0",
     "nuxt": "^3.11.2",
     "nuxt-svgo": "^4.0.1",

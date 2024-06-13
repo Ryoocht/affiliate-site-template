@@ -10,9 +10,9 @@
 
 <template>
   <div class="h-full w-full max-w-96">
-    <div class="sticky top-20 px-5 py-4 font-mont">
+    <div class="font-mont sticky top-20 px-10 py-4">
       <h2
-        class="text-base font-bold uppercase tracking-wide text-light-theme-400 dark:text-dark-theme-300 lg:mt-16"
+        class="text-light-theme-400 dark:text-dark-theme-300 text-base font-bold uppercase tracking-wide lg:mt-16"
       >
         Table of contents
       </h2>
@@ -22,8 +22,8 @@
             <a
               :class="[
                 link.id === selectedId
-                  ? 'text-lg text-light-theme-800 dark:text-dark-theme-100'
-                  : 'text-base text-light-theme-400 dark:text-dark-theme-300',
+                  ? 'text-light-theme-800 dark:text-dark-theme-100 text-lg'
+                  : 'text-light-theme-400 dark:text-dark-theme-300 text-base',
               ]"
               role="button"
               class="cursor-pointer font-medium capitalize tracking-wide transition-all duration-100"

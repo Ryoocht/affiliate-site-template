@@ -10,15 +10,6 @@ export interface Blog {
   variation: string
 }
 
-export interface Category {
-  id: string
-  name: string
-}
-
-export type CategoryBlog = Blog & {
-  categories: Partial<Category>[]
-}
-
 export interface MenuItem {
   name: string
   route: string

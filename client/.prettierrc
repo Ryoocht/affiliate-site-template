@@ -7,5 +7,6 @@
   "indent": 2,
   "singleQuote": true,
   "quotes": "single",
-  "printWidth": 80
+  "printWidth": 80,
+  "plugins": ["prettier-plugin-tailwindcss"]
 }

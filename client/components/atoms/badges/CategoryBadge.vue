@@ -3,7 +3,7 @@
 
   withDefaults(
     defineProps<{
-      name?: string
+      name: string | null
       color?: BadgeColor
       variant?: BadgeVariant
       size?: BadgeSize

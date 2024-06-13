@@ -41,6 +41,16 @@ export const blogPost = defineType({
       of: [{ type: 'block' }, { type: 'image' }, { type: 'sectionBlock' }],
     }),
     defineField({
+      name: 'timeToRead',
+      title: 'Estimated Time to Read (minutes)',
+      type: 'number',
+      validation: rule =>
+        rule
+          .integer()
+          .min(1)
+          .error('Estimated time should be a positive integer'),
+    }),
+    defineField({
       name: 'releaseTime',
       title: 'Release Time',
       description: 'The date and time that the blog post is released.',

@@ -1,28 +1,28 @@
 <script setup lang="ts">
-  import { categoryBlog } from '~/assets/fake/blog'
-
   definePageMeta({
     layout: 'with-page-progress',
     /* validate should be setup for 404 */
   })
 
-  const { data: blogContent } = await useAsyncData('page-data', () =>
-    queryContent('/main').findOne(),
+  const route = useRoute()
+  const slug = computed(() => route.params.slug)
+
+  const { data: blogContent } = await useFetch<GetBlogResult>(
+    `/api/blogs/${slug.value}`,
   )
 
-  const toc = computed(() => blogContent.value?.body?.toc)
+  const toc = computed(() => portableTextToToc(blogContent.value?.body))
 </script>
 
 <template>
   <div>
-    <BreadcrumbLink class="m-3" />
+    <BreadcrumbLink class="mx-5 my-6 md:mx-10" />
     <BlogLayout>
       <template #asideLeft>
         <TableOfContents :toc="toc" />
       </template>
       <template #main>
-        <!-- TODO: content and data should be one in the future -->
-        <BlogPost :content="categoryBlog" :data="blogContent" />
+        <BlogPost :blog-content="blogContent" />
       </template>
       <template #asideRight>
         <!-- TODO: AsideverticalCarousel takes list of ads data -->

@@ -1,24 +1,43 @@
 <script setup lang="ts">
-  import type { ParsedContent } from '@nuxt/content/types'
-  import type { CategoryBlog } from '~/types/temp-types'
-
-  defineProps<{
-    content: CategoryBlog
-    data: ParsedContent | null
+  const props = defineProps<{
+    blogContent: GetBlogResult
   }>()
+
+  const imageAsset = computed(() => {
+    const mainImage = props.blogContent?.mainImage
+    return {
+      altText: mainImage?.altText,
+      assetId: mainImage?.assetId,
+      assetUrl: mainImage?.assetUrl,
+      caption: mainImage?.caption,
+    }
+  })
 </script>
 
 <template>
-  <div v-if="content" class="relative">
+  <div v-if="blogContent" class="relative">
     <BlogTitleBlock
-      :title="content.title"
-      :read-time="content.readTime"
-      :excerpt="content.excerpt"
-      :categories="content.categories"
+      :title="blogContent.title"
+      :excerpt="blogContent.excerpt"
+      :time-to-read="blogContent.timeToRead"
+      :categories="blogContent.categories"
+      :release-time="blogContent.releaseTime"
     />
-    <UDivider class="mb-5 mt-3" />
-    <ResponsiveImage :src="content.src" width="760" height="427" />
-    <MarkdownRenderer v-if="data" :data="data" />
+    <UDivider class="my-8" />
+    <ImageRenderer
+      :alt-text="imageAsset.altText"
+      :asset-url="imageAsset.assetUrl"
+      :caption="imageAsset.caption"
+      :width="760"
+      :height="427"
+      :ui="{
+        container: 'mx-auto mb-8 md:w-[760px]',
+      }"
+    />
+    <RichTextRenderer
+      v-if="blogContent.body"
+      :portable-text="blogContent.body"
+    />
   </div>
   <BlogPostSkeleton v-else />
 </template>

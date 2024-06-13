@@ -9,12 +9,15 @@
     "lint": "lerna run lint",
     "lint:fix": "lerna run lint:fix",
     "typecheck": "lerna run typecheck",
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "generate-studio-schema": "npm run generate --workspace=studio",
+    "generate-client-schema": "npm run typegen --workspace=client",
+    "typegen": "npm run generate-studio-schema && npm run generate-client-schema"
   },
   "devDependencies": {
-    "lerna": "^8.1.3"
+    "lerna": "^8.1.3",
+    "prettier-plugin-tailwindcss": "^0.6.4"
   },
-  "dependencies": {},
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "4.9.5"
   }

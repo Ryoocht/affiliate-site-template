@@ -1,7 +1,6 @@
 ## Affiliate site template
 
 ### Template Starter
-
 - Make sure to install the dependencies:
 
 ```bash
@@ -26,6 +25,10 @@ npm run build
 npm run preview
 ```
 
+#### Environment Variables
+
+- Copy `.env.dist` to create a new `.env` file and populate it with the necessary variable values.
+
 ---
 
 ### Configurations
@@ -37,6 +40,7 @@ npm run preview
 - `@nuxt/test-utils/module`
 - `@nuxt/fonts`
 - `@nuxt/ui`
+- `@nuxtjs/sanity`
 - `@vueuse/nuxt`
 - `@nuxt/image`
 - `nuxt-svgo`

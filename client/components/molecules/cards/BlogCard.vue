@@ -1,9 +1,20 @@
 <script setup lang="ts">
-  import type { CategoryBlog } from '~/types/temp-types'
+  type Blog = GetBlogsResult['categoryList'][number]['posts'][number]
 
-  defineProps<{
-    blog?: CategoryBlog
+  const props = defineProps<{
+    blog?: Blog
+    categoryTitle: string | null
   }>()
+
+  const imageAsset = computed<ImageAsset>(() => {
+    const mainImage = props.blog?.mainImage
+    return {
+      altText: mainImage?.altText,
+      assetId: mainImage?.assetId,
+      assetUrl: mainImage?.assetUrl,
+      caption: mainImage?.caption,
+    }
+  })
 </script>
 
 <template>
@@ -11,24 +22,26 @@
     :to="`/blog/${blog?.slug}`"
     class="flex cursor-pointer flex-col gap-y-2 md:gap-y-3"
   >
-    <div class="group aspect-video w-full overflow-hidden rounded-md">
-      <NuxtImg
-        :src="blog?.src"
-        width="400"
-        height="225"
-        :placeholder="[400, 225]"
-        class="w-full rounded-md transition-all duration-300 group-hover:scale-105"
-      />
-    </div>
+    <ImageRenderer
+      :alt-text="imageAsset.altText"
+      :asset-url="imageAsset.assetUrl"
+      :caption="imageAsset.caption"
+      :width="400"
+      :height="225"
+      :ui="{
+        container: 'w-full mx-auto md:mx-0 md:w-full',
+        img: 'transition-all duration-300 group-hover:scale-105',
+      }"
+    />
     <div
-      class="flex items-center gap-x-2 font-mont text-xs font-semibold uppercase sm:text-sm"
+      class="mt-3 flex items-center gap-x-2 font-mont text-xs font-semibold uppercase sm:text-sm md:mt-0"
     >
       <p class="text-light-theme-400 dark:text-dark-theme-400">
-        {{ blog?.categories[0].name }}
+        {{ categoryTitle }}
       </p>
       &#x2022;
       <time class="text-light-theme-900 dark:text-dark-theme-100">
-        {{ blog?.readTime }}MIN READ
+        {{ blog?.timeToRead }}MIN READ
       </time>
     </div>
     <h2

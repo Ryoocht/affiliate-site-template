@@ -14,6 +14,8 @@
     },
   )
 
+  /* TODO: use imageUrlBuilder to create responsive src with sanity */
+
   const container = useTailwindMerged(
     'group aspect-video w-full overflow-hidden rounded-md',
     () => props.ui.container ?? '',

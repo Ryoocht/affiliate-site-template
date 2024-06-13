@@ -1,28 +1,45 @@
 <script setup lang="ts">
-  import { featureBlog, tutorialBlogList } from '~/assets/fake/blog'
+  const { data, pending } = await useFetch<GetBlogsResult>('/api/blogs')
 
-  const isLoading = ref(false)
+  const featuredBlog = computed(() => data.value?.featuredBlog)
+  const categoryList = computed(() => data.value?.categoryList)
+
+  const imageAsset = computed<ImageAsset>(() => {
+    const mainImage = featuredBlog.value?.mainImage
+    return {
+      altText: mainImage?.altText,
+      assetId: mainImage?.assetId,
+      assetUrl: mainImage?.assetUrl,
+      caption: mainImage?.caption,
+    }
+  })
 </script>
 
 <template>
   <BlogListLayout>
     <template #hero>
       <Hero
-        :slug="featureBlog.slug"
-        :src="featureBlog.src"
-        :title="featureBlog.title"
-        :excerpt="featureBlog.excerpt"
-        :read-time="featureBlog.readTime"
+        :slug="featuredBlog?.slug"
+        :title="featuredBlog?.title"
+        :excerpt="featuredBlog?.excerpt"
+        :time-to-read="featuredBlog?.timeToRead"
+        :image-asset="imageAsset"
+        :is-loading="pending"
         variation="right"
-        :is-loading="isLoading"
       />
     </template>
     <template #list>
-      <CategorizedBlogList
-        title="Tutorials"
-        :list="tutorialBlogList"
-        :is-loading="isLoading"
-      />
+      <section
+        v-for="(category, index) in categoryList"
+        :key="category.slug || index"
+      >
+        <CategorizedBlogList
+          :title="category.title"
+          :slug="category.slug"
+          :posts="category.posts"
+          :is-loading="pending"
+        />
+      </section>
     </template>
   </BlogListLayout>
 </template>

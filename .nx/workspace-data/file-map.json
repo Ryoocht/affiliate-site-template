@@ -2,24 +2,67 @@
   "version": "6.0",
   "nxVersion": "19.2.3",
   "deps": {
-    "lerna": "^8.1.3"
+    "lerna": "^8.1.3",
+    "prettier-plugin-tailwindcss": "^0.6.4"
   },
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "README.md",
+        "hash": "9462746106056446778"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "1427828150180811530"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "10307142885639291195"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "17661401825457607264"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17653976192751232416"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3475153330005180090"
+      },
+      {
+        "file": ".github/workflows/format.yml",
+        "hash": "10510775125598586047"
+      },
+      {
+        "file": "package.json",
+        "hash": "740882920333948351"
+      }
+    ],
     "projectFileMap": {
       "affiliate-client-template": [
         {
           "file": "client/.env.dist",
-          "hash": "3357850633141027328"
+          "hash": "11661500839337142254"
         },
         {
           "file": "client/.gitignore",
           "hash": "14284889916011953806"
         },
         {
+          "file": "client/.prettierrc",
+          "hash": "18434043245778394766"
+        },
+        {
           "file": "client/README.md",
-          "hash": "5786522207499882929"
+          "hash": "2374274911111469396"
         },
         {
           "file": "client/app.config.ts",
@@ -38,10 +81,6 @@
           "hash": "16804124408766340193"
         },
         {
-          "file": "client/assets/fake/blog.ts",
-          "hash": "17816641921826799529"
-        },
-        {
           "file": "client/assets/fake/menu.ts",
           "hash": "14297331834520318574"
         },
@@ -51,11 +90,11 @@
         },
         {
           "file": "client/components/atoms/badges/CategoryBadge.vue",
-          "hash": "16934660370522782264"
+          "hash": "5490257397070679025"
         },
         {
           "file": "client/components/atoms/blocks/BlogTitleBlock.vue",
-          "hash": "18356619127019776584"
+          "hash": "9331371288139307621"
         },
         {
           "file": "client/components/atoms/blocks/ListTitleBlock.vue",
@@ -64,6 +103,10 @@
         {
           "file": "client/components/atoms/blocks/LogoBlock.vue",
           "hash": "1599827958787571558"
+        },
+        {
+          "file": "client/components/atoms/blocks/PlaceholderBlock.vue",
+          "hash": "2946405613607572233"
         },
         {
           "file": "client/components/atoms/buttons/AdUnitButton.vue",
@@ -82,8 +125,12 @@
           "hash": "15242446160111574756"
         },
         {
+          "file": "client/components/atoms/media/ImageRenderer.vue",
+          "hash": "6173380111031722961"
+        },
+        {
           "file": "client/components/atoms/media/ResponsiveImage.vue",
-          "hash": "17504833997925791604"
+          "hash": "5170654385368972891"
         },
         {
           "file": "client/components/atoms/progress/PageProgressBar.client.vue",
@@ -119,7 +166,7 @@
         },
         {
           "file": "client/components/molecules/cards/BlogCard.vue",
-          "hash": "10371211845440528985"
+          "hash": "17833843558954285623"
         },
         {
           "file": "client/components/molecules/links/BreadcrumbLink.vue",
@@ -155,7 +202,7 @@
         },
         {
           "file": "client/components/organisms/skeletons/HeroSkeleton.vue",
-          "hash": "2361683421449630929"
+          "hash": "13643153663301863498"
         },
         {
           "file": "client/components/organisms/slices/AsideVerticalCarousel.vue",
@@ -163,15 +210,15 @@
         },
         {
           "file": "client/components/organisms/slices/BlogPost.vue",
-          "hash": "4871597024037183567"
+          "hash": "12396790381538665816"
         },
         {
           "file": "client/components/organisms/slices/CategorizedBlogList.vue",
-          "hash": "8125310387030020872"
+          "hash": "8543155474498068546"
         },
         {
           "file": "client/components/organisms/slices/Hero.vue",
-          "hash": "9681036313194855789"
+          "hash": "11208247868270801498"
         },
         {
           "file": "client/components/templates/layouts/BlogLayout.vue",
@@ -179,7 +226,7 @@
         },
         {
           "file": "client/components/templates/layouts/BlogListLayout.vue",
-          "hash": "16260714150711230825"
+          "hash": "10363050281843491843"
         },
         {
           "file": "client/components/templates/layouts/ReviewListLayout.vue",
@@ -223,11 +270,38 @@
         },
         {
           "file": "client/nuxt.config.ts",
-          "hash": "11855328867201637550"
+          "hash": "8110345491493055941"
         },
         {
           "file": "client/package.json",
-          "hash": "14281431246625118530"
+          "hash": "566656785153021493",
+          "deps": [
+            "npm:@nuxt/test-utils@3.13.1",
+            "npm:@vue/test-utils@2.4.6",
+            "npm:eslint",
+            "npm:happy-dom@14.11.0",
+            "npm:playwright-core@1.44.1",
+            "npm:prettier",
+            "npm:prettier-plugin-tailwindcss@0.5.14",
+            "npm:typescript",
+            "npm:vitest@1.6.0",
+            "npm:vue-tsc@1.8.27",
+            "npm:@iconify-json/material-symbols@1.1.80",
+            "npm:@nuxt/content@2.12.1",
+            "npm:@nuxt/eslint@0.3.13",
+            "npm:@nuxt/fonts@0.7.0",
+            "npm:@nuxt/image@1.7.0",
+            "npm:@nuxt/ui@2.16.0",
+            "npm:@nuxtjs/sanity",
+            "npm:@nuxtjs/tailwindcss@6.12.0",
+            "npm:@sanity/image-url",
+            "npm:@vueuse/nuxt@10.9.0",
+            "npm:nuxt@3.11.2",
+            "npm:nuxt-svgo@4.0.1",
+            "npm:tailwind-merge@2.3.0",
+            "npm:vue@3.4.27",
+            "npm:vue-router@4.3.2"
+          ]
         },
         {
           "file": "client/pages/about.vue",
@@ -235,11 +309,15 @@
         },
         {
           "file": "client/pages/blog/[slug].vue",
-          "hash": "2049519343617064855"
+          "hash": "732674911417795735"
+        },
+        {
+          "file": "client/pages/blog/category/[category].vue",
+          "hash": "12820040292738133693"
         },
         {
           "file": "client/pages/blog/index.vue",
-          "hash": "1772686162338917942"
+          "hash": "5132232559839194945"
         },
         {
           "file": "client/pages/index.vue",
@@ -256,6 +334,10 @@
         {
           "file": "client/pages/review/index.vue",
           "hash": "16237136507284228669"
+        },
+        {
+          "file": "client/plugins/sanity-image-builder.ts",
+          "hash": "4748851163206541399"
         },
         {
           "file": "client/public/ads/ads-1.png",
@@ -366,6 +448,14 @@
           "hash": "14192293692490861426"
         },
         {
+          "file": "client/server/api/blogs/[slug].get.ts",
+          "hash": "3071296289240867569"
+        },
+        {
+          "file": "client/server/api/blogs/index.get.ts",
+          "hash": "7555991699949501057"
+        },
+        {
           "file": "client/server/tsconfig.json",
           "hash": "9971712086955286516"
         },
@@ -378,8 +468,20 @@
           "hash": "14216968253049099693"
         },
         {
+          "file": "client/types/index.ts",
+          "hash": "18080060770682901303"
+        },
+        {
+          "file": "client/types/sanity/index.ts",
+          "hash": "15050726923767541517"
+        },
+        {
+          "file": "client/types/sanity/sanity-typegen.json",
+          "hash": "7440278078179490885"
+        },
+        {
           "file": "client/types/temp-types.ts",
-          "hash": "13837680438876218712"
+          "hash": "15157209641821925365"
         },
         {
           "file": "client/vitest.config.ts",
@@ -397,15 +499,11 @@
         },
         {
           "file": "studio/.eslintrc",
-          "hash": "13207469260004314541"
+          "hash": "10256933335840395785"
         },
         {
           "file": "studio/.gitignore",
           "hash": "598677433631874419"
-        },
-        {
-          "file": "studio/.prettierrc",
-          "hash": "17661401825457607264"
         },
         {
           "file": "studio/README.md",
@@ -413,7 +511,21 @@
         },
         {
           "file": "studio/package.json",
-          "hash": "220385753126441652"
+          "hash": "531268197191317196",
+          "deps": [
+            "npm:@sanity/eslint-config-studio",
+            "npm:@types/react",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-prettier",
+            "npm:prettier",
+            "npm:typescript",
+            "npm:@sanity/vision",
+            "npm:react",
+            "npm:react-dom",
+            "npm:sanity",
+            "npm:styled-components"
+          ]
         },
         {
           "file": "studio/runtime/app.js",
@@ -432,8 +544,16 @@
           "hash": "2023737564917149983"
         },
         {
+          "file": "studio/sanity.types.ts",
+          "hash": "12190926707085798190"
+        },
+        {
+          "file": "studio/sanity/types.ts",
+          "hash": "11596146970496910849"
+        },
+        {
           "file": "studio/schemaTypes/components/BlogPost.ts",
-          "hash": "15838686230610450804"
+          "hash": "4055397240865842251"
         },
         {
           "file": "studio/schemaTypes/components/index.ts",
@@ -516,44 +636,6 @@
           "hash": "13445128604194394570"
         }
       ]
-    },
-    "nonProjectFiles": [
-      {
-        "file": ".github/workflows/ci.yml",
-        "hash": "12971644775671353813"
-      },
-      {
-        "file": ".github/workflows/format.yml",
-        "hash": "197849344991409882"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "16722851342459420272"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "18434043245778394766"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "14487094203603435403"
-      },
-      {
-        "file": "README.md",
-        "hash": "9462746106056446778"
-      },
-      {
-        "file": "lerna.json",
-        "hash": "10307142885639291195"
-      },
-      {
-        "file": "nx.json",
-        "hash": "17653976192751232416"
-      },
-      {
-        "file": "package.json",
-        "hash": "5865331758344859888"
-      }
-    ]
+    }
   }
 }

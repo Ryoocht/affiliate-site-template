@@ -8,7 +8,9 @@ export default defineNuxtConfig({
     '@nuxt/image',
     'nuxt-svgo',
     '@nuxt/content',
+    '@nuxtjs/sanity',
   ],
+  plugins: ['~/plugins/scrollToTop.client.ts'],
   components: [
     {
       path: '~/components',
@@ -49,6 +51,14 @@ export default defineNuxtConfig({
         { name: 'theme-color', content: '#f3f5fc' },
       ],
     },
+  },
+  sanity: {
+    apiVersion: '2022-03-07',
+    projectId: process.env.NUXT_SANITY_PROJECT_ID,
+    dataset: process.env.NUXT_SANITY_DATASET,
+  },
+  imports: {
+    dirs: ['types', 'types/sanity'],
   },
   devtools: { enabled: true },
   typescript: {
