@@ -33,5 +33,11 @@ export const page = defineType({
         }),
       ],
     }),
+    defineField({
+      name: 'seo',
+      title: 'SEO Metadata',
+      description: 'SEO metadata for the page',
+      type: 'seo',
+    }),
   ],
 })

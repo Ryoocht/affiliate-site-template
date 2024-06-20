@@ -3105,6 +3105,15 @@
         "hash": "14293694953857719547"
       }
     },
+    "npm:@vue/compiler-core": {
+      "type": "npm",
+      "name": "npm:@vue/compiler-core",
+      "data": {
+        "version": "3.4.29",
+        "packageName": "@vue/compiler-core",
+        "hash": "sha512-TFKiRkKKsRCKvg/jTSSKK7mYLJEQdUiUfykbG49rubC9SfDyvT2JrzTReopWlz2MxqeLyxh9UZhvxEIBgAhtrg=="
+      }
+    },
     "npm:@vue/compiler-dom@3.4.27": {
       "type": "npm",
       "name": "npm:@vue/compiler-dom@3.4.27",
@@ -3114,22 +3123,13 @@
         "hash": "12177517495123990098"
       }
     },
-    "npm:@vue/compiler-sfc@3.4.27": {
+    "npm:@vue/compiler-dom": {
       "type": "npm",
-      "name": "npm:@vue/compiler-sfc@3.4.27",
+      "name": "npm:@vue/compiler-dom",
       "data": {
-        "version": "3.4.27",
-        "packageName": "@vue/compiler-sfc",
-        "hash": "8823684903980080804"
-      }
-    },
-    "npm:@vue/compiler-ssr@3.4.27": {
-      "type": "npm",
-      "name": "npm:@vue/compiler-ssr@3.4.27",
-      "data": {
-        "version": "3.4.27",
-        "packageName": "@vue/compiler-ssr",
-        "hash": "2851346429697573295"
+        "version": "3.4.29",
+        "packageName": "@vue/compiler-dom",
+        "hash": "sha512-A6+iZ2fKIEGnfPJejdB7b1FlJzgiD+Y/sxxKwJWg1EbJu6ZPgzaPQQ51ESGNv0CP6jm6Z7/pO6Ia8Ze6IKrX7w=="
       }
     },
     "npm:@vue/devtools-api@6.6.1": {
@@ -3213,42 +3213,6 @@
         "hash": "10366168026187007409"
       }
     },
-    "npm:@vue/reactivity@3.4.27": {
-      "type": "npm",
-      "name": "npm:@vue/reactivity@3.4.27",
-      "data": {
-        "version": "3.4.27",
-        "packageName": "@vue/reactivity",
-        "hash": "2347328947213844924"
-      }
-    },
-    "npm:@vue/runtime-core@3.4.27": {
-      "type": "npm",
-      "name": "npm:@vue/runtime-core@3.4.27",
-      "data": {
-        "version": "3.4.27",
-        "packageName": "@vue/runtime-core",
-        "hash": "7587122239543424681"
-      }
-    },
-    "npm:@vue/runtime-dom@3.4.27": {
-      "type": "npm",
-      "name": "npm:@vue/runtime-dom@3.4.27",
-      "data": {
-        "version": "3.4.27",
-        "packageName": "@vue/runtime-dom",
-        "hash": "89148150173929471"
-      }
-    },
-    "npm:@vue/server-renderer@3.4.27": {
-      "type": "npm",
-      "name": "npm:@vue/server-renderer@3.4.27",
-      "data": {
-        "version": "3.4.27",
-        "packageName": "@vue/server-renderer",
-        "hash": "5455355383540136697"
-      }
-    },
     "npm:@vue/shared@3.4.27": {
       "type": "npm",
       "name": "npm:@vue/shared@3.4.27",
@@ -3256,6 +3220,15 @@
         "version": "3.4.27",
         "packageName": "@vue/shared",
         "hash": "16043179302646441863"
+      }
+    },
+    "npm:@vue/shared": {
+      "type": "npm",
+      "name": "npm:@vue/shared",
+      "data": {
+        "version": "3.4.29",
+        "packageName": "@vue/shared",
+        "hash": "sha512-hQ2gAQcBO/CDpC82DCrinJNgOHI2v+FA7BDW4lMSPeBpQ7sRe2OLHWe5cph1s7D8DUQAwRt18dBDfJJ220APEA=="
       }
     },
     "npm:@vue/test-utils@2.4.6": {
@@ -9144,15 +9117,6 @@
         "hash": "8966060643452626124"
       }
     },
-    "npm:vue@3.4.27": {
-      "type": "npm",
-      "name": "npm:vue@3.4.27",
-      "data": {
-        "version": "3.4.27",
-        "packageName": "vue",
-        "hash": "8194098811718715570"
-      }
-    },
     "npm:vue-bundle-renderer@2.1.0": {
       "type": "npm",
       "name": "npm:vue-bundle-renderer@2.1.0",
@@ -11502,6 +11466,15 @@
         "hash": "sha512-5xk5MSyQU9CrDho3Rsguj38jhijhD36Mk8S6mZo3huv6PM+t4M/5kJN2KFIxgvt4ONpvOEs1pVIZAV0cL0Vi+Q=="
       }
     },
+    "npm:@portabletext/vue": {
+      "type": "npm",
+      "name": "npm:@portabletext/vue",
+      "data": {
+        "version": "1.0.11",
+        "packageName": "@portabletext/vue",
+        "hash": "sha512-/KclMZwPOIinspuuTwidAJJ+shShNOJ2s9C8EKzfOVIIOHpyL9v0UC2TH0G8WSoSXxN7ob6DdRF6LrPyCm/QdQ=="
+      }
+    },
     "npm:@rexxars/react-json-inspector": {
       "type": "npm",
       "name": "npm:@rexxars/react-json-inspector",
@@ -12697,6 +12670,60 @@
         "version": "4.3.1",
         "packageName": "@vitejs/plugin-react",
         "hash": "sha512-m/V2syj5CuVnaxcUJOQRel/Wr31FFXRFlnOoq1TVtkCxsY5veGMTEmpWHndrhB2U8ScHtCQB1e+4hWYExQc6Lg=="
+      }
+    },
+    "npm:@vue/compiler-sfc": {
+      "type": "npm",
+      "name": "npm:@vue/compiler-sfc",
+      "data": {
+        "version": "3.4.29",
+        "packageName": "@vue/compiler-sfc",
+        "hash": "sha512-zygDcEtn8ZimDlrEQyLUovoWgKQic6aEQqRXce2WXBvSeHbEbcAsXyCk9oG33ZkyWH4sl9D3tkYc1idoOkdqZQ=="
+      }
+    },
+    "npm:@vue/compiler-ssr": {
+      "type": "npm",
+      "name": "npm:@vue/compiler-ssr",
+      "data": {
+        "version": "3.4.29",
+        "packageName": "@vue/compiler-ssr",
+        "hash": "sha512-rFbwCmxJ16tDp3N8XCx5xSQzjhidYjXllvEcqX/lopkoznlNPz3jyy0WGJCyhAaVQK677WWFt3YO/WUEkMMUFQ=="
+      }
+    },
+    "npm:@vue/reactivity": {
+      "type": "npm",
+      "name": "npm:@vue/reactivity",
+      "data": {
+        "version": "3.4.29",
+        "packageName": "@vue/reactivity",
+        "hash": "sha512-w8+KV+mb1a8ornnGQitnMdLfE0kXmteaxLdccm2XwdFxXst4q/Z7SEboCV5SqJNpZbKFeaRBBJBhW24aJyGINg=="
+      }
+    },
+    "npm:@vue/runtime-core": {
+      "type": "npm",
+      "name": "npm:@vue/runtime-core",
+      "data": {
+        "version": "3.4.29",
+        "packageName": "@vue/runtime-core",
+        "hash": "sha512-s8fmX3YVR/Rk5ig0ic0NuzTNjK2M7iLuVSZyMmCzN/+Mjuqqif1JasCtEtmtoJWF32pAtUjyuT2ljNKNLeOmnQ=="
+      }
+    },
+    "npm:@vue/runtime-dom": {
+      "type": "npm",
+      "name": "npm:@vue/runtime-dom",
+      "data": {
+        "version": "3.4.29",
+        "packageName": "@vue/runtime-dom",
+        "hash": "sha512-gI10atCrtOLf/2MPPMM+dpz3NGulo9ZZR9d1dWo4fYvm+xkfvRrw1ZmJ7mkWtiJVXSsdmPbcK1p5dZzOCKDN0g=="
+      }
+    },
+    "npm:@vue/server-renderer": {
+      "type": "npm",
+      "name": "npm:@vue/server-renderer",
+      "data": {
+        "version": "3.4.29",
+        "packageName": "@vue/server-renderer",
+        "hash": "sha512-HMLCmPI2j/k8PVkSBysrA2RxcxC5DgBiCdj7n7H2QtR8bQQPqKAe8qoaxLcInzouBmzwJ+J0x20ygN/B5mYBng=="
       }
     },
     "npm:@yarnpkg/lockfile": {
@@ -19260,6 +19287,15 @@
         "hash": "sha512-Dhxzh5HZuiHQhbvTW9AMetFfBHDMYpo23Uo9btPXgdYP+3T5S+p+jgNy7spra+veYhBP2dCSgxR/i2Y02h5/6w=="
       }
     },
+    "npm:vue": {
+      "type": "npm",
+      "name": "npm:vue",
+      "data": {
+        "version": "3.4.29",
+        "packageName": "vue",
+        "hash": "sha512-8QUYfRcYzNlYuzKPfge1UWC6nF9ym0lx7mpGVPJYNhddxEf3DD0+kU07NTL0sXuiT2HuJuKr/iEO8WvXvT0RSQ=="
+      }
+    },
     "npm:w3c-keyname": {
       "type": "npm",
       "name": "npm:w3c-keyname",
@@ -19773,7 +19809,7 @@
     },
     {
       "source": "npm:@headlessui/vue@1.7.22",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -19833,7 +19869,7 @@
     },
     {
       "source": "npm:@iconify/vue@4.1.2",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -21048,7 +21084,7 @@
     },
     {
       "source": "npm:@nuxt/test-utils@3.13.1",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -21333,7 +21369,7 @@
     },
     {
       "source": "npm:@nuxt/vite-builder@3.11.2",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -22418,7 +22454,7 @@
     },
     {
       "source": "npm:@tanstack/vue-virtual@3.5.0",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -22503,7 +22539,7 @@
     },
     {
       "source": "npm:@unhead/vue@1.9.11",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -23023,7 +23059,7 @@
     },
     {
       "source": "npm:@vitejs/plugin-vue@5.0.4",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -23033,7 +23069,7 @@
     },
     {
       "source": "npm:@vitejs/plugin-vue-jsx@3.1.0",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -23148,7 +23184,7 @@
     },
     {
       "source": "npm:@vue-macros/common@1.10.3",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -23163,7 +23199,7 @@
     },
     {
       "source": "npm:@vue-macros/common@1.10.3",
-      "target": "npm:@vue/compiler-sfc@3.4.27",
+      "target": "npm:@vue/compiler-sfc",
       "type": "static"
     },
     {
@@ -23273,7 +23309,7 @@
     },
     {
       "source": "npm:@vue/babel-plugin-resolve-type@1.2.2",
-      "target": "npm:@vue/compiler-sfc@3.4.27",
+      "target": "npm:@vue/compiler-sfc",
       "type": "static"
     },
     {
@@ -23317,63 +23353,8 @@
       "type": "static"
     },
     {
-      "source": "npm:@vue/compiler-sfc@3.4.27",
-      "target": "npm:@babel/parser",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/compiler-sfc@3.4.27",
-      "target": "npm:@vue/compiler-core@3.4.27",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/compiler-sfc@3.4.27",
-      "target": "npm:@vue/compiler-dom@3.4.27",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/compiler-sfc@3.4.27",
-      "target": "npm:@vue/compiler-ssr@3.4.27",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/compiler-sfc@3.4.27",
-      "target": "npm:@vue/shared@3.4.27",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/compiler-sfc@3.4.27",
-      "target": "npm:estree-walker@2.0.2",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/compiler-sfc@3.4.27",
-      "target": "npm:magic-string",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/compiler-sfc@3.4.27",
-      "target": "npm:postcss",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/compiler-sfc@3.4.27",
-      "target": "npm:source-map-js",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/compiler-ssr@3.4.27",
-      "target": "npm:@vue/compiler-dom@3.4.27",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/compiler-ssr@3.4.27",
-      "target": "npm:@vue/shared@3.4.27",
-      "type": "static"
-    },
-    {
       "source": "npm:@vue/devtools-applet@7.2.1",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -23453,7 +23434,7 @@
     },
     {
       "source": "npm:@vue/devtools-kit@7.2.1",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -23503,7 +23484,7 @@
     },
     {
       "source": "npm:@vue/devtools-ui@7.2.1",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -23587,51 +23568,6 @@
       "type": "static"
     },
     {
-      "source": "npm:@vue/reactivity@3.4.27",
-      "target": "npm:@vue/shared@3.4.27",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/runtime-core@3.4.27",
-      "target": "npm:@vue/reactivity@3.4.27",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/runtime-core@3.4.27",
-      "target": "npm:@vue/shared@3.4.27",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/runtime-dom@3.4.27",
-      "target": "npm:@vue/runtime-core@3.4.27",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/runtime-dom@3.4.27",
-      "target": "npm:@vue/shared@3.4.27",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/runtime-dom@3.4.27",
-      "target": "npm:csstype",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/server-renderer@3.4.27",
-      "target": "npm:vue@3.4.27",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/server-renderer@3.4.27",
-      "target": "npm:@vue/compiler-ssr@3.4.27",
-      "type": "static"
-    },
-    {
-      "source": "npm:@vue/server-renderer@3.4.27",
-      "target": "npm:@vue/shared@3.4.27",
-      "type": "static"
-    },
-    {
       "source": "npm:@vue/test-utils@2.4.6",
       "target": "npm:js-beautify@1.15.1",
       "type": "static"
@@ -23658,7 +23594,7 @@
     },
     {
       "source": "npm:vue-demi@0.14.7",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -23683,12 +23619,12 @@
     },
     {
       "source": "npm:vue-demi@0.14.7",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
       "source": "npm:@vueuse/head@2.0.0",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -23743,7 +23679,7 @@
     },
     {
       "source": "npm:vue-demi@0.14.7",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -23758,7 +23694,7 @@
     },
     {
       "source": "npm:vue-demi@0.14.7",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -23793,7 +23729,7 @@
     },
     {
       "source": "npm:vue-demi@0.14.7",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -23803,7 +23739,7 @@
     },
     {
       "source": "npm:vue-demi@0.14.7",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -25063,7 +24999,7 @@
     },
     {
       "source": "npm:floating-vue@5.2.2",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -27878,7 +27814,7 @@
     },
     {
       "source": "npm:nuxt@3.11.2",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -27918,7 +27854,7 @@
     },
     {
       "source": "npm:nuxt-svgo@4.0.1",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -31162,36 +31098,6 @@
       "type": "static"
     },
     {
-      "source": "npm:vue@3.4.27",
-      "target": "npm:typescript",
-      "type": "static"
-    },
-    {
-      "source": "npm:vue@3.4.27",
-      "target": "npm:@vue/compiler-dom@3.4.27",
-      "type": "static"
-    },
-    {
-      "source": "npm:vue@3.4.27",
-      "target": "npm:@vue/compiler-sfc@3.4.27",
-      "type": "static"
-    },
-    {
-      "source": "npm:vue@3.4.27",
-      "target": "npm:@vue/runtime-dom@3.4.27",
-      "type": "static"
-    },
-    {
-      "source": "npm:vue@3.4.27",
-      "target": "npm:@vue/server-renderer@3.4.27",
-      "type": "static"
-    },
-    {
-      "source": "npm:vue@3.4.27",
-      "target": "npm:@vue/shared@3.4.27",
-      "type": "static"
-    },
-    {
       "source": "npm:vue-bundle-renderer@2.1.0",
       "target": "npm:ufo",
       "type": "static"
@@ -31253,17 +31159,17 @@
     },
     {
       "source": "npm:vue-observe-visibility@2.0.0-alpha.1",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
       "source": "npm:vue-resize@2.0.0-alpha.1",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
       "source": "npm:vue-router@4.3.2",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -31303,7 +31209,7 @@
     },
     {
       "source": "npm:vue-virtual-scroller@2.0.0-beta.8",
-      "target": "npm:vue@3.4.27",
+      "target": "npm:vue",
       "type": "static"
     },
     {
@@ -35117,6 +35023,21 @@
       "type": "static"
     },
     {
+      "source": "npm:@portabletext/vue",
+      "target": "npm:vue",
+      "type": "static"
+    },
+    {
+      "source": "npm:@portabletext/vue",
+      "target": "npm:@portabletext/toolkit",
+      "type": "static"
+    },
+    {
+      "source": "npm:@portabletext/vue",
+      "target": "npm:@portabletext/types",
+      "type": "static"
+    },
+    {
       "source": "npm:@rexxars/react-json-inspector",
       "target": "npm:react",
       "type": "static"
@@ -37399,6 +37320,146 @@
     {
       "source": "npm:@vitejs/plugin-react",
       "target": "npm:react-refresh",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-core",
+      "target": "npm:@babel/parser",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-core",
+      "target": "npm:@vue/shared",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-core",
+      "target": "npm:entities",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-core",
+      "target": "npm:estree-walker@2.0.2",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-core",
+      "target": "npm:source-map-js",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-dom",
+      "target": "npm:@vue/compiler-core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-dom",
+      "target": "npm:@vue/shared",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-sfc",
+      "target": "npm:@babel/parser",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-sfc",
+      "target": "npm:@vue/compiler-core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-sfc",
+      "target": "npm:@vue/compiler-dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-sfc",
+      "target": "npm:@vue/compiler-ssr",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-sfc",
+      "target": "npm:@vue/shared",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-sfc",
+      "target": "npm:estree-walker@2.0.2",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-sfc",
+      "target": "npm:magic-string",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-sfc",
+      "target": "npm:postcss",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-sfc",
+      "target": "npm:source-map-js",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-ssr",
+      "target": "npm:@vue/compiler-dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/compiler-ssr",
+      "target": "npm:@vue/shared",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/reactivity",
+      "target": "npm:@vue/shared",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/runtime-core",
+      "target": "npm:@vue/reactivity",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/runtime-core",
+      "target": "npm:@vue/shared",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/runtime-dom",
+      "target": "npm:@vue/reactivity",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/runtime-dom",
+      "target": "npm:@vue/runtime-core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/runtime-dom",
+      "target": "npm:@vue/shared",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/runtime-dom",
+      "target": "npm:csstype",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/server-renderer",
+      "target": "npm:vue",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/server-renderer",
+      "target": "npm:@vue/compiler-ssr",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vue/server-renderer",
+      "target": "npm:@vue/shared",
       "type": "static"
     },
     {
@@ -48014,6 +48075,36 @@
     {
       "source": "npm:esbuild@0.18.20",
       "target": "npm:@esbuild/win32-x64@0.18.20",
+      "type": "static"
+    },
+    {
+      "source": "npm:vue",
+      "target": "npm:typescript",
+      "type": "static"
+    },
+    {
+      "source": "npm:vue",
+      "target": "npm:@vue/compiler-dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:vue",
+      "target": "npm:@vue/compiler-sfc",
+      "type": "static"
+    },
+    {
+      "source": "npm:vue",
+      "target": "npm:@vue/runtime-dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:vue",
+      "target": "npm:@vue/server-renderer",
+      "type": "static"
+    },
+    {
+      "source": "npm:vue",
+      "target": "npm:@vue/shared",
       "type": "static"
     },
     {

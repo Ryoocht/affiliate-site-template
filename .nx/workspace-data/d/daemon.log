@@ -188,3 +188,939 @@
 [NX Daemon Server] - 2024-06-17T13:22:53.782Z - Done responding to the client recordOutputsHash
 [NX Daemon Server] - 2024-06-17T13:22:53.782Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
 [NX Daemon Server] - 2024-06-17T13:22:53.786Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-20T13:05:01.208Z - Started listening on: /var/folders/b4/bbfnssnx49v0_65hm8jydgyc0000gn/T/28d5f0ebf72806704264/d.sock
+[NX Daemon Server] - 2024-06-20T13:05:01.210Z - [WATCHER]: Subscribed to changes within: /Users/ryo/Documents/personal-projects/affiliate-site-template (native)
+[NX Daemon Server] - 2024-06-20T13:05:01.216Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-20T13:05:01.217Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-20T13:05:01.218Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-20T13:05:01.218Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-20T13:05:01.238Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-20T13:05:01.238Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-20T13:05:01.238Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-20T13:05:01.333Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-20T13:05:01.335Z - Time taken for 'total for creating and serializing project graph' 114.73937463760376ms
+[NX Daemon Server] - 2024-06-20T13:05:01.336Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-20T13:05:01.336Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 115. Response time: 3.
+[NX Daemon Server] - 2024-06-20T13:05:01.341Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-06-20T13:05:01.341Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-06-20T13:05:01.341Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-20T13:05:01.468Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-20T13:05:01.468Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-20T13:05:01.470Z - Time taken for 'total for creating and serializing project graph' 0.25950002670288086ms
+[NX Daemon Server] - 2024-06-20T13:05:01.471Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-20T13:05:01.471Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-06-20T13:05:01.494Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-06-20T13:05:01.495Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-06-20T13:05:01.495Z - Handled HASH_TASKS. Handling time: 16. Response time: 1.
+[NX Daemon Server] - 2024-06-20T13:05:03.192Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-06-20T13:05:03.192Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-06-20T13:05:03.192Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-20T13:05:03.215Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-06-20T13:05:03.215Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-06-20T13:05:03.215Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-20T13:05:03.220Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-20T13:05:13.032Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-20T13:05:13.032Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-20T13:05:13.032Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-20T13:05:13.033Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-20T13:05:13.033Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-20T13:05:13.034Z - Time taken for 'total for creating and serializing project graph' 0.05424976348876953ms
+[NX Daemon Server] - 2024-06-20T13:05:13.036Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-20T13:05:13.036Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-06-20T13:05:13.041Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-06-20T13:05:13.041Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-06-20T13:05:13.041Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-20T13:05:13.163Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-20T13:05:13.164Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-20T13:05:13.165Z - Time taken for 'total for creating and serializing project graph' 0.2237091064453125ms
+[NX Daemon Server] - 2024-06-20T13:05:13.166Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-20T13:05:13.166Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2024-06-20T13:05:13.182Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-06-20T13:05:13.183Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-06-20T13:05:13.183Z - Handled HASH_TASKS. Handling time: 10. Response time: 1.
+[NX Daemon Server] - 2024-06-20T13:05:14.781Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-06-20T13:05:14.781Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-06-20T13:05:14.781Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-20T13:05:14.828Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-20T13:05:16.827Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-06-20T13:05:16.827Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-06-20T13:05:16.827Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-20T13:05:16.831Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-21T12:18:19.271Z - [WATCHER]: client/modules/affiliate-seo/runtime/index.ts was created or restored
+[NX Daemon Server] - 2024-06-21T12:18:19.272Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:18:19.374Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:18:19.374Z - [REQUEST]: client/modules/affiliate-seo/runtime/index.ts
+[NX Daemon Server] - 2024-06-21T12:18:19.374Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:18:19.426Z - Time taken for 'hash changed files from watcher' 0.3915829658508301ms
+[NX Daemon Server] - 2024-06-21T12:18:21.796Z - [WATCHER]: client/modules/affiliate-seo/runtime/index.ts was modified
+[NX Daemon Server] - 2024-06-21T12:18:21.796Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:18:21.999Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:18:22.000Z - [REQUEST]: client/modules/affiliate-seo/runtime/index.ts
+[NX Daemon Server] - 2024-06-21T12:18:22.000Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:18:22.064Z - Time taken for 'hash changed files from watcher' 0.7537908554077148ms
+[NX Daemon Server] - 2024-06-21T12:18:25.737Z - [WATCHER]: client/modules/affiliate-seo/runtime/index.ts was modified
+[NX Daemon Server] - 2024-06-21T12:18:25.737Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:18:26.139Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:18:26.140Z - [REQUEST]: client/modules/affiliate-seo/runtime/index.ts
+[NX Daemon Server] - 2024-06-21T12:18:26.140Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:18:26.207Z - Time taken for 'hash changed files from watcher' 0.9750418663024902ms
+[NX Daemon Server] - 2024-06-21T12:18:53.203Z - [WATCHER]: client/modules/affiliate-seo/composables was deleted
+[NX Daemon Server] - 2024-06-21T12:18:53.203Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:18:54.006Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:18:54.006Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:18:54.006Z - [REQUEST]: client/modules/affiliate-seo/composables
+[NX Daemon Server] - 2024-06-21T12:18:54.066Z - Time taken for 'hash changed files from watcher' 0.6061668395996094ms
+[NX Daemon Server] - 2024-06-21T12:19:05.183Z - [WATCHER]: client/modules/affiliate-seo/runtime/index.ts was modified
+[NX Daemon Server] - 2024-06-21T12:19:05.184Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:19:06.786Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:19:06.786Z - [REQUEST]: client/modules/affiliate-seo/runtime/index.ts
+[NX Daemon Server] - 2024-06-21T12:19:06.786Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:19:06.851Z - Time taken for 'hash changed files from watcher' 0.6778750419616699ms
+[NX Daemon Server] - 2024-06-21T12:19:26.240Z - [WATCHER]: client/modules/affiliate-seo/runtime/index.ts was deleted
+[NX Daemon Server] - 2024-06-21T12:19:26.240Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:19:29.441Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:19:29.441Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:19:29.441Z - [REQUEST]: client/modules/affiliate-seo/runtime/index.ts
+[NX Daemon Server] - 2024-06-21T12:19:29.507Z - Time taken for 'hash changed files from watcher' 0.28674983978271484ms
+[NX Daemon Server] - 2024-06-21T12:39:17.053Z - [WATCHER]: client/modules/affiliate-seo/hooks.ts was created or restored
+[NX Daemon Server] - 2024-06-21T12:39:17.054Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:39:17.155Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:39:17.156Z - [REQUEST]: client/modules/affiliate-seo/hooks.ts
+[NX Daemon Server] - 2024-06-21T12:39:17.156Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:39:17.214Z - Time taken for 'hash changed files from watcher' 0.6289997100830078ms
+[NX Daemon Server] - 2024-06-21T12:42:19.273Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was created or restored
+[NX Daemon Server] - 2024-06-21T12:42:19.274Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:42:19.375Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:42:19.375Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T12:42:19.375Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:42:19.436Z - Time taken for 'hash changed files from watcher' 0.3654170036315918ms
+[NX Daemon Server] - 2024-06-21T12:42:30.232Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T12:42:30.233Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:42:30.435Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:42:30.435Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T12:42:30.435Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:42:30.502Z - Time taken for 'hash changed files from watcher' 0.6598749160766602ms
+[NX Daemon Server] - 2024-06-21T12:42:34.223Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T12:42:34.223Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:42:34.626Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:42:34.626Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T12:42:34.626Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:42:34.690Z - Time taken for 'hash changed files from watcher' 0.9265003204345703ms
+[NX Daemon Server] - 2024-06-21T12:42:38.433Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T12:42:38.434Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:42:39.236Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:42:39.237Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T12:42:39.237Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:42:39.299Z - Time taken for 'hash changed files from watcher' 0.8541669845581055ms
+[NX Daemon Server] - 2024-06-21T12:42:44.340Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T12:42:44.341Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:42:45.944Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:42:45.944Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T12:42:45.944Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:42:46.013Z - Time taken for 'hash changed files from watcher' 1.050541877746582ms
+[NX Daemon Server] - 2024-06-21T12:42:46.432Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T12:42:46.433Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:42:48.461Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T12:42:48.462Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:42:49.635Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:42:49.635Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T12:42:49.635Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:42:49.698Z - Time taken for 'hash changed files from watcher' 0.9403338432312012ms
+[NX Daemon Server] - 2024-06-21T12:42:52.225Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T12:42:52.225Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:42:56.217Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T12:42:56.217Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:42:58.627Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:42:58.627Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T12:42:58.627Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:42:58.695Z - Time taken for 'hash changed files from watcher' 0.7465000152587891ms
+[NX Daemon Server] - 2024-06-21T12:43:17.784Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T12:43:17.785Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:43:24.187Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:43:24.188Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T12:43:24.188Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:43:24.243Z - Time taken for 'hash changed files from watcher' 0.8763747215270996ms
+[NX Daemon Server] - 2024-06-21T12:43:25.308Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T12:43:25.309Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:43:27.611Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T12:43:27.612Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:43:30.517Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T12:43:30.517Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:43:31.712Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:43:31.712Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T12:43:31.712Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:43:31.777Z - Time taken for 'hash changed files from watcher' 0.906707763671875ms
+[NX Daemon Server] - 2024-06-21T12:43:34.779Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T12:43:34.779Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:43:41.182Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:43:41.182Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T12:43:41.182Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:43:41.249Z - Time taken for 'hash changed files from watcher' 0.9243330955505371ms
+[NX Daemon Server] - 2024-06-21T12:43:51.849Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/index.ts was created or restored
+[NX Daemon Server] - 2024-06-21T12:43:51.850Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:43:51.951Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:43:51.951Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/index.ts
+[NX Daemon Server] - 2024-06-21T12:43:51.951Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:43:52.009Z - Time taken for 'hash changed files from watcher' 0.6094579696655273ms
+[NX Daemon Server] - 2024-06-21T12:47:04.651Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/index.ts was modified
+[NX Daemon Server] - 2024-06-21T12:47:04.652Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:47:04.853Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:47:04.853Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/index.ts
+[NX Daemon Server] - 2024-06-21T12:47:04.854Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:47:04.908Z - Time taken for 'hash changed files from watcher' 0.8418750762939453ms
+[NX Daemon Server] - 2024-06-21T12:47:07.159Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/index.ts was modified
+[NX Daemon Server] - 2024-06-21T12:47:07.160Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:47:07.561Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:47:07.561Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/index.ts
+[NX Daemon Server] - 2024-06-21T12:47:07.561Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:47:07.619Z - Time taken for 'hash changed files from watcher' 0.6098341941833496ms
+[NX Daemon Server] - 2024-06-21T12:47:08.557Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/index.ts was modified
+[NX Daemon Server] - 2024-06-21T12:47:08.558Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:47:09.360Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:47:09.360Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/index.ts
+[NX Daemon Server] - 2024-06-21T12:47:09.360Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:47:09.423Z - Time taken for 'hash changed files from watcher' 0.8824172019958496ms
+[NX Daemon Server] - 2024-06-21T12:47:57.077Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/index.ts was modified
+[NX Daemon Server] - 2024-06-21T12:47:57.078Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:47:58.680Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:47:58.681Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/index.ts
+[NX Daemon Server] - 2024-06-21T12:47:58.681Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:47:58.750Z - Time taken for 'hash changed files from watcher' 0.9607915878295898ms
+[NX Daemon Server] - 2024-06-21T12:52:15.613Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/index.ts was modified
+[NX Daemon Server] - 2024-06-21T12:52:15.615Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:52:17.152Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/index.ts was modified
+[NX Daemon Server] - 2024-06-21T12:52:17.152Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:52:18.268Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/index.ts was modified
+[NX Daemon Server] - 2024-06-21T12:52:18.268Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:52:18.817Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:52:18.818Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/index.ts
+[NX Daemon Server] - 2024-06-21T12:52:18.818Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:52:18.879Z - Time taken for 'hash changed files from watcher' 0.7261672019958496ms
+[NX Daemon Server] - 2024-06-21T12:52:23.666Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/index.ts was modified
+[NX Daemon Server] - 2024-06-21T12:52:23.667Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:52:27.454Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/index.ts was modified
+[NX Daemon Server] - 2024-06-21T12:52:27.454Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:52:28.476Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/index.ts was modified
+[NX Daemon Server] - 2024-06-21T12:52:28.477Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:52:30.069Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:52:30.070Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/index.ts
+[NX Daemon Server] - 2024-06-21T12:52:30.070Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:52:30.140Z - Time taken for 'hash changed files from watcher' 0.8829998970031738ms
+[NX Daemon Server] - 2024-06-21T12:52:30.921Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/index.ts was modified
+[NX Daemon Server] - 2024-06-21T12:52:30.921Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:52:37.324Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:52:37.324Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/index.ts
+[NX Daemon Server] - 2024-06-21T12:52:37.324Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:52:37.386Z - Time taken for 'hash changed files from watcher' 0.8534579277038574ms
+[NX Daemon Server] - 2024-06-21T12:52:41.301Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T12:52:41.301Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:52:44.592Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T12:52:44.592Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:52:45.734Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T12:52:45.735Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:52:47.454Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T12:52:47.455Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:52:47.703Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:52:47.704Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts
+[NX Daemon Server] - 2024-06-21T12:52:47.704Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:52:47.770Z - Time taken for 'hash changed files from watcher' 1.0053329467773438ms
+[NX Daemon Server] - 2024-06-21T12:52:49.490Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:52:49.493Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T12:52:52.187Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T12:52:52.187Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:52:55.896Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:52:55.896Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts
+[NX Daemon Server] - 2024-06-21T12:52:55.896Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:52:55.961Z - Time taken for 'hash changed files from watcher' 0.7527918815612793ms
+[NX Daemon Server] - 2024-06-21T12:53:04.785Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T12:53:04.786Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:53:11.051Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T12:53:11.052Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:53:11.187Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:53:11.188Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts
+[NX Daemon Server] - 2024-06-21T12:53:11.188Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:53:11.249Z - Time taken for 'hash changed files from watcher' 0.8940000534057617ms
+[NX Daemon Server] - 2024-06-21T12:53:16.537Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T12:53:16.537Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:53:22.188Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T12:53:22.188Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:53:22.940Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:53:22.941Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts
+[NX Daemon Server] - 2024-06-21T12:53:22.941Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:53:23.004Z - Time taken for 'hash changed files from watcher' 0.8375411033630371ms
+[NX Daemon Server] - 2024-06-21T12:53:23.933Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T12:53:23.934Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:53:30.335Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:53:30.336Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts
+[NX Daemon Server] - 2024-06-21T12:53:30.336Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:53:30.401Z - Time taken for 'hash changed files from watcher' 0.8380413055419922ms
+[NX Daemon Server] - 2024-06-21T12:54:16.268Z - [WATCHER]: client/modules/affiliate-seo/hooks.ts was modified
+[NX Daemon Server] - 2024-06-21T12:54:16.269Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:54:20.308Z - [WATCHER]: client/modules/affiliate-seo/hooks.ts was modified
+[NX Daemon Server] - 2024-06-21T12:54:20.309Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:54:22.389Z - [WATCHER]: client/modules/affiliate-seo/hooks.ts was modified
+[NX Daemon Server] - 2024-06-21T12:54:22.389Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:54:22.671Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:54:22.671Z - [REQUEST]: client/modules/affiliate-seo/hooks.ts
+[NX Daemon Server] - 2024-06-21T12:54:22.671Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:54:22.739Z - Time taken for 'hash changed files from watcher' 0.8536252975463867ms
+[NX Daemon Server] - 2024-06-21T12:54:23.972Z - [WATCHER]: client/modules/affiliate-seo/hooks.ts was modified
+[NX Daemon Server] - 2024-06-21T12:54:23.973Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:54:30.375Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:54:30.376Z - [REQUEST]: client/modules/affiliate-seo/hooks.ts
+[NX Daemon Server] - 2024-06-21T12:54:30.376Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:54:30.445Z - Time taken for 'hash changed files from watcher' 0.9310832023620605ms
+[NX Daemon Server] - 2024-06-21T12:54:32.478Z - [WATCHER]: client/modules/affiliate-seo/hooks.ts was modified
+[NX Daemon Server] - 2024-06-21T12:54:32.478Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:54:36.187Z - [WATCHER]: client/modules/affiliate-seo/hooks.ts was modified
+[NX Daemon Server] - 2024-06-21T12:54:36.188Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:54:38.184Z - [WATCHER]: client/modules/affiliate-seo/hooks.ts was modified
+[NX Daemon Server] - 2024-06-21T12:54:38.184Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:54:38.880Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:54:38.880Z - [REQUEST]: client/modules/affiliate-seo/hooks.ts
+[NX Daemon Server] - 2024-06-21T12:54:38.880Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:54:38.942Z - Time taken for 'hash changed files from watcher' 0.8607497215270996ms
+[NX Daemon Server] - 2024-06-21T12:54:39.969Z - [WATCHER]: client/modules/affiliate-seo/hooks.ts was modified
+[NX Daemon Server] - 2024-06-21T12:54:39.969Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T12:54:46.371Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T12:54:46.371Z - [REQUEST]: client/modules/affiliate-seo/hooks.ts
+[NX Daemon Server] - 2024-06-21T12:54:46.371Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T12:54:46.438Z - Time taken for 'hash changed files from watcher' 0.8988752365112305ms
+[NX Daemon Server] - 2024-06-21T13:08:27.572Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:08:27.573Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:08:32.925Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:08:32.925Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:08:33.974Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:08:33.974Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:08:33.974Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:08:34.018Z - Time taken for 'hash changed files from watcher' 0.35762500762939453ms
+[NX Daemon Server] - 2024-06-21T13:08:36.976Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:08:36.977Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:08:38.805Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:08:38.805Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:08:40.409Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:08:40.410Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:08:43.378Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:08:43.378Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:08:43.378Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:08:43.441Z - Time taken for 'hash changed files from watcher' 0.6854166984558105ms
+[NX Daemon Server] - 2024-06-21T13:08:43.738Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:08:43.738Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:08:48.386Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:08:48.386Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:08:50.140Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:08:50.140Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:08:50.140Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:08:50.193Z - Time taken for 'hash changed files from watcher' 0.8351669311523438ms
+[NX Daemon Server] - 2024-06-21T13:08:52.392Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:08:52.393Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:08:58.795Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:08:58.795Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:08:58.796Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:08:58.861Z - Time taken for 'hash changed files from watcher' 0.8666667938232422ms
+[NX Daemon Server] - 2024-06-21T13:09:01.523Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:09:01.523Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:09:03.759Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:09:03.760Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:09:07.926Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:09:07.927Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:09:07.927Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:09:07.991Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:09:07.991Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:09:07.991Z - Time taken for 'hash changed files from watcher' 0.986541748046875ms
+[NX Daemon Server] - 2024-06-21T13:09:14.393Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:09:14.393Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:09:14.394Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:09:14.455Z - Time taken for 'hash changed files from watcher' 0.7027082443237305ms
+[NX Daemon Server] - 2024-06-21T13:09:15.008Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:09:15.009Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:09:19.346Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:09:19.346Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:09:21.410Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:09:21.411Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:09:21.411Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:09:21.470Z - Time taken for 'hash changed files from watcher' 0.8829593658447266ms
+[NX Daemon Server] - 2024-06-21T13:09:24.218Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:09:24.219Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:09:30.621Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:09:30.621Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:09:30.621Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:09:30.687Z - Time taken for 'hash changed files from watcher' 0.6858329772949219ms
+[NX Daemon Server] - 2024-06-21T13:09:35.036Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:09:35.037Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:09:41.306Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:09:41.307Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:09:41.439Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:09:41.440Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:09:41.440Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:09:41.504Z - Time taken for 'hash changed files from watcher' 0.9507923126220703ms
+[NX Daemon Server] - 2024-06-21T13:09:42.996Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:09:42.997Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:09:47.966Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:09:47.966Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:09:49.398Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:09:49.398Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:09:49.398Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:09:49.444Z - Time taken for 'hash changed files from watcher' 0.33591699600219727ms
+[NX Daemon Server] - 2024-06-21T13:09:53.200Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:09:53.200Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:09:59.603Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:09:59.603Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:09:59.604Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:09:59.667Z - Time taken for 'hash changed files from watcher' 1.007957935333252ms
+[NX Daemon Server] - 2024-06-21T13:10:01.856Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:10:01.856Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:10:06.782Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:10:06.782Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:10:08.258Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:10:08.258Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:10:08.258Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:10:08.323Z - Time taken for 'hash changed files from watcher' 0.4512500762939453ms
+[NX Daemon Server] - 2024-06-21T13:10:08.789Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:10:08.790Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:10:12.012Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:10:12.012Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:10:14.876Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:10:14.876Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:10:15.191Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:10:15.191Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:10:15.191Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:10:15.259Z - Time taken for 'hash changed files from watcher' 0.5236663818359375ms
+[NX Daemon Server] - 2024-06-21T13:10:19.553Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:10:19.554Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:10:20.902Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:10:20.903Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:10:21.944Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:10:21.945Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:10:25.956Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:10:25.956Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:10:25.956Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:10:26.009Z - Time taken for 'hash changed files from watcher' 0.6552920341491699ms
+[NX Daemon Server] - 2024-06-21T13:10:28.866Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:10:28.867Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:10:33.999Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:10:34.001Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:10:35.269Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:10:35.270Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:10:35.270Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:10:35.334Z - Time taken for 'hash changed files from watcher' 1.0678749084472656ms
+[NX Daemon Server] - 2024-06-21T13:11:01.476Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:11:01.476Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:11:07.878Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:11:07.878Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:11:07.878Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:11:07.939Z - Time taken for 'hash changed files from watcher' 0.7637920379638672ms
+[NX Daemon Server] - 2024-06-21T13:11:12.340Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:11:12.341Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:11:18.743Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:11:18.743Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:11:18.744Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:11:18.808Z - Time taken for 'hash changed files from watcher' 0.6432089805603027ms
+[NX Daemon Server] - 2024-06-21T13:11:32.204Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:11:32.204Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:11:33.262Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:11:33.263Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:11:36.224Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:11:36.224Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:11:38.606Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:11:38.607Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:11:38.607Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:11:38.673Z - Time taken for 'hash changed files from watcher' 0.6770000457763672ms
+[NX Daemon Server] - 2024-06-21T13:11:40.498Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:11:40.499Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:11:43.472Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:11:43.472Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:11:46.901Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:11:46.902Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:11:46.902Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:11:46.969Z - Time taken for 'hash changed files from watcher' 0.6510839462280273ms
+[NX Daemon Server] - 2024-06-21T13:11:56.305Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:11:56.306Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:12:02.708Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:12:02.709Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:12:02.709Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:12:02.772Z - Time taken for 'hash changed files from watcher' 0.826082706451416ms
+[NX Daemon Server] - 2024-06-21T13:12:10.806Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:12:10.806Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:12:13.841Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:12:13.841Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:12:15.620Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:12:15.621Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:12:17.209Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:12:17.209Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:12:17.209Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:12:17.276Z - Time taken for 'hash changed files from watcher' 0.682042121887207ms
+[NX Daemon Server] - 2024-06-21T13:12:26.654Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:12:26.654Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:12:29.284Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:12:29.284Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:12:33.057Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:12:33.057Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:12:33.057Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:12:33.127Z - Time taken for 'hash changed files from watcher' 0.9029579162597656ms
+[NX Daemon Server] - 2024-06-21T13:12:38.266Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:12:38.267Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:12:41.937Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:12:41.937Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:12:44.669Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:12:44.669Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:12:44.669Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:12:44.736Z - Time taken for 'hash changed files from watcher' 0.8598747253417969ms
+[NX Daemon Server] - 2024-06-21T13:12:51.128Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:12:51.129Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:12:53.440Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:12:53.440Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:12:56.193Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:12:56.194Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:12:57.532Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:12:57.532Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:12:57.532Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:12:57.598Z - Time taken for 'hash changed files from watcher' 0.9811248779296875ms
+[NX Daemon Server] - 2024-06-21T13:13:12.847Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:13:12.847Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:13:16.141Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:13:16.142Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:13:19.250Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:13:19.251Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:13:19.251Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:13:19.322Z - Time taken for 'hash changed files from watcher' 0.9776248931884766ms
+[NX Daemon Server] - 2024-06-21T13:13:24.546Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:13:24.547Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:13:25.885Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:13:25.885Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:13:30.948Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:13:30.949Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:13:30.949Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:13:31.019Z - Time taken for 'hash changed files from watcher' 0.6548752784729004ms
+[NX Daemon Server] - 2024-06-21T13:13:31.864Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:13:31.865Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:13:33.183Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:13:33.184Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:13:38.266Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:13:38.267Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:13:38.267Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:13:38.329Z - Time taken for 'hash changed files from watcher' 0.899958610534668ms
+[NX Daemon Server] - 2024-06-21T13:13:46.553Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T13:13:46.553Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:13:52.955Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:13:52.955Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts
+[NX Daemon Server] - 2024-06-21T13:13:52.955Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:13:53.022Z - Time taken for 'hash changed files from watcher' 0.9707093238830566ms
+[NX Daemon Server] - 2024-06-21T13:13:54.206Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T13:13:54.207Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:13:58.050Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T13:13:58.051Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:14:00.609Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:14:00.610Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts
+[NX Daemon Server] - 2024-06-21T13:14:00.610Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:14:00.678Z - Time taken for 'hash changed files from watcher' 0.9169998168945312ms
+[NX Daemon Server] - 2024-06-21T13:14:03.560Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T13:14:03.560Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:14:07.081Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T13:14:07.082Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:14:09.962Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:14:09.963Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts
+[NX Daemon Server] - 2024-06-21T13:14:09.963Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:14:10.028Z - Time taken for 'hash changed files from watcher' 0.9309167861938477ms
+[NX Daemon Server] - 2024-06-21T13:14:28.778Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T13:14:28.779Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:14:32.468Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T13:14:32.468Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:14:35.181Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:14:35.182Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts
+[NX Daemon Server] - 2024-06-21T13:14:35.182Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:14:35.243Z - Time taken for 'hash changed files from watcher' 0.8065838813781738ms
+[NX Daemon Server] - 2024-06-21T13:14:36.484Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T13:14:36.484Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:14:42.886Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:14:42.886Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts
+[NX Daemon Server] - 2024-06-21T13:14:42.887Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:14:42.954Z - Time taken for 'hash changed files from watcher' 0.9704580307006836ms
+[NX Daemon Server] - 2024-06-21T13:14:46.410Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-06-21T13:14:46.411Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:14:49.853Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/index.ts was modified
+[NX Daemon Server] - 2024-06-21T13:14:49.855Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:14:52.812Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:14:52.813Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts,client/modules/affiliate-seo/runtime/composables/index.ts
+[NX Daemon Server] - 2024-06-21T13:14:52.813Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useSanity.ts
+[NX Daemon Server] - 2024-06-21T13:14:52.873Z - Time taken for 'hash changed files from watcher' 0.505457878112793ms
+[NX Daemon Server] - 2024-06-21T13:14:56.176Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts was modified
+[NX Daemon Server] - 2024-06-21T13:14:56.176Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:15:02.579Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:15:02.579Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts
+[NX Daemon Server] - 2024-06-21T13:15:02.579Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:15:02.645Z - Time taken for 'hash changed files from watcher' 0.7041659355163574ms
+[NX Daemon Server] - 2024-06-21T13:15:16.384Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T13:15:16.384Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:15:19.628Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T13:15:19.629Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:15:22.786Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:15:22.786Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts
+[NX Daemon Server] - 2024-06-21T13:15:22.786Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:15:22.846Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T13:15:22.846Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:15:22.846Z - Time taken for 'hash changed files from watcher' 0.33933401107788086ms
+[NX Daemon Server] - 2024-06-21T13:15:25.962Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T13:15:25.962Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:15:28.598Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T13:15:28.598Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:15:29.248Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:15:29.248Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts
+[NX Daemon Server] - 2024-06-21T13:15:29.249Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:15:29.310Z - Time taken for 'hash changed files from watcher' 0.7557086944580078ms
+[NX Daemon Server] - 2024-06-21T13:15:33.674Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T13:15:33.675Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:15:34.190Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts was modified
+[NX Daemon Server] - 2024-06-21T13:15:34.191Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-21T13:15:40.076Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-21T13:15:40.076Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts
+[NX Daemon Server] - 2024-06-21T13:15:40.076Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-21T13:15:40.138Z - Time taken for 'hash changed files from watcher' 0.7309999465942383ms
+[NX Daemon Server] - 2024-06-22T06:36:37.854Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:36:37.854Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:36:43.224Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:36:43.225Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:36:44.257Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:36:44.258Z - [REQUEST]: client/modules/affiliate-seo/defaults.ts
+[NX Daemon Server] - 2024-06-22T06:36:44.258Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:36:44.322Z - Time taken for 'hash changed files from watcher' 0.7672915458679199ms
+[NX Daemon Server] - 2024-06-22T06:36:45.650Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:36:45.650Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:36:47.453Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:36:47.453Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:36:48.474Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:36:48.474Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:36:52.053Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:36:52.053Z - [REQUEST]: client/modules/affiliate-seo/defaults.ts
+[NX Daemon Server] - 2024-06-22T06:36:52.053Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:36:52.121Z - Time taken for 'hash changed files from watcher' 0.7932500839233398ms
+[NX Daemon Server] - 2024-06-22T06:36:57.465Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:36:57.466Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:37:03.868Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:37:03.868Z - [REQUEST]: client/modules/affiliate-seo/defaults.ts
+[NX Daemon Server] - 2024-06-22T06:37:03.869Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:37:03.931Z - Time taken for 'hash changed files from watcher' 0.8441667556762695ms
+[NX Daemon Server] - 2024-06-22T06:44:00.628Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts was modified
+[NX Daemon Server] - 2024-06-22T06:44:00.629Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:44:04.110Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts was modified
+[NX Daemon Server] - 2024-06-22T06:44:04.111Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:44:06.787Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts was modified
+[NX Daemon Server] - 2024-06-22T06:44:06.787Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:44:07.030Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:44:07.030Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts
+[NX Daemon Server] - 2024-06-22T06:44:07.030Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:44:07.091Z - Time taken for 'hash changed files from watcher' 0.3588747978210449ms
+[NX Daemon Server] - 2024-06-22T06:44:20.332Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts was modified
+[NX Daemon Server] - 2024-06-22T06:44:20.332Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:44:26.735Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:44:26.735Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts
+[NX Daemon Server] - 2024-06-22T06:44:26.735Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:44:26.804Z - Time taken for 'hash changed files from watcher' 0.8789167404174805ms
+[NX Daemon Server] - 2024-06-22T06:44:37.547Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts was modified
+[NX Daemon Server] - 2024-06-22T06:44:37.548Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:44:39.630Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts was modified
+[NX Daemon Server] - 2024-06-22T06:44:39.630Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:44:42.316Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts was modified
+[NX Daemon Server] - 2024-06-22T06:44:42.316Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:44:43.948Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:44:43.948Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts
+[NX Daemon Server] - 2024-06-22T06:44:43.949Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:44:44.001Z - Time taken for 'hash changed files from watcher' 0.3388328552246094ms
+[NX Daemon Server] - 2024-06-22T06:44:49.926Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts was modified
+[NX Daemon Server] - 2024-06-22T06:44:49.926Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:44:51.218Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts was modified
+[NX Daemon Server] - 2024-06-22T06:44:51.219Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:44:56.329Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:44:56.329Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts
+[NX Daemon Server] - 2024-06-22T06:44:56.329Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:44:56.389Z - Time taken for 'hash changed files from watcher' 0.701167106628418ms
+[NX Daemon Server] - 2024-06-22T06:46:11.505Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts was modified
+[NX Daemon Server] - 2024-06-22T06:46:11.505Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:46:17.906Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:46:17.906Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts
+[NX Daemon Server] - 2024-06-22T06:46:17.906Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:46:17.976Z - Time taken for 'hash changed files from watcher' 0.7122921943664551ms
+[NX Daemon Server] - 2024-06-22T06:46:59.414Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts was modified
+[NX Daemon Server] - 2024-06-22T06:46:59.415Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:47:05.817Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:47:05.818Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts
+[NX Daemon Server] - 2024-06-22T06:47:05.818Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:47:05.888Z - Time taken for 'hash changed files from watcher' 0.6576671600341797ms
+[NX Daemon Server] - 2024-06-22T06:48:36.650Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was created or restored
+[NX Daemon Server] - 2024-06-22T06:48:36.651Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:48:36.753Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:48:36.753Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:48:36.753Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:48:36.811Z - Time taken for 'hash changed files from watcher' 0.3060421943664551ms
+[NX Daemon Server] - 2024-06-22T06:48:49.230Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:48:49.231Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:48:49.432Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:48:49.433Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:48:49.433Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:48:49.497Z - Time taken for 'hash changed files from watcher' 0.6824169158935547ms
+[NX Daemon Server] - 2024-06-22T06:48:53.426Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:48:53.427Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:48:53.828Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:48:53.828Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:48:53.829Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:48:53.893Z - Time taken for 'hash changed files from watcher' 0.9725003242492676ms
+[NX Daemon Server] - 2024-06-22T06:48:55.161Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:48:55.162Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:48:55.963Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:48:55.964Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:48:55.964Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:48:56.029Z - Time taken for 'hash changed files from watcher' 0.9124579429626465ms
+[NX Daemon Server] - 2024-06-22T06:49:02.633Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:49:02.633Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:49:04.235Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:49:04.235Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:49:04.235Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:49:04.296Z - Time taken for 'hash changed files from watcher' 0.7130827903747559ms
+[NX Daemon Server] - 2024-06-22T06:49:09.356Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:49:09.356Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:49:11.499Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:49:11.499Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:49:12.558Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:49:12.559Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:49:12.559Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:49:12.611Z - Time taken for 'hash changed files from watcher' 0.6461248397827148ms
+[NX Daemon Server] - 2024-06-22T06:49:15.048Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:49:15.049Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:49:17.358Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:49:17.358Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:49:18.891Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:49:18.892Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:49:21.451Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:49:21.452Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:49:21.452Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:49:21.512Z - Time taken for 'hash changed files from watcher' 0.9533748626708984ms
+[NX Daemon Server] - 2024-06-22T06:49:22.496Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:49:22.497Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:49:28.899Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:49:28.899Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:49:28.899Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:49:28.957Z - Time taken for 'hash changed files from watcher' 0.8696670532226562ms
+[NX Daemon Server] - 2024-06-22T06:50:05.536Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:50:05.537Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:50:11.939Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:50:11.940Z - [REQUEST]: client/modules/affiliate-seo/defaults.ts
+[NX Daemon Server] - 2024-06-22T06:50:11.940Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:50:12.003Z - Time taken for 'hash changed files from watcher' 0.894291877746582ms
+[NX Daemon Server] - 2024-06-22T06:50:15.890Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:50:15.891Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:50:21.465Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:50:21.466Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:50:22.293Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:50:22.294Z - [REQUEST]: client/modules/affiliate-seo/defaults.ts
+[NX Daemon Server] - 2024-06-22T06:50:22.294Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:50:22.358Z - Time taken for 'hash changed files from watcher' 0.6572079658508301ms
+[NX Daemon Server] - 2024-06-22T06:50:33.790Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:50:33.791Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:50:36.606Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:50:36.607Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:50:40.191Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:50:40.192Z - [REQUEST]: client/modules/affiliate-seo/defaults.ts
+[NX Daemon Server] - 2024-06-22T06:50:40.192Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:50:40.253Z - Time taken for 'hash changed files from watcher' 0.6661248207092285ms
+[NX Daemon Server] - 2024-06-22T06:50:49.963Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:50:49.964Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:50:55.233Z - [WATCHER]: client/modules/affiliate-seo/types.ts was modified
+[NX Daemon Server] - 2024-06-22T06:50:55.233Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:50:56.270Z - [WATCHER]: client/modules/affiliate-seo/types.ts was modified
+[NX Daemon Server] - 2024-06-22T06:50:56.271Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:50:56.366Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:50:56.366Z - [REQUEST]: client/modules/affiliate-seo/defaults.ts,client/modules/affiliate-seo/types.ts
+[NX Daemon Server] - 2024-06-22T06:50:56.366Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:50:56.428Z - Time taken for 'hash changed files from watcher' 0.8964166641235352ms
+[NX Daemon Server] - 2024-06-22T06:50:58.662Z - [WATCHER]: client/modules/affiliate-seo/types.ts was modified
+[NX Daemon Server] - 2024-06-22T06:50:58.663Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:51:01.495Z - [WATCHER]: client/modules/affiliate-seo/types.ts was modified
+[NX Daemon Server] - 2024-06-22T06:51:01.496Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:51:05.065Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:51:05.065Z - [REQUEST]: client/modules/affiliate-seo/types.ts
+[NX Daemon Server] - 2024-06-22T06:51:05.065Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:51:05.132Z - Time taken for 'hash changed files from watcher' 0.6685833930969238ms
+[NX Daemon Server] - 2024-06-22T06:51:07.197Z - [WATCHER]: client/modules/affiliate-seo/types.ts was modified
+[NX Daemon Server] - 2024-06-22T06:51:07.198Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:51:13.599Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:51:13.599Z - [REQUEST]: client/modules/affiliate-seo/types.ts
+[NX Daemon Server] - 2024-06-22T06:51:13.600Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:51:13.663Z - Time taken for 'hash changed files from watcher' 0.854374885559082ms
+[NX Daemon Server] - 2024-06-22T06:51:34.655Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:51:34.655Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:51:36.538Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:51:36.539Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:51:41.057Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:51:41.057Z - [REQUEST]: client/modules/affiliate-seo/defaults.ts
+[NX Daemon Server] - 2024-06-22T06:51:41.057Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:51:41.102Z - Time taken for 'hash changed files from watcher' 0.31166696548461914ms
+[NX Daemon Server] - 2024-06-22T06:51:43.421Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:51:43.422Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:51:45.734Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:51:45.734Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:51:48.029Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:51:48.029Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:51:49.823Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:51:49.823Z - [REQUEST]: client/modules/affiliate-seo/defaults.ts
+[NX Daemon Server] - 2024-06-22T06:51:49.824Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:51:49.886Z - Time taken for 'hash changed files from watcher' 0.8397078514099121ms
+[NX Daemon Server] - 2024-06-22T06:51:50.772Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:51:50.772Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:51:57.173Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:51:57.173Z - [REQUEST]: client/modules/affiliate-seo/defaults.ts
+[NX Daemon Server] - 2024-06-22T06:51:57.173Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:51:57.226Z - Time taken for 'hash changed files from watcher' 0.3369593620300293ms
+[NX Daemon Server] - 2024-06-22T06:52:00.230Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:52:00.230Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:52:02.489Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:52:02.490Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:52:06.632Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:52:06.632Z - [REQUEST]: client/modules/affiliate-seo/defaults.ts
+[NX Daemon Server] - 2024-06-22T06:52:06.633Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:52:06.701Z - Time taken for 'hash changed files from watcher' 0.7152080535888672ms
+[NX Daemon Server] - 2024-06-22T06:52:07.388Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:52:07.388Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:52:13.269Z - [WATCHER]: client/modules/affiliate-seo/defaults.ts was modified
+[NX Daemon Server] - 2024-06-22T06:52:13.270Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:52:13.789Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:52:13.789Z - [REQUEST]: client/modules/affiliate-seo/defaults.ts
+[NX Daemon Server] - 2024-06-22T06:52:13.789Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:52:13.845Z - Time taken for 'hash changed files from watcher' 0.3171658515930176ms
+[NX Daemon Server] - 2024-06-22T06:52:37.629Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:52:37.629Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:52:39.173Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:52:39.173Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:52:41.600Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:52:41.601Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:52:44.032Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:52:44.032Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:52:44.032Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:52:44.091Z - Time taken for 'hash changed files from watcher' 0.660374641418457ms
+[NX Daemon Server] - 2024-06-22T06:53:04.208Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:53:04.208Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:53:10.610Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:53:10.611Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:53:10.611Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:53:10.675Z - Time taken for 'hash changed files from watcher' 0.6791253089904785ms
+[NX Daemon Server] - 2024-06-22T06:53:16.087Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:53:16.088Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:53:19.450Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:53:19.450Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:53:21.933Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:53:21.934Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:53:22.490Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:53:22.491Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:53:22.491Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:53:22.554Z - Time taken for 'hash changed files from watcher' 1.0278754234313965ms
+[NX Daemon Server] - 2024-06-22T06:53:30.021Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:53:30.021Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:53:34.084Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:53:34.085Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:53:36.423Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:53:36.424Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:53:36.424Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:53:36.470Z - Time taken for 'hash changed files from watcher' 0.332916259765625ms
+[NX Daemon Server] - 2024-06-22T06:53:40.168Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:53:40.169Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:53:45.149Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:53:45.149Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:53:46.433Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:53:46.434Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:53:46.571Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:53:46.571Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:53:46.571Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:53:46.635Z - Time taken for 'hash changed files from watcher' 0.7962079048156738ms
+[NX Daemon Server] - 2024-06-22T06:53:50.404Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:53:50.405Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:53:56.806Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:53:56.806Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:53:56.806Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:53:56.873Z - Time taken for 'hash changed files from watcher' 0.8621668815612793ms
+[NX Daemon Server] - 2024-06-22T06:53:59.541Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:53:59.542Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:54:02.626Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:54:02.627Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:54:04.354Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:54:04.354Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:54:05.944Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:54:05.944Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:54:05.944Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:54:06.009Z - Time taken for 'hash changed files from watcher' 0.8915419578552246ms
+[NX Daemon Server] - 2024-06-22T06:54:11.228Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:54:11.229Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:54:17.631Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:54:17.632Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:54:17.632Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:54:17.696Z - Time taken for 'hash changed files from watcher' 0.8561248779296875ms
+[NX Daemon Server] - 2024-06-22T06:54:18.180Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:54:18.180Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:54:22.139Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:54:22.139Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:54:24.581Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:54:24.581Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:54:24.581Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:54:24.641Z - Time taken for 'hash changed files from watcher' 0.3581671714782715ms
+[NX Daemon Server] - 2024-06-22T06:54:28.163Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:54:28.163Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:54:30.016Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:54:30.016Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:54:34.565Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:54:34.566Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:54:34.566Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:54:34.631Z - Time taken for 'hash changed files from watcher' 0.5671663284301758ms
+[NX Daemon Server] - 2024-06-22T06:56:32.077Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:56:32.077Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:56:38.480Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:56:38.480Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:56:38.481Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:56:38.543Z - Time taken for 'hash changed files from watcher' 1.0450000762939453ms
+[NX Daemon Server] - 2024-06-22T06:56:40.994Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:56:40.994Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:56:45.271Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:56:45.272Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:56:47.101Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:56:47.101Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:56:47.397Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:56:47.397Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:56:47.397Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:56:47.464Z - Time taken for 'hash changed files from watcher' 0.9042501449584961ms
+[NX Daemon Server] - 2024-06-22T06:56:52.152Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:56:52.152Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:56:56.781Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:56:56.781Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:56:58.554Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:56:58.555Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:56:58.555Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:56:58.612Z - Time taken for 'hash changed files from watcher' 0.9405832290649414ms
+[NX Daemon Server] - 2024-06-22T06:57:01.892Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:57:01.893Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:57:08.295Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:57:08.295Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:57:08.295Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:57:08.364Z - Time taken for 'hash changed files from watcher' 0.5885000228881836ms
+[NX Daemon Server] - 2024-06-22T06:57:08.419Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:57:08.419Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:57:11.198Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:57:11.198Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:57:14.822Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:57:14.822Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:57:14.822Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:57:14.874Z - Time taken for 'hash changed files from watcher' 0.9389996528625488ms
+[NX Daemon Server] - 2024-06-22T06:57:18.000Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:57:18.001Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:57:23.657Z - [WATCHER]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts was modified
+[NX Daemon Server] - 2024-06-22T06:57:23.657Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:57:24.403Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:57:24.404Z - [REQUEST]: client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts
+[NX Daemon Server] - 2024-06-22T06:57:24.404Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:57:24.469Z - Time taken for 'hash changed files from watcher' 0.7604589462280273ms
+[NX Daemon Server] - 2024-06-22T06:57:29.123Z - [WATCHER]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts was modified
+[NX Daemon Server] - 2024-06-22T06:57:29.124Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-22T06:57:35.527Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-22T06:57:35.527Z - [REQUEST]: client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts
+[NX Daemon Server] - 2024-06-22T06:57:35.527Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-22T06:57:35.591Z - Time taken for 'hash changed files from watcher' 0.883209228515625ms
+[NX Daemon Server] - 2024-06-23T12:13:02.698Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-23T12:13:02.701Z - [WATCHER]: Stopping the watcher for /Users/ryo/Documents/personal-projects/affiliate-site-template (sources)
+[NX Daemon Server] - 2024-06-23T12:13:02.701Z - [WATCHER]: Stopping the watcher for /Users/ryo/Documents/personal-projects/affiliate-site-template (outputs)
+[NX Daemon Server] - 2024-06-23T12:13:02.701Z - Server stopped because: "10800000ms of inactivity"

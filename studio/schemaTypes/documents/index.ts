@@ -2,7 +2,7 @@
 import { blogCategory } from './categories/BlogCategory'
 import { reviewCategory } from './categories/ReviewCategory'
 
-/* Page */
 import { page } from './Page'
+import { seo } from './Seo'
 
-export { blogCategory, reviewCategory, page }
+export { blogCategory, reviewCategory, page, seo }
