@@ -2,9 +2,7 @@
   "targetDefaults": {
     "build": {
       "cache": true,
-      "dependsOn": [
-        "^build"
-      ],
+      "dependsOn": [],
       "outputs": [
         "{projectRoot}/dist"
       ]
@@ -13,21 +11,13 @@
       "dependsOn": []
     },
     "generate": {
-      "cache": true,
-      "dependsOn": [
-        "^generate"
-      ],
-      "outputs": [
-        "{projectRoot}/dist"
-      ]
+      "dependsOn": []
     },
     "preview": {
       "dependsOn": []
     },
     "postinstall": {
-      "dependsOn": [
-        "^postinstall"
-      ]
+      "dependsOn": []
     },
     "lint": {
       "dependsOn": []
@@ -36,6 +26,9 @@
       "dependsOn": []
     },
     "typecheck": {
+      "dependsOn": []
+    },
+    "typegen": {
       "dependsOn": []
     },
     "start": {
@@ -48,6 +41,9 @@
       "dependsOn": []
     },
     "format": {
+      "dependsOn": []
+    },
+    "extract": {
       "dependsOn": []
     }
   }

@@ -1,0 +1,44 @@
+{
+  "name": "@affiliate-template/sanity",
+  "private": true,
+  "version": "0.0.0",
+  "main": "package.json",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "sanity dev",
+    "start": "sanity start",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "deploy-graphql": "sanity graphql deploy",
+    "lint": "eslint . --ext .ts,.js",
+    "lint:fix": "eslint . --ext .ts,.js --fix",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "extract": "sanity schema extract --workspace=production && cp schema.json ../app/types/sanity/schema.json",
+    "typegen": "sanity typegen generate --workspace=production && rm -f schema.json",
+    "generate": "npm run extract && npm run typegen",
+    "extract:staging": "sanity schema extract -workspace=staging && cp schema.json ../app/types/sanity/schema.json",
+    "typegen:staging": "sanity typegen generate --workspace=staging && rm -f schema.json",
+    "generate:staging": "npm run extract:staging && npm run typegen:staging"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/vision": "^3.45.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sanity": "^3.46.0",
+    "sanity-plugin-media": "^2.2.5",
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "@sanity/eslint-config-studio": "^4.0.0",
+    "@types/react": "^18.0.25",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.3.1",
+    "typescript": "^5.1.6"
+  }
+}
