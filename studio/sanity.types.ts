@@ -68,6 +68,14 @@ export type Geopoint = {
   alt?: number
 }
 
+export type Style = {
+  _type: 'style'
+  media?: string
+  nonce?: string
+  title?: string
+  id?: string
+}
+
 export type SectionBlock = {
   _type: 'sectionBlock'
   content?: Array<
@@ -112,6 +120,374 @@ export type SectionBlock = {
   >
 }
 
+export type Script = {
+  _type: 'script'
+  async?: boolean
+  crossorigin?: 'anonymous' | 'use-credentials'
+  defer?: boolean
+  fetchpriority?: 'high' | 'low' | 'auto'
+  integrity?: string
+  nomodule?: boolean
+  referrerpolicy?:
+    | 'no-referrer'
+    | 'no-referrer-when-downgrade'
+    | 'origin'
+    | 'origin-when-cross-origin'
+    | 'same-origin'
+    | 'strict-origin'
+    | 'strict-origin-when-cross-origin'
+    | 'unsafe-url'
+  src?: string
+  type?:
+    | 'text/javascript'
+    | 'module'
+    | 'application/json'
+    | 'application/ld+json'
+    | 'speculationrules'
+  id?: string
+}
+
+export type Noscript = {
+  _type: 'noscript'
+  id?: string
+  class?: string
+  style?: string
+}
+
+export type MetaFlat = {
+  _type: 'metaFlat'
+  charset?: 'utf-8'
+  description?: string
+  colorScheme?: 'normal' | 'light dark' | 'dark light' | 'only light'
+  applicationName?: string
+  author?: string
+  creator?: string
+  publisher?: string
+  generator?: string
+  referrer?:
+    | 'no-referrer'
+    | 'no-referrer-when-downgrade'
+    | 'same-origin'
+    | 'origin'
+    | 'strict-origin'
+    | 'origin-when-cross-origin'
+    | 'strict-origin-when-cross-origin'
+    | 'unsafe-url'
+  viewport?: Viewport
+  robots?: Robots
+  google?: 'nositelinkssearchbox' | 'nopagereadaloud'
+  googlebot?:
+    | 'notranslate'
+    | 'noimageindex'
+    | 'noarchive'
+    | 'nosnippet'
+    | 'max-snippet'
+    | 'max-image-preview'
+    | 'max-video-preview'
+  googlebotNews?: 'noindex' | 'nosnippet' | 'notranslate' | 'noimageindex'
+  googleSiteVerification?: string
+  rating?: 'adult'
+  ogUrl?: string
+  ogTitle?: string
+  ogDescription?: string
+  ogType?:
+    | 'website'
+    | 'article'
+    | 'book'
+    | 'profile'
+    | 'music.song'
+    | 'music.album'
+    | 'music.playlist'
+    | 'music.radio_status'
+    | 'video.movie'
+    | 'video.episode'
+    | 'video.tv_show'
+    | 'video.other'
+  ogLocale?: string
+  ogLocaleAlternate?: Array<string>
+  ogDeterminer?: 'a' | 'an' | 'the' | '' | 'auto'
+  ogSiteName?: string
+  ogVideo?: string
+  ogVideoUrl?: string
+  ogVideoSecureUrl?: string
+  ogVideoType?: 'application/x-shockwave-flash' | 'video/mp4'
+  ogVideoWidth?: number
+  ogVideoHeight?: number
+  ogVideoAlt?: string
+  ogImage?: string
+  ogImageUrl?: string
+  ogImageSecureUrl?: string
+  ogImageType?: 'image/jpeg' | 'image/gif' | 'image/png'
+  ogImageWidth?: number
+  ogImageHeight?: number
+  ogImageAlt?: string
+  ogAudio?: string
+  ogAudioUrl?: string
+  ogAudioSecureUrl?: string
+  ogAudioType?: 'audio/mpeg' | 'audio/ogg' | 'audio/wav'
+  fbAppId?: string
+  twitterCard?: 'summary' | 'summary_large_image' | 'app' | 'player'
+  twitterTitle?: string
+  twitterDescription?: string
+  twitterImage?: string
+  twitterImageAlt?: string
+  twitterSite?: string
+  twitterSiteId?: string
+  twitterCreator?: string
+  twitterCreatorId?: string
+  twitterPlayer?: string
+  twitterPlayerWidth?: number
+  twitterPlayerHeight?: number
+  twitterPlayerStream?: string
+  twitterAppNameIphone?: string
+  twitterAppIdIphone?: string
+  twitterAppUrlIphone?: string
+  twitterAppNameIpad?: string
+  twitterAppIdIpad?: string
+  twitterAppUrlIpad?: string
+  twitterAppNameGoogleplay?: string
+  twitterAppIdGoogleplay?: string
+  twitterAppUrlGoogleplay?: string
+  twitterData1?: string
+  twitterLabel1?: string
+  twitterData2?: string
+  twitterLabel2?: string
+  themeColor?: string
+  mobileWebAppCapable?: string
+  appleMobileWebAppCapable?: string
+  appleMobileWebAppStatusBarStyle?: 'default' | 'black' | 'black-translucent'
+  appleMobileWebAppTitle?: string
+  appleItunesApp?: string
+  formatDetection?: string
+  msapplicationTileImage?: string
+  msapplicationTileColor?: string
+  msapplicationConfig?: string
+  contentSecurityPolicy?: string
+  contentType?: string
+  defaultStyle?: string
+  xUaCompatible?: string
+  refresh?: string
+  keywords?: string
+  articleMetadata?: MetaFlatArticle
+  bookMetadata?: MetaFlatBook
+  profileMetadata?: MetaFlatProfile
+}
+
+export type MetaFlatProfile = {
+  _type: 'metaFlatProfile'
+  profileFirstName?: string
+  profileGender?: 'male' | 'female'
+  profileLastName?: string
+  profileUsername?: string
+}
+
+export type MetaFlatBook = {
+  _type: 'metaFlatBook'
+  bookAuthor?: Array<string>
+  bookIsbn?: string
+  bookReleaseDate?: string
+  bookTag?: Array<string>
+}
+
+export type MetaFlatArticle = {
+  _type: 'metaFlatArticle'
+  articleAuthor?: Array<string>
+  articleExpirationTime?: string
+  articleModifiedTime?: string
+  articlePublishedTime?: string
+  articleSection?: string
+  articleTag?: Array<string>
+}
+
+export type Robots = {
+  _type: 'robots'
+  index?: boolean
+  follow?: boolean
+  all?: boolean
+  noindex?: boolean
+  nofollow?: boolean
+  none?: boolean
+  noarchive?: boolean
+  nositelinkssearchbox?: boolean
+  nosnippet?: boolean
+  indexifembedded?: boolean
+  maxSnippet?: number
+  maxImagePreview?: 'none' | 'standard' | 'large'
+  maxVideoPreview?: number
+  notranslate?: boolean
+  unavailable_after?: string
+  noimageindex?: boolean
+}
+
+export type Viewport = {
+  _type: 'viewport'
+  width?: string
+  height?: string
+  initialScale?: string
+  maximumScale?: string
+  minimumScale?: string
+  userScalable?: string
+  viewportFit?: 'auto' | 'contain' | 'cover'
+}
+
+export type Meta = {
+  _type: 'meta'
+  charset?: 'utf-8'
+  content?: string
+  httpEquiv?:
+    | 'content-security-policy'
+    | 'content-type'
+    | 'default-style'
+    | 'x-ua-compatible'
+    | 'refresh'
+    | 'accept-ch'
+  name?: 'viewport' | 'description' | 'keywords' | 'author' | 'generator'
+  property?:
+    | 'og:title'
+    | 'og:description'
+    | 'og:image'
+    | 'twitter:title'
+    | 'twitter:description'
+    | 'twitter:image'
+  id?: string
+  media?: '(prefers-color-scheme: light)' | '(prefers-color-scheme: dark)'
+}
+
+export type Link = {
+  _type: 'link'
+  as?:
+    | 'audio'
+    | 'document'
+    | 'embed'
+    | 'fetch'
+    | 'font'
+    | 'image'
+    | 'object'
+    | 'script'
+    | 'style'
+    | 'track'
+    | 'video'
+    | 'worker'
+  color?: string
+  crossorigin?: 'anonymous' | 'use-credentials'
+  fetchpriority?: 'high' | 'low' | 'auto'
+  href?: string
+  hreflang?: string
+  imagesizes?: string
+  imagesrcset?: string
+  integrity?: string
+  media?: string
+  prefetch?: string
+  referrerpolicy?: string
+  rel?: string
+  sizes?: string
+  title?: string
+  type?: string
+  id?: string
+  onabort?: string
+  onerror?: string
+  onload?: string
+  onprogress?: string
+  onloadstart?: string
+  dataAttributes?: Array<{
+    key?: string
+    value?: string
+    _key: string
+  }>
+}
+
+export type HtmlAttrs = {
+  _type: 'htmlAttrs'
+  class?: string
+}
+
+export type TemplateParams = {
+  _type: 'templateParams'
+  separator?: '|' | '-' | '\xB7' | 'Custom'
+  params?: Array<{
+    key?: string
+    value?: string
+    _key: string
+  }>
+}
+
+export type BodyAttrs = {
+  _type: 'bodyAttrs'
+  class?: string
+  style?: string
+  onload?: string
+  onunload?: string
+}
+
+export type Base = {
+  _type: 'base'
+  href?: string
+  target?: string
+}
+
+export type Seo = {
+  _id: string
+  _type: 'seo'
+  _createdAt: string
+  _updatedAt: string
+  _rev: string
+  headInput?: HeadInput
+  seoMetaInput?: SeoMetaInput
+  headOptions?: HeadOptions
+  seoMetaOptions?: HeadOptions
+}
+
+export type HeadOptions = {
+  _type: 'headOptions'
+  mode?: 'server' | 'client'
+  transform?: string
+  tagPosition?: 'head' | 'bodyOpen' | 'bodyClose'
+  tagPriority?: 'critical' | 'high' | 'low' | 'before' | 'after'
+  processTemplateParams?: boolean
+}
+
+export type SeoMetaInput = {
+  _type: 'seoMetaInput'
+  title?: string
+  titleTemplate?: string
+  metaFlat?: MetaFlat
+}
+
+export type HeadInput = {
+  _type: 'headInput'
+  title?: string
+  titleTemplate?: string
+  templateParams?: TemplateParams
+  base?: Base
+  link?: Array<
+    {
+      _key: string
+    } & Link
+  >
+  meta?: Array<
+    {
+      _key: string
+    } & Meta
+  >
+  style?: Array<
+    {
+      _key: string
+    } & Style
+  >
+  script?: Array<
+    {
+      _key: string
+    } & Script
+  >
+  noscript?: Array<
+    {
+      _key: string
+    } & Noscript
+  >
+  htmlAttrs?: HtmlAttrs
+  bodyAttrs?: BodyAttrs
+}
+
 export type ReviewCategory = {
   _id: string
   _type: 'reviewCategory'
@@ -136,6 +512,18 @@ export type Page = {
     _key: string
     [internalGroqTypeReferenceTo]?: 'blogPost'
   }>
+  seo?: {
+    _ref: string
+    _type: 'reference'
+    _weak?: boolean
+    [internalGroqTypeReferenceTo]?: 'seo'
+  }
+}
+
+export type Document = {
+  _type: 'reference'
+  _ref: string
+  _weak?: boolean
 }
 
 export type Slug = {
