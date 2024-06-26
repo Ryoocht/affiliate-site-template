@@ -1,6 +1,7 @@
 import {
+  addImports,
   addImportsDir,
-  addRouteMiddleware,
+  addPlugin,
   createResolver,
   defineNuxtModule,
 } from 'nuxt/kit'
@@ -24,10 +25,16 @@ export default defineNuxtModule({
     addImportsDir(resolve('./runtime/composables'))
     addImportsDir(resolve('./runtime/utils'))
 
-    addRouteMiddleware({
-      name: 'affiliate-seo',
-      path: resolve('./runtime/middleware/seo.ts'),
-      global: true,
+    addImports([
+      {
+        name: 'useAffiliateSeo',
+        from: resolve('./runtime/composables/useAffiliateSeo.ts'),
+      },
+    ])
+
+    addPlugin({
+      src: resolve('./runtime/plugins/affiliate-seo.ts'),
+      mode: 'all',
     })
 
     console.log({ initialOptions })
