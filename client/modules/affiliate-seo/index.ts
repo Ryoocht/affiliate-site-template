@@ -1,4 +1,9 @@
-import { createResolver, defineNuxtModule } from 'nuxt/kit'
+import {
+  addImportsDir,
+  addRouteMiddleware,
+  createResolver,
+  defineNuxtModule,
+} from 'nuxt/kit'
 import type { Nuxt } from '@nuxt/schema'
 import type { ModuleOptions } from './types'
 
@@ -14,9 +19,18 @@ export default defineNuxtModule({
     something: false,
   },
   async setup(initialOptions: ModuleOptions, nuxt: Nuxt) {
-    const resolver = createResolver(import.meta.url)
+    const { resolve } = createResolver(import.meta.url)
+
+    addImportsDir(resolve('./runtime/composables'))
+    addImportsDir(resolve('./runtime/utils'))
+
+    addRouteMiddleware({
+      name: 'affiliate-seo',
+      path: resolve('./runtime/middleware/seo.ts'),
+      global: true,
+    })
+
     console.log({ initialOptions })
     console.log({ nuxt })
-    console.log({ resolver })
   },
 })
