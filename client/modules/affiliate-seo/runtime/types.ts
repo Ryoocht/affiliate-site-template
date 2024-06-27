@@ -6,7 +6,8 @@ import type {
 } from '@unhead/vue'
 
 export interface ModuleOptions {
-  locale: 'en'
+  locale?: 'en'
+  dataset?: string
 }
 
 export type NuxtHeadInput = UseHeadInput<MergeHead>
@@ -18,4 +19,9 @@ export interface AffiliateSeoResponse {
   seoMetaInput?: NuxtSeoMetaInput
   headOptions?: NuxtHeadOptions
   seoMetaOptions?: NuxtHeadOptions
+}
+
+export interface SeoArgs {
+  slug: string
+  options?: ModuleOptions
 }

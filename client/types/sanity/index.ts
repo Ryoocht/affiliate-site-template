@@ -723,7 +723,7 @@ export type ResponsiveAsset = {
   }
 }
 export declare const internalGroqTypeReferenceTo: unique symbol
-// Source: ./server/api/blogs/[slug].get.ts
+// Source: server/api/blogs/[slug].get.ts
 // Variable: getBlogPage
 // Query:     *[_type == "page" && slug.current == $slug][0] {        "pageSectionRef": pageSections[_type == "blogPost"][0]._ref    }
 export type GetBlogPageResult = {
@@ -790,7 +790,7 @@ export type GetBlogResult = {
     slug: string | null
   } | null> | null
 } | null
-// Source: ./server/api/blogs/index.get.ts
+// Source: server/api/blogs/index.get.ts
 // Variable: getBlogs
 // Query:     {      "featuredBlog": *[_type == 'blogPost' && featured == true][0] {        "slug": *[_type == 'page' && references(^._id)][0].slug.current,        title,        excerpt,        timeToRead,        "mainImage": {          "altText": mainImage.altText,          "assetId": mainImage.mobileAsset.asset->_id,          "assetUrl": mainImage.mobileAsset.asset->url,          "caption": mainImage.mobileAsset.caption        }      },      "categoryList": *[_type == "blogCategory" && count(*[_type == "blogPost" && references(^._id)]) > 3] {        "slug": category.slug.current,        "title": category.title,        "posts": *[_type == "blogPost" && references(^._id)] | order(_createdAt desc) [0..2] {          "slug": *[_type == 'page' && references(^._id)][0].slug.current,          title,          excerpt,          timeToRead,          "mainImage": {            "altText": mainImage.altText,            "assetId": mainImage.mobileAsset.asset->_id,            "assetUrl": mainImage.mobileAsset.asset->url,            "caption": mainImage.mobileAsset.caption          }        }      }    }
 export type GetBlogsResult = {
@@ -823,3 +823,14 @@ export type GetBlogsResult = {
     }>
   }>
 }
+// Source: modules/affiliate-seo/runtime/composables/useAsyncSanity.ts
+// Variable: getSeoMetadata
+// Query:   *[_type == 'page' && slug.current == $slug] {    "seo": seo {      headInput,      seoMetaInput,      headOptions,      seoMetaOptions    }  }
+export type GetSeoMetadataResult = Array<{
+  seo: {
+    headInput: null
+    seoMetaInput: null
+    headOptions: null
+    seoMetaOptions: null
+  } | null
+}>

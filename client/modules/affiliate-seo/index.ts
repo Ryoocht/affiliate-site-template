@@ -15,6 +15,7 @@ export default defineNuxtModule({
   },
   defaults: {
     locale: 'en',
+    dataset: 'production',
   },
   async setup() {
     const { resolve } = createResolver(import.meta.url)
