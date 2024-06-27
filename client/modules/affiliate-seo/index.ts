@@ -1,12 +1,9 @@
 import {
-  addImports,
   addImportsDir,
   addPlugin,
   createResolver,
   defineNuxtModule,
 } from 'nuxt/kit'
-import type { Nuxt } from '@nuxt/schema'
-import type { ModuleOptions } from './types'
 
 export default defineNuxtModule({
   meta: {
@@ -17,27 +14,17 @@ export default defineNuxtModule({
     },
   },
   defaults: {
-    something: false,
+    locale: 'en',
   },
-  async setup(initialOptions: ModuleOptions, nuxt: Nuxt) {
+  async setup() {
     const { resolve } = createResolver(import.meta.url)
 
     addImportsDir(resolve('./runtime/composables'))
     addImportsDir(resolve('./runtime/utils'))
 
-    addImports([
-      {
-        name: 'useAffiliateSeo',
-        from: resolve('./runtime/composables/useAffiliateSeo.ts'),
-      },
-    ])
-
     addPlugin({
       src: resolve('./runtime/plugins/affiliate-seo.ts'),
       mode: 'all',
     })
-
-    console.log({ initialOptions })
-    console.log({ nuxt })
   },
 })

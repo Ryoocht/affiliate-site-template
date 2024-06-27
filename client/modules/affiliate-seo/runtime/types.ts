@@ -4,8 +4,9 @@ import type {
   UseHeadOptions,
   MergeHead,
 } from '@unhead/vue'
+
 export interface ModuleOptions {
-  something?: boolean
+  locale: 'en'
 }
 
 export type NuxtHeadInput = UseHeadInput<MergeHead>

@@ -1,4 +1,4 @@
-import type { AffiliateSeoResponse } from '../../types'
+import type { AffiliateSeoResponse } from '../types'
 
 export default function mergeSeoData(
   defaults: AffiliateSeoResponse,
