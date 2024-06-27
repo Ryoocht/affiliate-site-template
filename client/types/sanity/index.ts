@@ -825,7 +825,7 @@ export type GetBlogsResult = {
 }
 // Source: modules/affiliate-seo/runtime/composables/useAsyncSanity.ts
 // Variable: getSeoMetadata
-// Query:   *[_type == 'page' && slug.current == $slug] {    "seo": seo {      headInput,      seoMetaInput,      headOptions,      seoMetaOptions    }  }
+// Query:     *[_type == 'page' && slug.current == $slug] {      "seo": seo {        headInput,        seoMetaInput,        headOptions,        seoMetaOptions      }    }  
 export type GetSeoMetadataResult = Array<{
   seo: {
     headInput: null

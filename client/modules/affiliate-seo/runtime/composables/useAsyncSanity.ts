@@ -1,17 +1,6 @@
 import type { SeoArgs } from '../types'
 import type { GetSeoMetadataResult } from '~/types/sanity'
 
-const getSeoMetadata = groq`
-  *[_type == 'page' && slug.current == $slug] {
-    "seo": seo {
-      headInput,
-      seoMetaInput,
-      headOptions,
-      seoMetaOptions
-    }
-  }
-`
-
 export async function useAsyncSanity(
   seoArgs: SeoArgs,
 ): Promise<Ref<GetSeoMetadataResult> | null> {
@@ -19,6 +8,17 @@ export async function useAsyncSanity(
 
   try {
     const sanity = useSanity()
+
+    const getSeoMetadata = groq`
+    *[_type == 'page' && slug.current == $slug] {
+      "seo": seo {
+        headInput,
+        seoMetaInput,
+        headOptions,
+        seoMetaOptions
+      }
+    }
+  `
 
     const params = { slug: seoArgs.slug }
 
