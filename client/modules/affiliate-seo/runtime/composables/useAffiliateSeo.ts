@@ -13,5 +13,7 @@ export default async function useAffiliateSeo(seoArgs: SeoArgs) {
 
   const { seoData } = mergeSeoData(defaults, dummyData)
 
+  console.log({ seoData })
+
   return seoData
 }

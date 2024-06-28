@@ -89,6 +89,7 @@ export const dummySeoData: GetSeoMetadataResult = [
         _type: 'seoMetaInput',
         title: 'How to Choose the Best Online Casino',
         titleTemplate: '%s | Casino Guide',
+        /* TODO: this really needs to be flatten in the schema level */
         metaFlat: {
           _type: 'metaFlat',
           description:

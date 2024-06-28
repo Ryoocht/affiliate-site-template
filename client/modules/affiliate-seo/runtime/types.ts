@@ -15,10 +15,10 @@ export type NuxtSeoMetaInput = UseSeoMetaInput
 export type NuxtHeadOptions = UseHeadOptions
 
 export interface AffiliateSeoResponse {
-  headInput?: NuxtHeadInput
-  seoMetaInput?: NuxtSeoMetaInput
-  headOptions?: NuxtHeadOptions
-  seoMetaOptions?: NuxtHeadOptions
+  headInput?: NuxtHeadInput | null
+  seoMetaInput?: NuxtSeoMetaInput | null
+  headOptions?: NuxtHeadOptions | null
+  seoMetaOptions?: NuxtHeadOptions | null
 }
 
 export interface SeoArgs {

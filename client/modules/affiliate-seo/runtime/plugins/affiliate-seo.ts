@@ -9,6 +9,9 @@ export default defineNuxtPlugin(() => {
   addRouteMiddleware(
     'test',
     () => {
+      useAffiliateSeo({
+        slug: 'how-to-choose-page',
+      })
       console.log('global middleware that runs on every route change')
     },
     { global: true },
