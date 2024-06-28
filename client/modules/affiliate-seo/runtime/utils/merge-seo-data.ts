@@ -1,8 +1,9 @@
+import type { GetSeoMetadataResult } from '@/types/sanity'
 import type { AffiliateSeoResponse } from '../types'
 
 export default function mergeSeoData(
   defaults: AffiliateSeoResponse,
-  data: unknown,
+  data: Ref<GetSeoMetadataResult>,
 ): { seoData: ComputedRef<AffiliateSeoResponse> } {
   const seoData = computed(() => {
     const response = data

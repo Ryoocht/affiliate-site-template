@@ -730,7 +730,7 @@ export type GetBlogPageResult = {
   pageSectionRef: null
 } | null
 // Variable: getBlog
-// Query:     *[_type == "blogPost" && _id == $pageSectionRef][0] {      title,      excerpt,      releaseTime,      timeToRead,      "mainImage": {        "altText": mainImage.altText,        "assetId": mainImage.mobileAsset.asset->_id,        "assetUrl": mainImage.mobileAsset.asset->url,        "caption": mainImage.mobileAsset.caption      },      body,      "categories": categories[]->category {        title,        "slug": slug.current      }    }  
+// Query:     *[_type == "blogPost" && _id == $pageSectionRef][0] {      title,      excerpt,      releaseTime,      timeToRead,      "mainImage": {        "altText": mainImage.altText,        "assetId": mainImage.mobileAsset.asset->_id,        "assetUrl": mainImage.mobileAsset.asset->url,        "caption": mainImage.mobileAsset.caption      },      body,      "categories": categories[]->category {        title,        "slug": slug.current      }    }
 export type GetBlogResult = {
   title: string | null
   excerpt: string | null
@@ -825,12 +825,12 @@ export type GetBlogsResult = {
 }
 // Source: modules/affiliate-seo/runtime/composables/useAsyncSanity.ts
 // Variable: getSeoMetadata
-// Query:     *[_type == 'page' && slug.current == $slug] {      "seo": seo {        headInput,        seoMetaInput,        headOptions,        seoMetaOptions      }    }  
+// Query:     *[_type == 'page' && slug.current == $slug] {      "seo": seo {        headInput,        seoMetaInput,        headOptions,        seoMetaOptions      }    }
 export type GetSeoMetadataResult = Array<{
   seo: {
-    headInput: null
-    seoMetaInput: null
-    headOptions: null
-    seoMetaOptions: null
+    headInput: HeadInput | null
+    seoMetaInput: SeoMetaInput | null
+    headOptions: HeadOptions | null
+    seoMetaOptions: HeadOptions | null
   } | null
 }>
