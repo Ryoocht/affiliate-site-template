@@ -10,40 +10,40 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "lerna.json",
-        "hash": "10307142885639291195"
-      },
-      {
-        "file": "package.json",
-        "hash": "740882920333948351"
-      },
-      {
-        "file": "README.md",
-        "hash": "9462746106056446778"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "1427828150180811530"
-      },
-      {
         "file": ".github/workflows/format.yml",
         "hash": "10510775125598586047"
       },
       {
-        "file": "package-lock.json",
-        "hash": "7517221626291777544"
-      },
-      {
-        "file": "nx.json",
-        "hash": "17653976192751232416"
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
       },
       {
         "file": ".prettierrc",
         "hash": "17661401825457607264"
       },
       {
-        "file": ".gitignore",
-        "hash": "16722851342459420272"
+        "file": ".vscode/settings.json",
+        "hash": "1427828150180811530"
+      },
+      {
+        "file": "README.md",
+        "hash": "9462746106056446778"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "10307142885639291195"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17653976192751232416"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "1954652812286932939"
+      },
+      {
+        "file": "package.json",
+        "hash": "740882920333948351"
       }
     ],
     "projectFileMap": {
@@ -104,7 +104,7 @@
         },
         {
           "file": "studio/sanity.types.ts",
-          "hash": "12190926707085798190"
+          "hash": "17455928957611214310"
         },
         {
           "file": "studio/sanity/types.ts",
@@ -128,7 +128,11 @@
         },
         {
           "file": "studio/schemaTypes/documents/Page.ts",
-          "hash": "6077415606303127041"
+          "hash": "16556904220390823805"
+        },
+        {
+          "file": "studio/schemaTypes/documents/Seo.ts",
+          "hash": "10178888327643530965"
         },
         {
           "file": "studio/schemaTypes/documents/categories/BlogCategory.ts",
@@ -140,7 +144,7 @@
         },
         {
           "file": "studio/schemaTypes/documents/index.ts",
-          "hash": "7705263178029296448"
+          "hash": "10820083731139805742"
         },
         {
           "file": "studio/schemaTypes/heroBlock.ts",
@@ -167,12 +171,84 @@
           "hash": "11375927819616677803"
         },
         {
+          "file": "studio/schemaTypes/objects/fields/HeadInput.ts",
+          "hash": "13227657538412148241"
+        },
+        {
+          "file": "studio/schemaTypes/objects/fields/HeadOptions.ts",
+          "hash": "4732984682689282219"
+        },
+        {
           "file": "studio/schemaTypes/objects/fields/ResponsiveAsset.ts",
           "hash": "7738000908697378116"
         },
         {
+          "file": "studio/schemaTypes/objects/fields/SeoMetaInput.ts",
+          "hash": "17110241194116922795"
+        },
+        {
           "file": "studio/schemaTypes/objects/index.ts",
-          "hash": "2775611128445842755"
+          "hash": "8726343106266512612"
+        },
+        {
+          "file": "studio/schemaTypes/objects/metadata/Base.ts",
+          "hash": "16920089296095543706"
+        },
+        {
+          "file": "studio/schemaTypes/objects/metadata/BodyAttrs.ts",
+          "hash": "10773091477863034696"
+        },
+        {
+          "file": "studio/schemaTypes/objects/metadata/HtmlAttrs.ts",
+          "hash": "1164073176218780851"
+        },
+        {
+          "file": "studio/schemaTypes/objects/metadata/Link.ts",
+          "hash": "10672167562908205205"
+        },
+        {
+          "file": "studio/schemaTypes/objects/metadata/Meta.ts",
+          "hash": "8680256867986495053"
+        },
+        {
+          "file": "studio/schemaTypes/objects/metadata/MetaFlat.ts",
+          "hash": "7581350503173333669"
+        },
+        {
+          "file": "studio/schemaTypes/objects/metadata/MetaFlatArticle.ts",
+          "hash": "4534478299721141074"
+        },
+        {
+          "file": "studio/schemaTypes/objects/metadata/MetaFlatBook.ts",
+          "hash": "8043985825328576544"
+        },
+        {
+          "file": "studio/schemaTypes/objects/metadata/MetaFlatProfile.ts",
+          "hash": "12608756668496145591"
+        },
+        {
+          "file": "studio/schemaTypes/objects/metadata/NoScript.ts",
+          "hash": "10671147951144653656"
+        },
+        {
+          "file": "studio/schemaTypes/objects/metadata/Robots.ts",
+          "hash": "11919879106835893957"
+        },
+        {
+          "file": "studio/schemaTypes/objects/metadata/Script.ts",
+          "hash": "1824956626855671222"
+        },
+        {
+          "file": "studio/schemaTypes/objects/metadata/Style.ts",
+          "hash": "15706875740193867094"
+        },
+        {
+          "file": "studio/schemaTypes/objects/metadata/TemplateParams.ts",
+          "hash": "3147666455926938944"
+        },
+        {
+          "file": "studio/schemaTypes/objects/metadata/Viewport.ts",
+          "hash": "9828003334329855936"
         },
         {
           "file": "studio/schemaTypes/olgPage.ts",
@@ -231,6 +307,10 @@
         {
           "file": "client/assets/fake/menu.ts",
           "hash": "14297331834520318574"
+        },
+        {
+          "file": "client/assets/fake/seo.ts",
+          "hash": "11069793703525058037"
         },
         {
           "file": "client/assets/svgs/hero-dots.svg",
@@ -413,20 +493,44 @@
           "hash": "13364729555019854854"
         },
         {
-          "file": "client/modules/affiliate-seo/composables/useAffiliateSeo.ts",
-          "hash": "4728890163124132088"
+          "file": "client/modules/affiliate-seo/index.ts",
+          "hash": "3082267873044626728"
         },
         {
-          "file": "client/modules/affiliate-seo/defaults.ts",
+          "file": "client/modules/affiliate-seo/runtime/composables/index.ts",
+          "hash": "4967561770341931229"
+        },
+        {
+          "file": "client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts",
+          "hash": "6017156788359326748"
+        },
+        {
+          "file": "client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts",
+          "hash": "14093138119698988894"
+        },
+        {
+          "file": "client/modules/affiliate-seo/runtime/composables/useRouteInfo.ts",
+          "hash": "15461475048540148494"
+        },
+        {
+          "file": "client/modules/affiliate-seo/runtime/defaults.ts",
           "hash": "4301679192869104537"
         },
         {
-          "file": "client/modules/affiliate-seo/index.ts",
-          "hash": "4734642409300494095"
+          "file": "client/modules/affiliate-seo/runtime/plugins/affiliate-seo.ts",
+          "hash": "2954911959788075812"
         },
         {
-          "file": "client/modules/affiliate-seo/types.ts",
-          "hash": "10776641982579680494"
+          "file": "client/modules/affiliate-seo/runtime/types.ts",
+          "hash": "13207159796156992165"
+        },
+        {
+          "file": "client/modules/affiliate-seo/runtime/utils/format-seo-data.ts",
+          "hash": "8671710719915829713"
+        },
+        {
+          "file": "client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts",
+          "hash": "292526327959618512"
         },
         {
           "file": "client/nuxt.config.ts",
@@ -638,11 +742,11 @@
         },
         {
           "file": "client/types/sanity/index.ts",
-          "hash": "15050726923767541517"
+          "hash": "12910132718076292518"
         },
         {
           "file": "client/types/sanity/sanity-typegen.json",
-          "hash": "7440278078179490885"
+          "hash": "16208313724789546039"
         },
         {
           "file": "client/types/temp-types.ts",
@@ -659,26 +763,6 @@
         {
           "file": "client/vitest.config.ts",
           "hash": "16631363833474071228"
-        },
-        {
-          "file": "client/modules/affiliate-seo/hooks.ts",
-          "hash": "3190174726689591200"
-        },
-        {
-          "file": "client/modules/affiliate-seo/runtime/composables/index.ts",
-          "hash": "4967561770341931229"
-        },
-        {
-          "file": "client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts",
-          "hash": "2841021579683265368"
-        },
-        {
-          "file": "client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts",
-          "hash": "6544919361575812942"
-        },
-        {
-          "file": "client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts",
-          "hash": "11486221977653664774"
         }
       ]
     }

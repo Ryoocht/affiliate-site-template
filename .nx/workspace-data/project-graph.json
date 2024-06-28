@@ -3452,24 +3452,6 @@
         "hash": "sha512-TFKiRkKKsRCKvg/jTSSKK7mYLJEQdUiUfykbG49rubC9SfDyvT2JrzTReopWlz2MxqeLyxh9UZhvxEIBgAhtrg=="
       }
     },
-    "npm:@vue/compiler-dom@3.4.27": {
-      "type": "npm",
-      "name": "npm:@vue/compiler-dom@3.4.27",
-      "data": {
-        "version": "3.4.27",
-        "packageName": "@vue/compiler-dom",
-        "hash": "12177517495123990098"
-      }
-    },
-    "npm:@vue/compiler-dom": {
-      "type": "npm",
-      "name": "npm:@vue/compiler-dom",
-      "data": {
-        "version": "3.4.29",
-        "packageName": "@vue/compiler-dom",
-        "hash": "sha512-A6+iZ2fKIEGnfPJejdB7b1FlJzgiD+Y/sxxKwJWg1EbJu6ZPgzaPQQ51ESGNv0CP6jm6Z7/pO6Ia8Ze6IKrX7w=="
-      }
-    },
     "npm:@vue/devtools-api@6.6.1": {
       "type": "npm",
       "name": "npm:@vue/devtools-api@6.6.1",
@@ -13008,6 +12990,15 @@
         "version": "4.3.1",
         "packageName": "@vitejs/plugin-react",
         "hash": "sha512-m/V2syj5CuVnaxcUJOQRel/Wr31FFXRFlnOoq1TVtkCxsY5veGMTEmpWHndrhB2U8ScHtCQB1e+4hWYExQc6Lg=="
+      }
+    },
+    "npm:@vue/compiler-dom": {
+      "type": "npm",
+      "name": "npm:@vue/compiler-dom",
+      "data": {
+        "version": "3.4.29",
+        "packageName": "@vue/compiler-dom",
+        "hash": "sha512-A6+iZ2fKIEGnfPJejdB7b1FlJzgiD+Y/sxxKwJWg1EbJu6ZPgzaPQQ51ESGNv0CP6jm6Z7/pO6Ia8Ze6IKrX7w=="
       }
     },
     "npm:@vue/compiler-sfc": {
@@ -24102,18 +24093,6 @@
         "type": "static"
       }
     ],
-    "npm:@vue/compiler-dom@3.4.27": [
-      {
-        "source": "npm:@vue/compiler-dom@3.4.27",
-        "target": "npm:@vue/compiler-core@3.4.27",
-        "type": "static"
-      },
-      {
-        "source": "npm:@vue/compiler-dom@3.4.27",
-        "target": "npm:@vue/shared@3.4.27",
-        "type": "static"
-      }
-    ],
     "npm:@vue/devtools-applet@7.2.1": [
       {
         "source": "npm:@vue/devtools-applet@7.2.1",
@@ -24307,7 +24286,7 @@
       },
       {
         "source": "npm:@vue/language-core@1.8.27",
-        "target": "npm:@vue/compiler-dom@3.4.27",
+        "target": "npm:@vue/compiler-dom",
         "type": "static"
       },
       {
@@ -31964,7 +31943,7 @@
       },
       {
         "source": "npm:vite-plugin-vue-inspector@5.1.1",
-        "target": "npm:@vue/compiler-dom@3.4.27",
+        "target": "npm:@vue/compiler-dom",
         "type": "static"
       },
       {
