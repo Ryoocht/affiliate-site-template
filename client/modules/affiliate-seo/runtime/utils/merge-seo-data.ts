@@ -1,33 +1,18 @@
+import defu from 'defu'
+import flattenSeoData from './format-seo-data'
 import type { GetSeoMetadataResult } from '@/types/sanity'
 import type { AffiliateSeoResponse } from '../types'
-import flattenSeoData from './format-seo-data'
 
-import { dummySeoData } from '~/assets/fake/seo'
-
-function applyDefaults(
-  defaults: AffiliateSeoResponse,
-  data: AffiliateSeoResponse,
-) {
-  return {
-    headInput: null,
-    seoMetaInput: null,
-    headOptions: null,
-    seoMetaOptions: null,
-  } as AffiliateSeoResponse
+function applyDefaults<T extends AffiliateSeoResponse>(defaults: T, data: T) {
+  return defu(data, defaults) as T
 }
 
 export default function mergeSeoData(
   defaults: AffiliateSeoResponse,
   data: Ref<GetSeoMetadataResult> | null,
 ): { seoData: ComputedRef<AffiliateSeoResponse> } {
-  const formattedData = flattenSeoData(dummySeoData)
-  console.log({ formattedData })
-  console.log({ defaults })
-
   const seoData = computed(() => {
-    const formattedData = flattenSeoData(dummySeoData)
-    console.log({ defaults })
-    console.log({ formattedData })
+    const formattedData = flattenSeoData(data?.value)
 
     return applyDefaults(defaults, formattedData)
   })

@@ -3434,24 +3434,6 @@
         "hash": "16969850037536434742"
       }
     },
-    "npm:@vue/compiler-core@3.4.27": {
-      "type": "npm",
-      "name": "npm:@vue/compiler-core@3.4.27",
-      "data": {
-        "version": "3.4.27",
-        "packageName": "@vue/compiler-core",
-        "hash": "14293694953857719547"
-      }
-    },
-    "npm:@vue/compiler-core": {
-      "type": "npm",
-      "name": "npm:@vue/compiler-core",
-      "data": {
-        "version": "3.4.29",
-        "packageName": "@vue/compiler-core",
-        "hash": "sha512-TFKiRkKKsRCKvg/jTSSKK7mYLJEQdUiUfykbG49rubC9SfDyvT2JrzTReopWlz2MxqeLyxh9UZhvxEIBgAhtrg=="
-      }
-    },
     "npm:@vue/devtools-api@6.6.1": {
       "type": "npm",
       "name": "npm:@vue/devtools-api@6.6.1",
@@ -3531,24 +3513,6 @@
         "version": "1.8.27",
         "packageName": "@vue/language-core",
         "hash": "10366168026187007409"
-      }
-    },
-    "npm:@vue/shared@3.4.27": {
-      "type": "npm",
-      "name": "npm:@vue/shared@3.4.27",
-      "data": {
-        "version": "3.4.27",
-        "packageName": "@vue/shared",
-        "hash": "16043179302646441863"
-      }
-    },
-    "npm:@vue/shared": {
-      "type": "npm",
-      "name": "npm:@vue/shared",
-      "data": {
-        "version": "3.4.29",
-        "packageName": "@vue/shared",
-        "hash": "sha512-hQ2gAQcBO/CDpC82DCrinJNgOHI2v+FA7BDW4lMSPeBpQ7sRe2OLHWe5cph1s7D8DUQAwRt18dBDfJJ220APEA=="
       }
     },
     "npm:@vue/test-utils@2.4.6": {
@@ -12992,6 +12956,15 @@
         "hash": "sha512-m/V2syj5CuVnaxcUJOQRel/Wr31FFXRFlnOoq1TVtkCxsY5veGMTEmpWHndrhB2U8ScHtCQB1e+4hWYExQc6Lg=="
       }
     },
+    "npm:@vue/compiler-core": {
+      "type": "npm",
+      "name": "npm:@vue/compiler-core",
+      "data": {
+        "version": "3.4.29",
+        "packageName": "@vue/compiler-core",
+        "hash": "sha512-TFKiRkKKsRCKvg/jTSSKK7mYLJEQdUiUfykbG49rubC9SfDyvT2JrzTReopWlz2MxqeLyxh9UZhvxEIBgAhtrg=="
+      }
+    },
     "npm:@vue/compiler-dom": {
       "type": "npm",
       "name": "npm:@vue/compiler-dom",
@@ -13053,6 +13026,15 @@
         "version": "3.4.29",
         "packageName": "@vue/server-renderer",
         "hash": "sha512-HMLCmPI2j/k8PVkSBysrA2RxcxC5DgBiCdj7n7H2QtR8bQQPqKAe8qoaxLcInzouBmzwJ+J0x20ygN/B5mYBng=="
+      }
+    },
+    "npm:@vue/shared": {
+      "type": "npm",
+      "name": "npm:@vue/shared",
+      "data": {
+        "version": "3.4.29",
+        "packageName": "@vue/shared",
+        "hash": "sha512-hQ2gAQcBO/CDpC82DCrinJNgOHI2v+FA7BDW4lMSPeBpQ7sRe2OLHWe5cph1s7D8DUQAwRt18dBDfJJ220APEA=="
       }
     },
     "npm:@yarnpkg/lockfile": {
@@ -19969,6 +19951,11 @@
       },
       {
         "source": "affiliate-client-template",
+        "target": "npm:defu",
+        "type": "static"
+      },
+      {
+        "source": "affiliate-client-template",
         "target": "npm:nuxt@3.11.2",
         "type": "static"
       },
@@ -22210,7 +22197,7 @@
       },
       {
         "source": "npm:@nuxtjs/mdc@0.6.1",
-        "target": "npm:@vue/compiler-core@3.4.27",
+        "target": "npm:@vue/compiler-core",
         "type": "static"
       },
       {
@@ -24066,33 +24053,6 @@
         "type": "static"
       }
     ],
-    "npm:@vue/compiler-core@3.4.27": [
-      {
-        "source": "npm:@vue/compiler-core@3.4.27",
-        "target": "npm:@babel/parser",
-        "type": "static"
-      },
-      {
-        "source": "npm:@vue/compiler-core@3.4.27",
-        "target": "npm:@vue/shared@3.4.27",
-        "type": "static"
-      },
-      {
-        "source": "npm:@vue/compiler-core@3.4.27",
-        "target": "npm:entities",
-        "type": "static"
-      },
-      {
-        "source": "npm:@vue/compiler-core@3.4.27",
-        "target": "npm:estree-walker@2.0.2",
-        "type": "static"
-      },
-      {
-        "source": "npm:@vue/compiler-core@3.4.27",
-        "target": "npm:source-map-js",
-        "type": "static"
-      }
-    ],
     "npm:@vue/devtools-applet@7.2.1": [
       {
         "source": "npm:@vue/devtools-applet@7.2.1",
@@ -24291,7 +24251,7 @@
       },
       {
         "source": "npm:@vue/language-core@1.8.27",
-        "target": "npm:@vue/shared@3.4.27",
+        "target": "npm:@vue/shared",
         "type": "static"
       },
       {
@@ -28573,7 +28533,7 @@
       },
       {
         "source": "npm:nuxt@3.11.2",
-        "target": "npm:@vue/shared@3.4.27",
+        "target": "npm:@vue/shared",
         "type": "static"
       },
       {

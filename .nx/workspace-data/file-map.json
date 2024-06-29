@@ -39,7 +39,7 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "1954652812286932939"
+        "hash": "867322639547911366"
       },
       {
         "file": "package.json",
@@ -274,7 +274,7 @@
       "affiliate-client-template": [
         {
           "file": "client/.env.dist",
-          "hash": "11661500839337142254"
+          "hash": "6943398639209139952"
         },
         {
           "file": "client/.gitignore",
@@ -286,7 +286,7 @@
         },
         {
           "file": "client/README.md",
-          "hash": "2374274911111469396"
+          "hash": "7816168012542336491"
         },
         {
           "file": "client/app.config.ts",
@@ -498,11 +498,11 @@
         },
         {
           "file": "client/modules/affiliate-seo/runtime/composables/index.ts",
-          "hash": "4967561770341931229"
+          "hash": "15307524055550917175"
         },
         {
           "file": "client/modules/affiliate-seo/runtime/composables/useAffiliateSeo.ts",
-          "hash": "6017156788359326748"
+          "hash": "150586679196092308"
         },
         {
           "file": "client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts",
@@ -530,15 +530,15 @@
         },
         {
           "file": "client/modules/affiliate-seo/runtime/utils/merge-seo-data.ts",
-          "hash": "292526327959618512"
+          "hash": "12724420153549195958"
         },
         {
           "file": "client/nuxt.config.ts",
-          "hash": "10149236881252010812"
+          "hash": "13193094510362728620"
         },
         {
           "file": "client/package.json",
-          "hash": "9685795448602992772",
+          "hash": "14403528771500910360",
           "deps": [
             "npm:@nuxt/test-utils@3.13.1",
             "npm:@vue/test-utils@2.4.6",
@@ -561,6 +561,7 @@
             "npm:@portabletext/vue",
             "npm:@sanity/image-url",
             "npm:@vueuse/nuxt@10.9.0",
+            "npm:defu",
             "npm:nuxt@3.11.2",
             "npm:nuxt-svgo@4.0.1",
             "npm:tailwind-merge@2.3.0",
