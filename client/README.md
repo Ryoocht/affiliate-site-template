@@ -1,6 +1,7 @@
 ## Affiliate site template
 
 ### Template Starter
+
 - Make sure to install the dependencies:
 
 ```bash
@@ -41,8 +42,11 @@ npm run preview
 - `@nuxt/fonts`
 - `@nuxt/ui`
 - `@nuxtjs/sanity`
+- `@portabletext/vue`
+- `@sanity/image-url`
 - `@vueuse/nuxt`
 - `@nuxt/image`
+- `defu`
 - `nuxt-svgo`
 - `tailwind-merge`
 

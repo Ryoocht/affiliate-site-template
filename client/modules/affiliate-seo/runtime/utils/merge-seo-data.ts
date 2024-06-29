@@ -2,26 +2,34 @@ import type { GetSeoMetadataResult } from '@/types/sanity'
 import type { AffiliateSeoResponse } from '../types'
 import flattenSeoData from './format-seo-data'
 
-function applyDefaults() {}
+import { dummySeoData } from '~/assets/fake/seo'
+
+function applyDefaults(
+  defaults: AffiliateSeoResponse,
+  data: AffiliateSeoResponse,
+) {
+  return {
+    headInput: null,
+    seoMetaInput: null,
+    headOptions: null,
+    seoMetaOptions: null,
+  } as AffiliateSeoResponse
+}
 
 export default function mergeSeoData(
   defaults: AffiliateSeoResponse,
   data: Ref<GetSeoMetadataResult> | null,
 ): { seoData: ComputedRef<AffiliateSeoResponse> } {
+  const formattedData = flattenSeoData(dummySeoData)
+  console.log({ formattedData })
+  console.log({ defaults })
+
   const seoData = computed(() => {
-    /*
-     * 1. format GetSeoMetadataResult data
-     * 2. apply default values to data
-     * 3. return ComputedRef<GetSeoMetadataResult>
-     */
-    const formattedData = flattenSeoData(data?.value)
+    const formattedData = flattenSeoData(dummySeoData)
+    console.log({ defaults })
     console.log({ formattedData })
 
-    /* TODO: start from here */
-    applyDefaults()
-
-    const input = defaults
-    return input
+    return applyDefaults(defaults, formattedData)
   })
 
   return {

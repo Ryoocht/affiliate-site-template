@@ -52,6 +52,11 @@ export default defineNuxtConfig({
       ],
     },
   },
+  runtimeConfig: {
+    sanity: {
+      token: process.env.NUXT_SANITY_TOKEN,
+    },
+  },
   sanity: {
     apiVersion: '2022-03-07',
     projectId: process.env.NUXT_SANITY_PROJECT_ID,
