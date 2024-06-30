@@ -1,26 +1,34 @@
 export default defineNuxtPlugin(() => {
-  /*
-   * 1. get Module options from nuxt config
-   * 2. get router info (slug, locale, etc)
-   */
-  // const nuxtApp = useNuxtApp()
+  const nuxtApp = useNuxtApp()
 
   addRouteMiddleware(
-    'test',
+    'affiliate-seo',
     async () => {
-      const seoData = await useAffiliateSeo({
-        slug: 'how-to-choose-page',
-      })
+      // const { slug } = useRouteInfo()
 
-      if (seoData?.value) {
-        const { headInput, headOptions, seoMetaInput, seoMetaOptions } =
-          seoData.value
+      /* TODO: get Module options */
+      // const options = nuxtApp.$config.public
 
-        if (headInput) useHead(headInput, headOptions || undefined)
+      // const seoData = await useAffiliateSeo({
+      //   slug: 'how-to-choose-page',
+      // })
 
-        if (seoMetaInput)
-          useServerSeoMeta(seoMetaInput, seoMetaOptions || undefined)
-      }
+      /* This is correct way to use nuxt composable in plugin */
+      nuxtApp.runWithContext(() =>
+        useHead({
+          title: 'test',
+        }),
+      )
+
+      // if (seoData?.value) {
+      //   const { headInput, headOptions, seoMetaInput, seoMetaOptions } =
+      //     seoData.value
+
+      //   if (headInput) useHead(headInput, headOptions || undefined)
+
+      //   if (seoMetaInput)
+      //     useServerSeoMeta(seoMetaInput, seoMetaOptions || undefined)
+      // }
     },
     { global: true },
   )
