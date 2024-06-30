@@ -10,40 +10,40 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".github/workflows/format.yml",
-        "hash": "10510775125598586047"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "16722851342459420272"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "17661401825457607264"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "1427828150180811530"
+        "file": "nx.json",
+        "hash": "17653976192751232416"
       },
       {
         "file": "README.md",
         "hash": "9462746106056446778"
       },
       {
-        "file": "lerna.json",
-        "hash": "10307142885639291195"
-      },
-      {
-        "file": "nx.json",
-        "hash": "17653976192751232416"
-      },
-      {
         "file": "package-lock.json",
         "hash": "867322639547911366"
       },
       {
+        "file": ".prettierrc",
+        "hash": "17661401825457607264"
+      },
+      {
         "file": "package.json",
         "hash": "740882920333948351"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "10307142885639291195"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "1427828150180811530"
+      },
+      {
+        "file": ".github/workflows/format.yml",
+        "hash": "10510775125598586047"
       }
     ],
     "projectFileMap": {
@@ -518,7 +518,7 @@
         },
         {
           "file": "client/modules/affiliate-seo/runtime/plugins/affiliate-seo.ts",
-          "hash": "2954911959788075812"
+          "hash": "15995135402383831005"
         },
         {
           "file": "client/modules/affiliate-seo/runtime/types.ts",
