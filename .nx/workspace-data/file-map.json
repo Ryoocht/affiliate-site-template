@@ -14,28 +14,12 @@
         "hash": "1427828150180811530"
       },
       {
-        "file": "package-lock.json",
-        "hash": "867322639547911366"
-      },
-      {
-        "file": "lerna.json",
-        "hash": "10307142885639291195"
-      },
-      {
-        "file": ".github/workflows/format.yml",
-        "hash": "10510775125598586047"
-      },
-      {
-        "file": "README.md",
-        "hash": "9462746106056446778"
-      },
-      {
         "file": ".prettierrc",
         "hash": "17661401825457607264"
       },
       {
-        "file": "nx.json",
-        "hash": "17653976192751232416"
+        "file": "lerna.json",
+        "hash": "10307142885639291195"
       },
       {
         "file": ".gitignore",
@@ -44,6 +28,22 @@
       {
         "file": "package.json",
         "hash": "740882920333948351"
+      },
+      {
+        "file": "README.md",
+        "hash": "9462746106056446778"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17653976192751232416"
+      },
+      {
+        "file": ".github/workflows/format.yml",
+        "hash": "10510775125598586047"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "867322639547911366"
       }
     ],
     "projectFileMap": {
@@ -518,7 +518,7 @@
         },
         {
           "file": "client/modules/affiliate-seo/runtime/plugins/affiliate-seo.ts",
-          "hash": "11054706786410924656"
+          "hash": "15926175991984376314"
         },
         {
           "file": "client/modules/affiliate-seo/runtime/types.ts",
