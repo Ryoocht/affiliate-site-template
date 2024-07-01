@@ -22,6 +22,7 @@ export async function useAsyncSanity(
 
     const params = { slug: seoArgs.slug }
 
+    /* TODO: use $fetch instead of useAsyncData */
     const { data, status, error } = await useAsyncData('seo', () =>
       sanity.fetch(getSeoMetadata, params),
     )

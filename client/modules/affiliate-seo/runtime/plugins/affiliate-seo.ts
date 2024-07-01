@@ -8,10 +8,9 @@ export default defineNuxtPlugin(() => {
 
       /* TODO: get Module options */
       // const options = nuxtApp.$config.public
-      const seoData = await useAffiliateSeo({
-        slug: 'how-to-choose-page',
-      })
-    
+      // const seoData = await useAffiliateSeo({
+      //   slug: 'how-to-choose-page',
+      // })
 
       /* This is correct way to use nuxt composable in plugin */
       nuxtApp.runWithContext(() =>

@@ -10,32 +10,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".vscode/settings.json",
-        "hash": "1427828150180811530"
-      },
-      {
         "file": ".prettierrc",
         "hash": "17661401825457607264"
       },
       {
-        "file": "lerna.json",
-        "hash": "10307142885639291195"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "16722851342459420272"
-      },
-      {
-        "file": "package.json",
-        "hash": "740882920333948351"
-      },
-      {
-        "file": "README.md",
-        "hash": "9462746106056446778"
-      },
-      {
-        "file": "nx.json",
-        "hash": "17653976192751232416"
+        "file": ".vscode/settings.json",
+        "hash": "1427828150180811530"
       },
       {
         "file": ".github/workflows/format.yml",
@@ -44,6 +24,26 @@
       {
         "file": "package-lock.json",
         "hash": "867322639547911366"
+      },
+      {
+        "file": "README.md",
+        "hash": "9462746106056446778"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17653976192751232416"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "10307142885639291195"
+      },
+      {
+        "file": "package.json",
+        "hash": "740882920333948351"
       }
     ],
     "projectFileMap": {
@@ -506,7 +506,7 @@
         },
         {
           "file": "client/modules/affiliate-seo/runtime/composables/useAsyncSanity.ts",
-          "hash": "14093138119698988894"
+          "hash": "7060022350228819841"
         },
         {
           "file": "client/modules/affiliate-seo/runtime/composables/useRouteInfo.ts",
@@ -518,7 +518,7 @@
         },
         {
           "file": "client/modules/affiliate-seo/runtime/plugins/affiliate-seo.ts",
-          "hash": "15926175991984376314"
+          "hash": "14771985498022672244"
         },
         {
           "file": "client/modules/affiliate-seo/runtime/types.ts",
