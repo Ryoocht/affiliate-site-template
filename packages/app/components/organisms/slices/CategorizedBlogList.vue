@@ -5,13 +5,13 @@
     defineProps<{
       title: string | null
       slug: string | null
-      posts: Posts | null
+      posts: Posts
       isLoading: boolean
     }>(),
     {
       title: '',
       slug: '',
-      posts: null,
+      posts: () => [],
       isLoading: true,
     },
   )

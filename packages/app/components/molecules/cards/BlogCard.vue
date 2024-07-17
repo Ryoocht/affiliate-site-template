@@ -34,7 +34,7 @@
       }"
     />
     <div
-      class="mt-3 flex items-center gap-x-2 font-mont text-xs font-semibold uppercase sm:text-sm md:mt-0"
+      class="mt-3 flex items-center gap-x-2 text-xs font-semibold uppercase sm:text-sm md:mt-0"
     >
       <p class="text-light-theme-400 dark:text-dark-theme-400">
         {{ categoryTitle }}

@@ -1,6 +1,5 @@
 <template>
-  <!-- This loading indicator needs to be customised -->
-  <!-- <NuxtLoadingIndicator /> -->
+  <NuxtLoadingIndicator :height="2" color="#757cff" />
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>

@@ -1,17 +1,7 @@
 <script setup lang="ts">
-  const props = defineProps<{
+  defineProps<{
     blogContent: GetBlogResult
   }>()
-
-  const imageAsset = computed(() => {
-    const mainImage = props.blogContent?.mainImage
-    return {
-      altText: mainImage?.altText,
-      assetId: mainImage?.assetId,
-      assetUrl: mainImage?.assetUrl,
-      caption: mainImage?.caption,
-    }
-  })
 </script>
 
 <template>
@@ -25,9 +15,9 @@
     />
     <UDivider class="my-8" />
     <ImageRenderer
-      :alt-text="imageAsset.altText"
-      :asset-url="imageAsset.assetUrl"
-      :caption="imageAsset.caption"
+      :alt-text="blogContent?.mainImage.altText"
+      :asset-url="blogContent?.mainImage.assetUrl"
+      :caption="blogContent?.mainImage.caption"
       :width="760"
       :height="427"
       :ui="{

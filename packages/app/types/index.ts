@@ -1,3 +1,5 @@
+import type { BaseCarousel } from '#components'
+
 export interface ImageAsset {
   altText?: string | null
   assetId?: string | null
@@ -17,3 +19,5 @@ export interface BlogTitle {
       } | null)[]
     | null
 }
+
+export type BaseCarouselInstance = InstanceType<typeof BaseCarousel>

@@ -36,21 +36,16 @@ npm run preview
 
 #### modules
 
-- `@nuxt/content`
 - `@nuxt/eslint`
 - `@nuxt/test-utils/module`
 - `@nuxt/fonts`
 - `@nuxt/ui`
-- `@nuxtjs/sanity`
-- `@portabletext/vue`
-- `@sanity/image-url`
 - `@vueuse/nuxt`
 - `@nuxt/image`
-- `defu`
 - `nuxt-svgo`
-- `tailwind-merge`
-
-#### tailwind plugins
+- `@nuxt/content`
+- `@nuxtjs/sanity`
+- `nuxt-swiper`
 
 #### icons (iconify-json)
 
@@ -70,11 +65,24 @@ npm run preview
 
 ### Content Hierarchy Guidelines
 
-- Title: H1
-- Excerpt: H2
-- Content Header: H3
-- Date: Time
-  - Convert the timestamp to datetime and display the formatted date
-  ```html
-  <time datetime="2024-03-04 00:00">MONDAY, MARCH 4, 2024</time>
-  ```
+- Blog Post
+  - H1: Title
+  - H2: Excerpt
+  - H3: Content Header
+  - H4: Content List Title
+  - Time: Date
+    - Convert the timestamp to datetime and display the formatted date
+    ```html
+    <time datetime="2024-03-04 00:00">MONDAY, MARCH 4, 2024</time>
+    ```
+
+### Font Usage
+
+Global Font: Montserrat
+Fallback: Sans Serif
+
+- Blog Post
+  - H1: Montserrat
+  - H2: Montserrat
+  - H3: Playfair
+  - H4: Poppins

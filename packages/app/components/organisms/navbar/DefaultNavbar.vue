@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  <div class="h-20 w-screen" />
+  <div class="h-20 w-screen"></div>
   <div
     class="fixed inset-0 z-20 flex h-20 w-screen flex-col justify-between bg-navbar-light dark:bg-navbar-dark"
     :class="{
@@ -15,7 +15,7 @@
         !$slots.pageProgressBar,
     }"
   >
-    <div
+    <header
       class="container mx-auto flex h-full items-center justify-between px-3 sm:px-0"
     >
       <div class="flex items-center gap-x-3">
@@ -27,7 +27,7 @@
         <ModeSwitch />
         <DropdownMenu />
       </div>
-    </div>
-    <slot v-if="$slots.pageProgressBar" name="pageProgressBar" />
+    </header>
+    <slot v-if="$slots.pageProgressBar" name="pageProgressBar"></slot>
   </div>
 </template>

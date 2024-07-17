@@ -10,7 +10,7 @@
 <template>
   <NuxtLink :to="link">
     <button
-      class="btn-colors font-mont line-clamp-1 h-12 min-w-32 max-w-52 overflow-hidden rounded-md px-2 font-semibold capitalize drop-shadow-md transition-all duration-200 hover:scale-105"
+      class="btn-colors line-clamp-1 h-12 min-w-32 max-w-52 overflow-hidden rounded-md px-2 font-semibold capitalize drop-shadow-md transition-all duration-200 hover:scale-105"
     >
       {{ label }}
     </button>

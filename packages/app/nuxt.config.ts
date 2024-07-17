@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     'nuxt-svgo',
     '@nuxt/content',
     '@nuxtjs/sanity',
+    'nuxt-swiper',
   ],
   plugins: ['~/plugins/scrollToTop.client.ts'],
   components: [
@@ -60,6 +61,9 @@ export default defineNuxtConfig({
       token: process.env.NUXT_SANITY_TOKEN,
     },
   },
+  fonts: {
+    provider: 'google',
+  },
   sanity: {
     apiVersion: '2022-03-07',
     projectId: process.env.NUXT_SANITY_PROJECT_ID,
@@ -83,6 +87,7 @@ export default defineNuxtConfig({
   },
   svgo: {
     defaultImport: 'component',
+    autoImportPath: false,
   },
   image: {
     format: ['jpg', 'png', 'webp'],

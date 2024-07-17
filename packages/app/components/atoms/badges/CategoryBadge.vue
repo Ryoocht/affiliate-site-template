@@ -18,7 +18,7 @@
 </script>
 
 <template>
-  <UBadge :color :variant :size class="font-mont font-semibold capitalize">
+  <UBadge :color :variant :size class="font-semibold capitalize">
     {{ name }}
   </UBadge>
 </template>

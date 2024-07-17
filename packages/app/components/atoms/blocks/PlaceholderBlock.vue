@@ -42,6 +42,6 @@
         height="100%"
       />
     </svg>
-    <slot />
+    <slot ></slot>
   </div>
 </template>

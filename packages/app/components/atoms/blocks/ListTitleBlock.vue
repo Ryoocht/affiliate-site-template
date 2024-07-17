@@ -17,7 +17,7 @@
 
 <template>
   <div
-    class="flex items-center justify-between border-b-2 border-light-theme-50 py-4 font-mont dark:border-dark-theme-900"
+    class="flex items-center justify-between border-b-2 border-light-theme-50 py-4 dark:border-dark-theme-900"
   >
     <h3
       class="text-3xl font-bold capitalize text-light-theme-900 dark:text-dark-theme-50"

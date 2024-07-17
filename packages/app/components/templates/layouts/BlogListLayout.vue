@@ -10,10 +10,10 @@
     class="relative mx-auto w-full md:max-w-main-content lg:max-w-main-content-lg xl:max-w-main-content-xl"
   >
     <div class="mt-8 md:mt-12">
-      <slot v-if="$slots.hero" name="hero" />
+      <slot v-if="$slots.hero" name="hero"></slot>
     </div>
     <div class="my-12">
-      <slot v-if="$slots.list" name="list" />
+      <slot v-if="$slots.list" name="list"></slot>
     </div>
   </main>
 </template>

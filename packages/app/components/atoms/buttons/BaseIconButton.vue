@@ -27,10 +27,10 @@
       :aria-label="label"
       @click="emit('click')"
     >
-      <slot />
+      <slot ></slot>
     </UButton>
     <template #fallback>
-      <div class="h-9 w-11" />
+      <div class="h-9 w-11" ></div>
     </template>
   </ClientOnly>
 </template>

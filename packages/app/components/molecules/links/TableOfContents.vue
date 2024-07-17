@@ -10,7 +10,7 @@
 
 <template>
   <div class="h-full w-full max-w-96">
-    <div class="sticky top-20 px-10 py-4 font-mont">
+    <div class="sticky top-20 px-10 py-4">
       <h2
         class="text-base font-bold uppercase tracking-wide text-light-theme-400 dark:text-dark-theme-300 lg:mt-16"
       >

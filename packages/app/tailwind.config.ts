@@ -26,11 +26,11 @@ export default <Partial<Config>>{
   ],
   darkMode: 'class',
   theme: {
-    fontFamily: {
-      playfair: ['Playfair Display', ...defaultTheme.fontFamily.sans],
-      mont: ['Montserrat', ...defaultTheme.fontFamily.sans],
-    },
     extend: {
+      fontFamily: {
+        playfair: ['Playfair Display', ...defaultTheme.fontFamily.sans],
+        poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
+      },
       colors: {
         'light-theme': {
           '50': '#ecf0ff',

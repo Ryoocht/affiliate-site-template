@@ -21,3 +21,9 @@ export interface CTA {
   textColor?: ThemedColor
   bgColor?: ThemedColor
 }
+
+export interface PromotionBannerItem {
+  src: string
+  icon?: string
+  cta: CTA
+}
