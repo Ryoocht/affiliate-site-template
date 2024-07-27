@@ -63,6 +63,11 @@ export default defineNuxtConfig({
   },
   fonts: {
     provider: 'google',
+    defaults: {
+      weights: [400],
+      styles: ['normal', 'italic'],
+      subsets: ['latin-ext', 'latin'],
+    },
   },
   sanity: {
     apiVersion: '2022-03-07',

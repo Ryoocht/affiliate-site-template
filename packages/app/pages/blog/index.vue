@@ -10,6 +10,8 @@
 
   const featuredBlog = computed(() => data.value?.featuredBlog)
   const categoryList = computed(() => data.value?.categoryList)
+
+  const getOrder = (index: number) => (((index % 4) + 4) % 4) as 0 | 1 | 2 | 3
 </script>
 
 <template>
@@ -31,6 +33,7 @@
           :slug="category.slug"
           :posts="category.posts"
           :is-loading="status === 'idle'"
+          :order="getOrder(index)"
         />
       </section>
     </template>

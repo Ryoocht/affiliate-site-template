@@ -7,16 +7,25 @@
       slug: string | null
       posts: Posts
       isLoading: boolean
+      order?: 0 | 1 | 2 | 3
     }>(),
     {
       title: '',
       slug: '',
       posts: () => [],
       isLoading: true,
+      order: 0,
     },
   )
 
   const firstThreePosts = computed(() => props.posts?.slice(0, 3))
+
+  const titleColors = [
+    'text-primary-accent',
+    'text-secondary-accent',
+    'text-tertiary-accent',
+    'text-quaternary-accent',
+  ]
 </script>
 
 <template>
@@ -26,6 +35,7 @@
       :title="title"
       :link-text="`see all ${title} articles`"
       :link="`/blog/category/${slug}`"
+      :title-color="titleColors[order]"
     />
     <ul
       class="my-6 grid w-full grid-cols-1 gap-y-10 sm:gap-y-14 md:grid-cols-2 md:gap-x-6 md:gap-y-12 lg:grid-cols-3"

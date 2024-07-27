@@ -1,17 +1,20 @@
 <script setup lang="ts">
-  import type { ButtonColor, ButtonVariant } from '#ui/types'
-
-  withDefaults(
+  const props = withDefaults(
     defineProps<{
-      color: ButtonColor
-      variant: ButtonVariant
       label?: string
+      ui?: {
+        button?: string | string[]
+      }
     }>(),
     {
-      color: 'white',
-      variant: 'ghost',
       label: '',
+      ui: () => ({}),
     },
+  )
+
+  const button = useTailwindMerged(
+    'flex size-fit items-center justify-center rounded-md bg-background-tertiary p-2',
+    () => props.ui.button ?? '',
   )
 
   const emit = defineEmits<{
@@ -21,16 +24,11 @@
 
 <template>
   <ClientOnly>
-    <UButton
-      :color="color"
-      :variant="variant"
-      :aria-label="label"
-      @click="emit('click')"
-    >
-      <slot ></slot>
-    </UButton>
+    <button :class="button" :aria-label="label" @click="emit('click')">
+      <slot></slot>
+    </button>
     <template #fallback>
-      <div class="h-9 w-11" ></div>
+      <div class="h-9 w-11"></div>
     </template>
   </ClientOnly>
 </template>

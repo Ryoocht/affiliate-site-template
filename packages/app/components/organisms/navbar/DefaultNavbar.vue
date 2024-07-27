@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { menuList } from '~/assets/fake/menu'
+  import { navMenuItems } from '@/assets/data/nav-menu'
 
   defineSlots<{
     pageProgressBar(props: unknown): void
@@ -9,20 +9,17 @@
 <template>
   <div class="h-20 w-screen"></div>
   <div
-    class="fixed inset-0 z-20 flex h-20 w-screen flex-col justify-between bg-navbar-light dark:bg-navbar-dark"
-    :class="{
-      'border-b-2 border-light-theme-100 dark:border-dark-theme-900':
-        !$slots.pageProgressBar,
-    }"
+    class="fixed inset-0 z-20 flex h-20 w-screen flex-col justify-between bg-background-primary"
+    :class="{ 'drop-shadow-sm': !$slots.pageProgressBar }"
   >
     <header
       class="container mx-auto flex h-full items-center justify-between px-3 sm:px-0"
     >
       <div class="flex items-center gap-x-3">
         <LogoBlock />
-        <FlatMenu :menu-list="menuList" />
+        <FlatMenu :nav-menu-items="navMenuItems" />
       </div>
-      <div class="flex items-center justify-center gap-0.5 sm:gap-x-1.5">
+      <div class="flex items-center justify-center gap-0.5 sm:gap-x-2">
         <SearchInputField />
         <ModeSwitch />
         <DropdownMenu />

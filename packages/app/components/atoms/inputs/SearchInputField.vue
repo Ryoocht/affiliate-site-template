@@ -15,21 +15,12 @@
   ]
 
   const selected = ref([])
-  const { isDark } = useTheme()
 </script>
 
 <template>
   <div>
-    <BaseIconButton
-      :color="isDark ? 'gray' : 'primary'"
-      variant="ghost"
-      label="theme"
-      @click="isOpen = true"
-    >
-      <UIcon
-        name="i-material-symbols-search"
-        class="text-light-theme-950 dark:text-dark-theme-50 size-6 flex-shrink-0"
-      />
+    <BaseIconButton label="theme" @click="isOpen = true">
+      <UIcon name="i-material-symbols-search" class="size-6 text-enabled" />
     </BaseIconButton>
 
     <UModal v-model="isOpen">

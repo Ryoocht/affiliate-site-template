@@ -20,15 +20,5 @@
 </script>
 
 <template>
-  <UProgress
-    size="sm"
-    class="w-screen"
-    :value="progress"
-    :max="100"
-    :ui="{
-      progress: {
-        color: 'text-progress-dark dark:text-progress-light',
-      },
-    }"
-  />
+  <UProgress size="sm" class="w-screen" :value="progress" :max="100" />
 </template>

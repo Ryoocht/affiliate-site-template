@@ -1,11 +1,8 @@
+import type { NuxtLinkProps } from '#app'
 import type { BaseCarousel } from '#components'
+import type { RouterLinkProps } from 'vue-router'
 
-export interface ImageAsset {
-  altText?: string | null
-  assetId?: string | null
-  assetUrl?: string | null
-  caption?: string | null
-}
+export type BaseCarouselInstance = InstanceType<typeof BaseCarousel>
 
 export interface BlogTitle {
   title: string | null
@@ -20,4 +17,15 @@ export interface BlogTitle {
     | null
 }
 
-export type BaseCarouselInstance = InstanceType<typeof BaseCarousel>
+export type NavMenuItem = {
+  label: string
+  icon: string | undefined
+} & Pick<RouterLinkProps, 'to'> &
+  Pick<NuxtLinkProps, 'prefetch' | 'noPrefetch'>
+
+export interface ImageAsset {
+  altText?: string | null
+  assetId?: string | null
+  assetUrl?: string | null
+  caption?: string | null
+}

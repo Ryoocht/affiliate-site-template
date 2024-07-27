@@ -24,20 +24,16 @@
       class="grid h-fit cursor-pointer grid-cols-1 justify-center gap-x-5 px-5 py-3 sm:px-10 md:grid-cols-2 md:p-3 lg:gap-x-0"
     >
       <article class="flex max-h-72 flex-col p-3">
-        <p
-          class="text-xs font-semibold uppercase text-light-theme-400 dark:text-dark-theme-400"
-        >
+        <p class="text-xs font-semibold uppercase text-positive-accent">
           {{ blogPost?.timeToRead }} MIN READ
         </p>
         <div>
           <h1
-            class="my-3 line-clamp-4 text-3xl font-bold uppercase leading-9 text-light-theme-950 dark:text-dark-theme-50"
+            class="my-3 line-clamp-4 text-3xl font-bold uppercase leading-9 text-content"
           >
             {{ blogPost?.title }}
           </h1>
-          <h2
-            class="line-clamp-4 text-sm text-light-theme-950 dark:text-dark-theme-200/90"
-          >
+          <h2 class="line-clamp-4 text-base font-medium text-sub-content">
             {{ blogPost?.excerpt }}
           </h2>
         </div>

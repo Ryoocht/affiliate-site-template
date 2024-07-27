@@ -36,20 +36,16 @@
     <div
       class="mt-3 flex items-center gap-x-2 text-xs font-semibold uppercase sm:text-sm md:mt-0"
     >
-      <p class="text-light-theme-400 dark:text-dark-theme-400">
+      <p class="text-positive-accent">
         {{ categoryTitle }}
       </p>
       &#x2022;
-      <time class="text-light-theme-900 dark:text-dark-theme-100">
-        {{ blog?.timeToRead }}MIN READ
-      </time>
+      <time class="text-disabled"> {{ blog?.timeToRead }}MIN READ </time>
     </div>
-    <h2
-      class="text-lg font-bold text-light-theme-950 dark:text-dark-theme-50 sm:text-xl"
-    >
+    <h2 class="text-lg font-bold text-content sm:text-xl">
       {{ blog?.title }}
     </h2>
-    <p class="text-sm text-light-theme-950 dark:text-dark-theme-200/90">
+    <p class="text-sm text-sub-content">
       {{ blog?.excerpt }}
     </p>
   </NuxtLink>

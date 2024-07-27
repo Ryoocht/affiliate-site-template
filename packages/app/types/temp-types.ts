@@ -10,11 +10,6 @@ export interface Blog {
   variation: string
 }
 
-export interface MenuItem {
-  name: string
-  route: string
-}
-
 export interface CTA {
   label: string
   link: string

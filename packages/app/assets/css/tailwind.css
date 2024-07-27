@@ -10,3 +10,45 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
 }
+
+.light {
+  --primary-background: 255 255 255; /* #FFFFFF */
+  --secondary-background: 240 247 247; /* #F0F7F7 */
+  --tertiary-background: 247 250 251; /* #F7FAFB */
+  --enabled: 130 212 183; /* #82D4B7 */
+  --disabled: 174 176 179; /* #AEB0B3 */
+  --icon-enabled: 19 174 119; /* #13AE77 */
+  --icon-disabled: 47 55 121; /* #2F3779 */
+  --primary-accent: 46 232 131; /* #2EE883 */
+  --secondary-accent: 45 232 221; /* #2DE8DD */
+  --tertiary-accent: 47 114 243; /* #2F72F3 */
+  --quaternary-accent: 145 47 243; /* #912FF3 */
+  --positive-accent: 55 190 126; /* #37BE7E */
+  --negative-accent: 253 32 111; /* #FD206F */
+  --content: 65 69 103; /* #414567 */
+  --sub-content: 83 90 143; /* #535A8F */
+  --info-content: 246 136 74; /* #F6884A */
+  --category-content: 255 213 97; /* #FFD561 */
+  --card: 2 118 118; /* #037676 */
+}
+
+.dark {
+  --primary-background: 32 36 68; /* #202444 */
+  --secondary-background: 37 41 74; /* #25294A */
+  --tertiary-background: 42 46 85; /* #2A2E55 */
+  --enabled: 189 184 227 1; /* #BDB8E3 */
+  --disabled: 136 128 162; /* #888AA2 */
+  --icon-enabled: 238 238 255; /* #EEEEFF */
+  --icon-disabled: 93 96 123; /* #5D607B */
+  --primary-accent: 249 33 149; /* #F92195 */
+  --secondary-accent: 43 213 206; /* #2BD5CE */
+  --tertiary-accent: 44 103 219; /* #2C67DB */
+  --quaternary-accent: 156 76 240; /* #9C4CF0 */
+  --positive-accent: 60 151 255; /* #3C97FF */
+  --negative-accent: 255 34 135; /* #FF2287 */
+  --content: 226 225 243; /* #E2E1F3 */
+  --sub-content: 189 184 227; /* #BDB8E3 */
+  --info-content: 54 173 190; /* #36ADBE */
+  --category-content: 247 146 14; /* #F7920E */
+  --card: 63 107 221; /* #3F6BDD */
+}

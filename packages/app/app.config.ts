@@ -1,9 +1,12 @@
 export default defineAppConfig({
   ui: {
-    primary: 'light-theme',
-    gray: 'dark-theme',
     skeleton: {
-      background: 'bg-[#e5e7eb] dark:bg-[#1f2937]',
+      background: 'bg-gray-300 dark:bg-gray-600',
+    },
+    progress: {
+      progress: {
+        color: 'text-emerald-500 dark:text-blue-500',
+      },
     },
   },
 })
