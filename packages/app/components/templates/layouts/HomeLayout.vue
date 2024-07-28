@@ -1,7 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <main>
+  <main
+    class="relative mx-auto w-full md:max-w-main-content lg:max-w-main-content-lg xl:max-w-main-content-xl"
+  >
     <div>
       <slot name="hero"></slot>
     </div>

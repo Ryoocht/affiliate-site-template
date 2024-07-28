@@ -5,17 +5,22 @@
 </script>
 
 <template>
-  <main
-    class="relative mx-auto w-full md:max-w-main-content lg:max-w-main-content-lg xl:max-w-main-content-xl"
-  >
-    <HomeHero
-      title="Build a website that grows"
-      subtitle="Empower marketers to release on-brand pages fast while using your tech
+  <HomeLayout>
+    <template #hero>
+      <HomeHero
+        title="Build a website that grows"
+        subtitle="Empower marketers to release on-brand pages fast while using your tech
         stack. Prismic is the headless page builder for Next.js, Nuxt, and
         SvelteKit sites."
-    />
-    <PromotionBanner />
-    <ContentColumnBlock />
+      />
+    </template>
+    <template #banner>
+      <PromotionBanner />
+    </template>
+    <template #columnBlock>
+      <ContentColumnBlock />
+    </template>
+
     <!-- Simple Content block -->
     <div>
       <p>Welcome to BetFury</p>
@@ -28,8 +33,8 @@
     <!-- status section -->
     <!-- another colomuns -->
     <!-- 
-      blog / review carousel components
-      link: https://blog.hubspot.com/ 
-    -->
-  </main>
+          blog / review carousel components
+          link: https://blog.hubspot.com/ 
+        -->
+  </HomeLayout>
 </template>
