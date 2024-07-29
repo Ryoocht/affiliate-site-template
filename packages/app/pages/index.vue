@@ -36,5 +36,19 @@
           blog / review carousel components
           link: https://blog.hubspot.com/ 
         -->
+    <div>
+      <p>Blogs</p>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+      <p>Reviews</p>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </div>
   </HomeLayout>
 </template>
