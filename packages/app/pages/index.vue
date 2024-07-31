@@ -21,7 +21,7 @@
       <ContentColumnBlock />
     </template>
 
-    <!-- Simple Content block -->
+    <!-- Content block -->
     <div>
       <p>Welcome to BetFury</p>
       <span
@@ -30,6 +30,7 @@
         It’s easy to increase profit by mining and staking BFG tokens
       </span>
     </div>
+
     <!-- status section -->
     <!-- another colomuns -->
     <!-- 
