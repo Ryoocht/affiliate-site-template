@@ -17,6 +17,5 @@
         {{ subtitle }}
       </h2>
     </div>
-    <!-- Image here and add animation -->
   </section>
 </template>
