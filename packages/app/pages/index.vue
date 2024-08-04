@@ -7,6 +7,10 @@
 <template>
   <HomeLayout>
     <template #hero>
+      <!-- 5th of August
+      1. style template
+      2. Complete HomeHero component 
+      -->
       <HomeHero
         title="Build a website that grows"
         subtitle="Empower marketers to release on-brand pages fast while using your tech
