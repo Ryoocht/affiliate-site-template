@@ -12,7 +12,7 @@
   <div class="h-full w-full max-w-96">
     <div class="sticky top-20 px-6 py-2">
       <div
-        class="flex flex-col rounded-md bg-background-tertiary px-4 py-4 lg:mt-14"
+        class="flex w-fit max-w-full flex-col rounded-md bg-background-tertiary px-4 py-4 lg:mt-14"
       >
         <h2 class="text-base font-bold uppercase tracking-wide text-content">
           Table of contents
