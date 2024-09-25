@@ -36,9 +36,7 @@
     <div
       class="mt-3 flex items-center gap-x-2 text-xs font-semibold uppercase sm:text-sm md:mt-0"
     >
-      <p class="text-positive-accent">
-        {{ categoryTitle }}
-      </p>
+      <CategoryBadge :name="categoryTitle" />
       &#x2022;
       <time class="text-disabled"> {{ blog?.timeToRead }}MIN READ </time>
     </div>

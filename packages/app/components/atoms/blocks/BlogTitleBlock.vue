@@ -13,9 +13,7 @@
 <template>
   <div class="full flex flex-col">
     <div class="mb-8 flex justify-between text-sm">
-      <p class="font-semibold text-light-theme-400 dark:text-dark-theme-400">
-        {{ timeToRead }} MIN READ
-      </p>
+      <p class="font-semibold text-info-content">{{ timeToRead }} MIN READ</p>
       <time
         :datetime="releaseTime || ''"
         class="font-medium uppercase text-slate-500 dark:text-slate-400"
@@ -23,13 +21,11 @@
         {{ formatDate(releaseTime || '') }}
       </time>
     </div>
-    <h1
-      class="mb-8 text-5xl font-bold leading-snug text-light-theme-950 dark:text-dark-theme-50"
-    >
+    <h1 class="mb-8 text-3xl font-bold leading-snug text-content md:text-5xl">
       {{ title }}
     </h1>
     <h2
-      class="mb-6 text-lg font-medium leading-relaxed text-light-theme-950/90 dark:text-dark-theme-200/90"
+      class="font-base mb-6 text-sm leading-relaxed text-content/80 md:text-lg"
     >
       {{ excerpt }}
     </h2>

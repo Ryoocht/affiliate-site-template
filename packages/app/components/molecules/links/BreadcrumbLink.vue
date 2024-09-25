@@ -6,7 +6,6 @@
   <UBreadcrumb :links="links">
     <template #default="{ link, isActive }">
       <UBadge
-        :color="isActive ? 'primary' : 'gray'"
         :variant="isActive ? 'solid' : 'soft'"
         class="truncate capitalize"
       >

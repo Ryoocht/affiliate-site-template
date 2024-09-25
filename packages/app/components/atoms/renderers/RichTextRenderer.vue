@@ -15,8 +15,7 @@
           'h3',
           {
             id: value._key,
-            class:
-              'mb-2 mt-6 text-3xl font-extrabold text-light-theme-900 dark:text-dark-theme-100',
+            class: 'mb-2 mt-6 text-xl md:text-2xl font-extrabold text-content',
           },
           slots.default?.(),
         ),
@@ -24,8 +23,7 @@
         h(
           'p',
           {
-            class:
-              'text-lg leading-relaxed text-light-theme-950/90 dark:text-dark-theme-200/90',
+            class: 'text-sm md:text-base leading-relaxed text-content/80',
           },
           slots.default?.(),
         ),
