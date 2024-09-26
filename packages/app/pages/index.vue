@@ -15,10 +15,8 @@
   <HomeLayout>
     <template #hero>
       <HomeHero
-        title="Build a website that grows"
-        subtitle="Empower marketers to release on-brand pages fast while using your tech
-        stack. Prismic is the headless page builder for Next.js, Nuxt, and
-        SvelteKit sites."
+        title="Unlock Crypto Casino Riches"
+        subtitle="Your gateway to crypto casino mastery—find the best games, biggest bonuses, and winning strategies all in one place!"
       />
     </template>
     <template #banner>
