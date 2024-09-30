@@ -2,7 +2,7 @@
   interface ColumnItem {
     title: string
     description: string
-    icon?: string
+    image?: string
     color?: string
   }
 
@@ -11,28 +11,28 @@
       title: 'International brand',
       description:
         'BetFury is a Leading Crypto Casino with 3 years of experience, a large international community, and the internal BFG token',
-      icon: 'global',
+      image: 'home/trusted-brand.png',
       color: '#31169f',
     },
     {
       title: 'Favorable Payouts',
       description:
         'We’ve paid out more than 3 million to our Affiliates. Get your payout on the 1st day of each month. We don’t carry over the minus to the next month',
-      icon: 'payouts',
+      image: 'home/fast-payouts.png',
       color: '#31169f',
     },
     {
       title: 'Traffic performance',
       description:
         'A large number of different Bonuses and Features for users make it possible to keep your traffic on BetFury as efficiently as possible',
-      icon: 'performance',
+      image: 'home/traffic-performance.png',
       color: '#31169f',
     },
     {
       title: 'Professional support',
       description:
         'Get fast and high-quality support on BetFury. Experienced affiliate managers provide you with the necessary information and promotional materials',
-      icon: 'support',
+      image: 'home/professional-support.png',
       color: '#31169f',
     },
   ]
@@ -54,7 +54,7 @@
       <div class="h-1/4 w-full"></div>
       <div class="flex flex-col items-center justify-center gap-y-3 px-8">
         <p class="text-xl font-bold">{{ item.title }}</p>
-        <p class="text-sm text-light-theme-800/80 dark:text-dark-theme-100/80">
+        <p class="text-light-theme-800/80 dark:text-dark-theme-100/80 text-sm">
           {{ item.description }}
         </p>
       </div>
