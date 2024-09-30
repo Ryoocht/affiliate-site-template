@@ -5,7 +5,9 @@
         <PageProgressBar />
       </template>
     </DefaultNavbar>
-    <slot></slot>
-    <!-- <DefaultFooter /> -->
+    <div class="flex-grow">
+      <slot></slot>
+    </div>
+    <DefaultFooter />
   </div>
 </template>

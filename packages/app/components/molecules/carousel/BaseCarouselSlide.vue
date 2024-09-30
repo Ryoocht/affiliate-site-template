@@ -1,5 +1,5 @@
 <template>
-  <swiper-slide v-bind="$attrs">
-    <slot ></slot>
-  </swiper-slide>
+  <SwiperSlide v-bind="$attrs">
+    <slot></slot>
+  </SwiperSlide>
 </template>

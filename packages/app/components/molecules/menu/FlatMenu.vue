@@ -21,25 +21,25 @@
 <template>
   <nav>
     <ul class="hidden items-center gap-x-3 sm:flex">
-      <li
-        v-for="item in navMenuItems"
-        :key="item.label"
-        class="group relative flex cursor-pointer items-center gap-x-3 rounded-md p-3"
-        :class="isActive(item.to) ? '' : 'hover:bg-background-tertiary'"
-      >
-        <UIcon
-          v-if="item.icon"
-          dynamic
-          class="size-5"
-          :name="item.icon"
-          :class="isActive(item.to) ? 'text-enabled' : 'text-disabled'"
-        />
+      <li v-for="item in navMenuItems" :key="item.label">
         <NuxtLink
           :to="item.to"
-          class="rounded-md text-base font-bold transition-all duration-200"
-          :class="isActive(item.to) ? 'text-enabled' : 'text-disabled'"
+          :class="isActive(item.to) ? '' : 'hover:bg-background-tertiary'"
+          class="group relative flex cursor-pointer items-center gap-x-3 rounded-md p-3"
         >
-          {{ item.label }}
+          <UIcon
+            v-if="item.icon"
+            dynamic
+            class="size-5"
+            :name="item.icon"
+            :class="isActive(item.to) ? 'text-enabled' : 'text-disabled'"
+          />
+          <p
+            class="rounded-md text-base font-bold transition-all duration-200"
+            :class="isActive(item.to) ? 'text-enabled' : 'text-disabled'"
+          >
+            {{ item.label }}
+          </p>
         </NuxtLink>
       </li>
     </ul>

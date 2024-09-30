@@ -2,10 +2,10 @@
   <main
     class="relative mx-auto w-full md:max-w-main-content lg:max-w-main-content-lg xl:max-w-main-content-xl"
   >
-    <div class="">
+    <div>
       <slot name="hero"></slot>
     </div>
-    <div class="bg-green-100">
+    <div class="mb-20">
       <slot name="banner"></slot>
     </div>
     <div class="bg-red-100">

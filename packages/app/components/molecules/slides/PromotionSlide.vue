@@ -1,9 +1,9 @@
-<script setup lang="ts">
-  
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <BaseCarouselSlide>
-    <div>slide details here</div>
+    <div class="flex size-full items-center justify-center">
+      Promotion Slide Details
+    </div>
   </BaseCarouselSlide>
 </template>
