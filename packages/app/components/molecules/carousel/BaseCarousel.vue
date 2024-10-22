@@ -66,6 +66,8 @@
         <slot name="container-end"></slot>
       </div>
     </Swiper>
-    <!-- TODO: add fallback skeleton here -->
+    <template #fallback>
+      <BaseCarouselSkeleton />
+    </template>
   </ClientOnly>
 </template>
