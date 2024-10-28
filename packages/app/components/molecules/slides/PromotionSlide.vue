@@ -2,15 +2,14 @@
 
 <template>
   <BaseCarouselSlide>
-    <div class="relative flex size-full items-center justify-center bg-red-200">
-      <!-- <NuxtImg
+    <div class="relative flex size-full items-center justify-center">
+      <NuxtImg
         src="/promotions/betfury-affiliate.png"
-        :width="757"
-        :height="105"
-        :placeholder="[757, 105]"
+        :width="750"
+        :height="112"
+        :placeholder="[750, 112]"
         class="absolute inset-0"
-      /> -->
-      Promotion Slide Details
+      />
     </div>
   </BaseCarouselSlide>
 </template>

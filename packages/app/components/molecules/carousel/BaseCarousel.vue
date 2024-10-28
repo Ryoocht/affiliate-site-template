@@ -51,7 +51,11 @@
 
 <template>
   <ClientOnly>
-    <Swiper ref="swiperContainerRef" v-bind="swiperOptions" :class="container">
+    <swiper-container
+      ref="swiperContainerRef"
+      v-bind="swiperOptions"
+      :class="container"
+    >
       <div
         v-if="$slots['container-start']"
         slot="container-start"
@@ -65,7 +69,7 @@
       <div v-if="$slots['container']" slot="container-end" :class="endWrapper">
         <slot name="container-end"></slot>
       </div>
-    </Swiper>
+    </swiper-container>
     <template #fallback>
       <BaseCarouselSkeleton />
     </template>
