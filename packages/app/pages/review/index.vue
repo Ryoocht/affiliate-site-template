@@ -2,11 +2,8 @@
 
 <template>
   <ReviewListLayout>
-    <template #hero>
-      <div>HERO section</div>
-    </template>
-    <template #list>
-      <div>List Section</div>
+    <template #comingSoon>
+      <ComingSoon message="More review contents about crypto casino" />
     </template>
   </ReviewListLayout>
 </template>
