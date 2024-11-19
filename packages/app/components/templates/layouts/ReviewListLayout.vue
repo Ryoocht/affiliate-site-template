@@ -7,7 +7,9 @@
 </script>
 
 <template>
-  <div v-if="$slots.comingSoon" name="comingSoon"></div>
+  <div v-if="$slots.comingSoon">
+    <slot name="comingSoon"></slot>
+  </div>
   <main v-else class="relative">
     <div>
       <slot name="hero"></slot>
