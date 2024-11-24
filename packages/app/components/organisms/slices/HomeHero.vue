@@ -6,18 +6,20 @@
 </script>
 
 <template>
-  <section class="flex items-center text-center">
+  <section class="relative w-full">
     <NuxtImg
       src="/home/home-placeholder.png"
-      width="500"
-      height="500"
+      width="2431"
+      height="1166"
       class="hidden md:block"
     />
     <div
-      class="my-10 flex w-full flex-col items-center justify-center gap-y-4 px-5 md:my-0 lg:px-0"
+      class="absolute bottom-7 flex w-full flex-col items-center justify-center gap-y-4"
     >
-      <h1 class="text-4xl font-bold sm:text-6xl">{{ title }}</h1>
-      <h2 class="max-w-full text-base sm:text-lg md:max-w-screen-md md:text-xl">
+      <h1 class="text-4xl font-bold uppercase sm:text-6xl">{{ title }}</h1>
+      <h2
+        class="max-w-full text-center text-base sm:text-lg md:max-w-screen-md md:text-xl"
+      >
         {{ subtitle }}
       </h2>
     </div>

@@ -2,13 +2,6 @@
   /* reference to this website
   https://betfury-affiliate.com/
 */
-
-  /* 
-1. create home page designe
-2. style template layout
-3. create home page slices
-4. put all components together
-*/
 </script>
 
 <template>
@@ -22,11 +15,12 @@
     <template #banner>
       <PromotionBanner />
     </template>
+    <template #slider> </template>
+
     <template #columnBlock>
       <ContentColumnBlock />
     </template>
 
-    <!-- Content block -->
     <div>
       <p>Welcome to BetFury</p>
       <span
