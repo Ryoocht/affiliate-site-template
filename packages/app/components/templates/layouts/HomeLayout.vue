@@ -2,17 +2,17 @@
   <main
     class="relative mx-auto w-full md:max-w-main-content lg:max-w-main-content-lg xl:max-w-main-content-xl"
   >
-    <div>
+    <section>
       <slot name="hero"></slot>
-    </div>
-    <div class="mb-20">
-      <slot name="banner"></slot>
-    </div>
-    <div class="bg-20">
+    </section>
+    <section class="my-10 h-24 sm:my-5 sm:h-28 lg:my-0 lg:h-36">
       <slot name="slider"></slot>
-    </div>
-    <div class="bg-red-100">
+    </section>
+    <section class="mb-20">
+      <slot name="banner"></slot>
+    </section>
+    <section class="bg-red-100">
       <slot name="columnBlock"></slot>
-    </div>
+    </section>
   </main>
 </template>

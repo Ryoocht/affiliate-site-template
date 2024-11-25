@@ -12,10 +12,16 @@
         subtitle="Your gateway to crypto casino mastery—find the best games, biggest bonuses, and winning strategies all in one place!"
       />
     </template>
-    <template #banner>
-      <PromotionBanner />
+    <template #slider>
+      <BaseCarousel>
+        <template #slider>
+          <ProviderSlide />
+        </template>
+      </BaseCarousel>
     </template>
-    <template #slider> </template>
+    <!-- <template #banner>
+      <PromotionBanner />
+    </template> -->
 
     <template #columnBlock>
       <ContentColumnBlock />
