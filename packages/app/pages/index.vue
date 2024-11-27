@@ -1,7 +1,18 @@
 <script setup lang="ts">
-  /* reference to this website
-  https://betfury-affiliate.com/
-*/
+  import type { SwiperOptions } from 'swiper/types'
+
+  const baseCarouselRef = ref<BaseCarouselInstance>()
+  const swiperContainerRef = computed(
+    () => baseCarouselRef.value?.swiperContainerRef || null,
+  )
+  // const swiperInstanceRef = computed(
+  //   () => swiperContainerRef.value?.swiper || null,
+  // )
+  const baseSwiperOptions: SwiperOptions = {
+    slidesPerView: 'auto',
+  }
+
+  useSwiper(swiperContainerRef, baseSwiperOptions)
 </script>
 
 <template>
@@ -13,9 +24,17 @@
       />
     </template>
     <template #slider>
-      <BaseCarousel>
+      <BaseCarousel
+        ref="baseCarouselRef"
+        :options="{
+          init: false,
+        }"
+        :ui="{
+          container: 'h-full',
+        }"
+      >
         <template #slider>
-          <ProviderSlide />
+          <ProviderSlide :slides="['1', '2', '3']" />
         </template>
       </BaseCarousel>
     </template>

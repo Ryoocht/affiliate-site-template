@@ -5,7 +5,7 @@
     <section>
       <slot name="hero"></slot>
     </section>
-    <section class="my-10 h-24 sm:my-5 sm:h-28 lg:my-0 lg:h-36">
+    <section class="my-10 h-16 px-5 sm:my-5 md:h-20 md:px-0 lg:my-0 lg:h-28">
       <slot name="slider"></slot>
     </section>
     <section class="mb-20">
