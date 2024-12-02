@@ -4,6 +4,13 @@ import type { RouterLinkProps } from 'vue-router'
 
 export type BaseCarouselInstance = InstanceType<typeof BaseCarousel>
 
+export interface Provider {
+  title: string
+  imageUrl: string
+  link: string
+  bgColor: string
+}
+
 export interface BlogTitle {
   title: string | null
   excerpt: string | null

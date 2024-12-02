@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import type { SwiperOptions } from 'swiper/types'
+  import { affiliates } from '~/assets/fake/affiliates'
 
   const baseCarouselRef = ref<BaseCarouselInstance>()
   const swiperContainerRef = computed(
@@ -9,7 +10,14 @@
   //   () => swiperContainerRef.value?.swiper || null,
   // )
   const baseSwiperOptions: SwiperOptions = {
+    freeMode: true,
+    loop: true,
     slidesPerView: 'auto',
+    spaceBetween: 16,
+    speed: 10000,
+    autoplay: {
+      delay: 0,
+    },
   }
 
   useSwiper(swiperContainerRef, baseSwiperOptions)
@@ -30,11 +38,12 @@
           init: false,
         }"
         :ui="{
+          // blur the both sides
           container: 'h-full',
         }"
       >
         <template #slider>
-          <ProviderSlide :slides="['1', '2', '3']" />
+          <ProviderSlide :slides="affiliates" />
         </template>
       </BaseCarousel>
     </template>

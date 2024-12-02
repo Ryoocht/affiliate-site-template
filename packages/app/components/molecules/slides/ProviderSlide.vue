@@ -1,16 +1,18 @@
 <script setup lang="ts">
   defineProps<{
-    slides: Array<string>
+    slides: Provider[]
   }>()
 </script>
 
 <template>
-  <swiper-slide
-    v-for="(_, index) in slides"
+  <BaseCarouselSlide
+    v-for="(slide, index) in slides"
     :key="index"
-    class="flex size-full"
+    class="h-full w-28 overflow-hidden rounded-md md:w-36 lg:w-48"
   >
-    <div class="h-full w-28 bg-green-200 md:w-36 lg:w-48">hey</div>
-    <!-- Resposive Icon (long and short) -->
-  </swiper-slide>
+    <NuxtLink :to="slide.link" target="_blank" class="size-full">
+      <div class="size-full bg-red-200">hey</div>
+      <!-- Resposive Icon (long and short) -->
+    </NuxtLink>
+  </BaseCarouselSlide>
 </template>
