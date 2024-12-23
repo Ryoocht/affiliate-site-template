@@ -6,7 +6,7 @@ export type BaseCarouselInstance = InstanceType<typeof BaseCarousel>
 
 export interface Provider {
   title: string
-  imageUrl: string
+  imageName: string
   link: string
   bgColor: string
 }
