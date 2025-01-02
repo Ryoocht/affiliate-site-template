@@ -25,6 +25,6 @@
         <DropdownMenu />
       </div>
     </header>
-    <slot v-if="$slots.pageProgressBar" name="pageProgressBar"></slot>
+    <slot v-if="!!$slots.pageProgressBar" name="pageProgressBar"></slot>
   </div>
 </template>

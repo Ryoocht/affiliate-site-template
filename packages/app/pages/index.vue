@@ -6,9 +6,7 @@
   const swiperContainerRef = computed(
     () => baseCarouselRef.value?.swiperContainerRef || null,
   )
-  // const swiperInstanceRef = computed(
-  //   () => swiperContainerRef.value?.swiper || null,
-  // )
+
   const baseSwiperOptions: SwiperOptions = {
     freeMode: true,
     loop: true,
@@ -47,9 +45,6 @@
         </template>
       </BaseCarousel>
     </template>
-    <!-- <template #banner>
-      <PromotionBanner />
-    </template> -->
 
     <template #columnBlock>
       <ContentColumnBlock />

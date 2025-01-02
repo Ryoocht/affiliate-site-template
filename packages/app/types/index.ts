@@ -8,7 +8,7 @@ export interface Provider {
   title: string
   imageName: string
   link: string
-  bgColor: string
+  width: string
 }
 
 export interface BlogTitle {
